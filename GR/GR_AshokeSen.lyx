@@ -1,0 +1,651 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass amsbook
+\begin_preamble
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\newcommand{\tikzmark}[1]{\tikz[overlay,remember picture] \node (#1) {};}
+\newcommand{\DrawBox}[1][]{%
+    \tikz[overlay,remember picture]{
+    \draw[red,#1]
+      ($(left)+(-0.2em,0.9em)$) rectangle
+      ($(right)+(0.2em,-0.3em)$);}
+}
+%%%%%%%%%%%
+
+\usepackage{multicol}
+
+\usepackage{qtree}
+
+\usepackage{hyperref}
+
+\hypersetup{colorlinks=true,urlcolor=blue}
+
+\usepackage[super]{nth}
+
+\usepackage{braket}
+
+\usepackage{flafter}
+
+\usepackage{psvectorian}
+
+\newcommand{\ornamentleft}{%
+    \psvectorian[width=2em]{2}%
+}
+\newcommand{\ornamentright}{%
+    \psvectorian[width=2em,mirror]{2}%
+}
+\newcommand{\ornamentbreak}{%
+    \begin{center}
+    \ornamentleft\quad\ornamentright
+    \end{center}%
+}
+\newcommand{\ornamentheader}[1]{%
+    \begin{center}
+    \ornamentleft
+    \quad{\large\emph{#1}}\quad % style as desired
+    \ornamentright
+    \end{center}%
+}
+
+
+%% Disable Images for now
+\usepackage{comment}
+\excludecomment{maketitle}
+\let\maketitle\relax
+%\excludecomment{figure}
+%\let\endfigure\relax
+
+\newcommand*{\plogo}{\fbox{$\mathcal{PL}$}} % Generic dummy publisher logo
+
+%\usepackage[utf8]{inputenc} % Required for inputting international characters
+%\usepackage[T1]{fontenc} % Output font encoding for international characters
+%\usepackage{stix} % Use the STIX fonts
+
+\title{Sen's Lectures | General Relativity}
+\author{Atul Singh Arora}
+
+\newref{exer}{name=exercise~,Name=Exercise~,names=exercises~,Names=Exercises~}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+logicalmkup
+\end_modules
+\maintain_unincluded_children false
+\language british
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "lmss" "default"
+\font_typewriter "lmtt" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\branch TDPG to Protocol
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch TDPG to Protocol (more)
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 1cm
+\rightmargin 1cm
+\bottommargin 1cm
+\headheight 1cm
+\headsep 1cm
+\footskip 0.75cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage} % Suppresses displaying the page number on the title page
+ and the subsequent page counts as page 1
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+raggedleft % Right align the title page
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+rule{1pt}{
+\backslash
+textheight} % Vertical line
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+hspace{0.05
+\backslash
+textwidth} % Whitespace between the vertical line and title page text
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+parbox[b]{0.75
+\backslash
+textwidth}{ % Paragraph box for holding the title page text, adjust the
+ width to move the title page left or right on the page
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+		{
+\backslash
+huge
+\backslash
+bfseries Sen's Lectures 
+\backslash
+
+\backslash
+[0.5
+\backslash
+baselineskip] 
+\backslash
+Huge General Relativity}
+\backslash
+
+\backslash
+[2
+\backslash
+baselineskip] % Title
+\end_layout
+
+\begin_layout Plain Layout
+
+		{
+\backslash
+large
+\backslash
+textit{Volume 1}}
+\backslash
+
+\backslash
+[4
+\backslash
+baselineskip] % Subtitle or further description
+\end_layout
+
+\begin_layout Plain Layout
+
+		{
+\backslash
+Large
+\backslash
+textsc{atul singh arora}} % Author name, lower case for consistent small
+ caps
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+vspace{0.5
+\backslash
+textheight} % Whitespace between the title block and the publisher
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+
+		{
+\backslash
+noindent Unpublished and copyfree~~)c(}
+\backslash
+
+\backslash
+[
+\backslash
+baselineskip] % Publisher and logo 
+\backslash
+plogo
+\end_layout
+
+\begin_layout Plain Layout
+
+	}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Foreword 
+\end_layout
+
+\begin_layout Standard
+The content is due to Prof.
+ Ashoke Sen while all errors in its presentation here are mine.
+ Strictly then this contains not a word of Ashoke Sen and effectively no
+ thought of mine.
+ That was the disclaimer, wait, one more thing: there's nothing useful any
+ further in this section.
+ So with that I am free to express my motivation for writing this.
+ Ashok Sen needs no introduction.
+ I did not get a chance to learn GR at IISER due to my strange selection
+ of electives.
+ This, however, is something I always wanted to learn.
+ Instead of following my usual route of picking up a text book, I thought
+ perhaps watching Ashoke Sen's lectures, delivered at IISc (I think) which
+ some student (Anurag I think) was kind enough to upload online, would be
+ quicker.
+ Watching the lectures was a little challenging because the video quality
+ sometimes distorts the text on the blackboard and one has to make educated
+ guesses.
+ Of course Prof Sen speaks out everything he writes, well almost everything,
+ so one can check the logical consistency with his cues to be sure that
+ everything is correct.
+ That's a good exercise.
+ I have tried making notes and then presenting them in a neat format here
+ as a way to make the subject clear to myself but I suspect this would be
+ of use to others as well.
+ Prof.
+ Sen has also delivered more lectures on many other topics, both advanced
+ and basic, which I might try to cover in my subsequent efforts.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Reimannian Geometry
+\end_layout
+
+\begin_layout Chapter
+Metric and Tensors
+\end_layout
+
+\begin_layout Section
+Motivation
+\end_layout
+
+\begin_layout Standard
+Recall that Newton's law for the force of gravity 
+\begin_inset Formula 
+\[
+\vec{F}=-\frac{Gm_{1}m_{2}}{r^{2}}\hat{r}
+\]
+
+\end_inset
+
+ has an uncanny resemblance to that of electrostatic attraction between
+ two charged particles.
+ From this perspective generalisation of electrostatics to Maxwell's theory
+ of electrodynamics is similar to the generalisation of Newtonian gravity
+ to Einstein's general theory of gravity (GR).
+ In particular, both electrostatics and Newtonian gravity have the property
+ of instantaneous propagation of effects as they both depend on the relative
+ distance of particles at the instant of time when the force is to be evaluated.
+ In electrodynamics this instantaneity is replaced with propagation of electroma
+gnetic waves and one of the main goals in generalising Newtonian gravity
+ is to find a similar explanation.
+ 
+\end_layout
+
+\begin_layout Standard
+Just as vector calculus is the underlying mathematics of Maxwell's electromagnet
+ism, Reimannian Geometry – a generalisation of Euclidean Geometry – is that
+ of GR.
+ Thus one must familiarise oneself with at least the basic concepts of Reimannia
+n Geometry as a prerequisite to learning GR.
+\end_layout
+
+\begin_layout Section
+Euclidean Geometry
+\end_layout
+
+\begin_layout Standard
+Consider two points 
+\begin_inset Formula $(x^{1},x^{2},x^{3})$
+\end_inset
+
+ and 
+\begin_inset Formula $(x^{1}+dx^{1},x^{2}+dx^{2},x^{3}+dx^{3})$
+\end_inset
+
+.
+ According to Euclidean geometry the distance between these points is given
+ by 
+\begin_inset Formula $ds=\sqrt{\left(dx^{1}\right)^{2}+\left(dx^{2}\right)^{2}+\left(dx^{3}\right)^{2}}$
+\end_inset
+
+.
+ This can be generalised to 
+\begin_inset Formula $N$
+\end_inset
+
+-dimensions as 
+\begin_inset Formula 
+\[
+ds^{2}=\sum_{i=1}^{N}(dx^{i})^{2}.
+\]
+
+\end_inset
+
+In Remanian geometry the notion of distance between two close by points
+ is generalised to 
+\begin_inset Formula 
+\[
+ds^{2}=\sum_{i,j=1}^{N}g_{ij}(\vec{x})dx^{i}dx^{j}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $g_{ij}(\vec{x})$
+\end_inset
+
+ is called the 
+\emph on
+metric
+\emph default
+ and is a function of 
+\begin_inset Formula $\left(x^{1},x^{2}\dots x^{N}\right)$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $dx^{i}dx^{j}=dx^{j}dx^{i}$
+\end_inset
+
+, viz.
+ it is symmetric under the exchange of 
+\begin_inset Formula $i$
+\end_inset
+
+ and 
+\begin_inset Formula $j$
+\end_inset
+
+, it follows that 
+\begin_inset Formula $g_{ij}=g_{ji}$
+\end_inset
+
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "exer:symmetricAntiSymmetric"
+
+\end_inset
+
+).
+ Euclidean geometry can be obtained as the special case where 
+\begin_inset Formula $g_{ij}=\delta_{ij}$
+\end_inset
+
+, the Kroneker delta, which is defined as 
+\begin_inset Formula 
+\[
+\delta_{ij}=\begin{cases}
+1 & i=j\\
+0 & i\neq j
+\end{cases}.
+\]
+
+\end_inset
+
+It is possible, however, that two different 
+\begin_inset Formula $g$
+\end_inset
+
+s represent the same space.
+ Consider another co-ordinate system which labels the same point 
+\begin_inset Formula $\vec{x}$
+\end_inset
+
+ as 
+\begin_inset Formula $\vec{x}'$
+\end_inset
+
+ with components 
+\begin_inset Formula $\left(x'^{1},x'^{2}\dots x'^{N}\right)$
+\end_inset
+
+.
+ Again consider two points, 
+\begin_inset Formula $\vec{x'}$
+\end_inset
+
+ and, a point close to it, 
+\begin_inset Formula $\vec{x'}+\vec{dx'}$
+\end_inset
+
+ where the old 
+\begin_inset Formula $\vec{dx}$
+\end_inset
+
+ is related to the new 
+\begin_inset Formula $\vec{dx'}$
+\end_inset
+
+ by 
+\begin_inset Formula 
+\[
+dx^{i}=\sum_{k}\frac{\partial x^{i}}{\partial x'^{k}}dx'^{k}.
+\]
+
+\end_inset
+
+Substituting for 
+\begin_inset Formula $dx^{i}$
+\end_inset
+
+ in the expression for 
+\begin_inset Formula $ds^{2}$
+\end_inset
+
+ one gets 
+\begin_inset Formula 
+\[
+ds^{2}=\sum_{k,l}\left(\sum_{i,j}g_{ij}\frac{\partial x^{i}}{\partial x'^{k}}\frac{\partial x^{j}}{\partial x'^{l}}\right)dx'^{k}dx'^{l}=\sum_{k,l}g'_{kl}dx'^{k}dx'^{l}.
+\]
+
+\end_inset
+
+ Thus a transformation change can cause 
+\begin_inset Formula $g$
+\end_inset
+
+ to change even though they both describe the same object.
+\end_layout
+
+\begin_layout Example
+In cartesian coordinates 
+\begin_inset Formula $ds^{2}=dx^{1}+dx^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Exercise
+Consider a symmetric matrix 
+\begin_inset Formula $A$
+\end_inset
+
+ with elements 
+\begin_inset Formula $A_{ij}=A_{ji}$
+\end_inset
+
+.
+ If one wishes to evaluate 
+\begin_inset Formula $\sum_{i,j}A_{ij}B_{ij}$
+\end_inset
+
+ then show that it suffices to assume 
+\begin_inset Formula $B$
+\end_inset
+
+ is also symmetric.
+\begin_inset CommandInset label
+LatexCommand label
+name "exer:symmetricAntiSymmetric"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Solution*
+Assume 
+\begin_inset Formula $B_{ij}^{(s)}:=\frac{B_{ij}+B_{ji}}{2}=B_{ji}^{(s)}$
+\end_inset
+
+ and 
+\begin_inset Formula $B_{ij}^{(a)}:=\frac{B_{ij}-B_{ji}}{2}=-B_{ji}^{(a)}$
+\end_inset
+
+.
+ Evidently 
+\begin_inset Formula $B_{ij}=B_{ij}^{(s)}+B_{ij}^{(a)}$
+\end_inset
+
+ so it suffices to show that 
+\begin_inset Formula $\sum_{i,j}A_{ij}B_{ij}^{(a)}=0$
+\end_inset
+
+ to prove the claim.
+ This follows from 
+\begin_inset Formula $\sum_{i,j}\frac{1}{2}\left(A_{ij}B_{ij}^{(a)}+A_{ji}B_{ij}^{(a)}\right)=\sum_{i,j}\frac{1}{2}\left(A_{ij}B_{ij}^{(a)}-A_{ji}B_{ji}^{(a)}\right)=0.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+General Relativity
+\end_layout
+
+\begin_layout Chapter
+Conventions, Axioms and the Weak Field Limit
+\end_layout
+
+\end_body
+\end_document
