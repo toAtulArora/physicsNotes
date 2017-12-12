@@ -565,7 +565,7 @@ Substituting for
  one gets 
 \begin_inset Formula 
 \[
-ds^{2}=\sum_{k,l}\left(\sum_{i,j}g_{ij}\frac{\partial x^{i}}{\partial x'^{k}}\frac{\partial x^{j}}{\partial x'^{l}}\right)dx'^{k}dx'^{l}=\sum_{k,l}g'_{kl}dx'^{k}dx'^{l}.
+ds^{2}=\sum_{k,l}\underbrace{\left(\sum_{i,j}g_{ij}\frac{\partial x^{i}}{\partial x'^{k}}\frac{\partial x^{j}}{\partial x'^{l}}\right)}_{g'_{kl}}dx'^{k}dx'^{l}=\sum_{k,l}g'_{kl}dx'^{k}dx'^{l}.
 \]
 
 \end_inset
@@ -579,10 +579,51 @@ ds^{2}=\sum_{k,l}\left(\sum_{i,j}g_{ij}\frac{\partial x^{i}}{\partial x'^{k}}\fr
 
 \begin_layout Example
 In cartesian coordinates 
-\begin_inset Formula $ds^{2}=dx^{1}+dx^{2}$
+\begin_inset Formula $ds^{2}=\left(dx^{1}\right)^{2}+\left(dx^{2}\right)^{2}+\left(dx^{3}\right)^{2}$
 \end_inset
 
+.
+ Using the polar coordinates one can write 
+\begin_inset Formula 
+\begin{align*}
+x^{1} & =r\sin\theta\cos\phi\\
+x^{2} & =r\sin\theta\sin\phi\\
+x^{3} & =r\cos\theta
+\end{align*}
 
+\end_inset
+
+which can be used to determine 
+\begin_inset Formula $dx^{1}=\sin\theta\cos\phi dr+r\cos\theta\cos\phi d\theta-r\sin\theta\sin\phi d\phi$
+\end_inset
+
+, 
+\begin_inset Formula $dx^{2}=\dots$
+\end_inset
+
+ and 
+\begin_inset Formula $dx^{3}=\dots$
+\end_inset
+
+.
+ When plugged into the expression for 
+\begin_inset Formula $ds^{2}$
+\end_inset
+
+ one obtains 
+\begin_inset Formula $ds^{2}=dr^{2}+r^{2}d\theta^{2}+r^{2}\sin^{2}\theta d\phi^{2}$
+\end_inset
+
+ (this can also be obtained more easily by writing 
+\begin_inset Formula $d\vec{r}=dr\hat{r}+rd\theta\hat{\theta}+r\sin\theta d\phi\hat{\phi}$
+\end_inset
+
+ and then using 
+\begin_inset Formula $ds^{2}=d\vec{r}.d\vec{r}$
+\end_inset
+
+ as described in Landau's book).
+ 
 \end_layout
 
 \begin_layout Exercise
