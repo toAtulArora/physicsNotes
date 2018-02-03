@@ -716,6 +716,7 @@ Given only the metric how can one conclude whether or not they represent
  the same space? Our strategy would be to find appropriate linear combinations
  of the metric and its derivatives which are invariant under coordinate
  transformations.
+ To proceed we define the following convention.
 \end_layout
 
 \begin_layout Exercise
