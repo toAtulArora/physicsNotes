@@ -749,7 +749,7 @@ Index of a matrix appears as a subscript.
 \end_layout
 
 \begin_layout Standard
-Under this convention we have 
+Under this convention we have
 \begin_inset Formula 
 \[
 ds^{2}=\sum_{i,j}g_{ij}dx^{i}dx^{j}\to g_{ij}dx^{i}dx^{j}
