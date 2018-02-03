@@ -665,7 +665,15 @@ Surface of Sphere
 \end_inset
 
 .
- If we now wish to describe the  
+ One parametrisation is to use 
+\begin_inset Formula $x^{3}$
+\end_inset
+
+ as a dependent variable given by 
+\begin_inset Formula $x^{3}=\pm\sqrt{a^{2}-\left(x^{1}\right)^{2}-\left(x^{2}\right)^{2}}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Exercise
