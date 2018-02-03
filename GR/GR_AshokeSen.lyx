@@ -512,11 +512,7 @@ reference "exer:symmetricAntiSymmetric"
 
 \end_inset
 
-It is possible, however, that two different 
-\begin_inset Formula $g$
-\end_inset
-
-s represent the same space.
+It is possible, however, that two different metrics represent the same space.
  Consider another co-ordinate system which labels the same point 
 \begin_inset Formula $\vec{x}$
 \end_inset
