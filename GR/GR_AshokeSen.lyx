@@ -712,7 +712,8 @@ Alternatively, one could've started with the polar coordinate system and
 \end_layout
 
 \begin_layout Standard
-The natural question of interest here is 
+Given only the metric how can one conclude whether or not they represent
+ the same space?
 \end_layout
 
 \begin_layout Exercise
