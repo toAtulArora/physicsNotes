@@ -690,8 +690,17 @@ ds^{2}=\underbrace{\left(1+\frac{\left(x^{1}\right)^{2}}{a^{2}-\left(x^{1}\right
 
 \end_inset
 
-Alternatively, one could've started with the polar coordinate system to
- obtain 
+Alternatively, one could've started with the polar coordinate system and
+ set 
+\begin_inset Formula $r=a$
+\end_inset
+
+ to obtain 
+\begin_inset Formula $ds^{2}=\cancel{dr^{2}}+r^{2}d\theta^{2}+r^{2}\sin^{2}\theta d\phi^{2}$
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Exercise
