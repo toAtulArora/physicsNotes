@@ -725,13 +725,13 @@ Index of a coordinate is given by a superscript, e.g.
 \begin_inset Formula $x^{i}$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Enumerate
 \begin_inset Formula 
 \[
-\partial_{i}:=\frac{\partial}{\partial x^{i}}
+\partial_{i}:=\frac{\partial}{\partial x^{i}}.
 \]
 
 \end_inset
