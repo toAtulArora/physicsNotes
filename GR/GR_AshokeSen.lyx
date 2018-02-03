@@ -661,10 +661,11 @@ Surface of Sphere
 \end_inset
 
  Consider the surface of a sphere described by 
-\begin_inset Formula $x^{2}+y^{2}+z^{2}=a^{2}$
+\begin_inset Formula $\left(x^{1}\right)^{2}+\left(x^{2}\right)^{2}+\left(x^{3}\right)^{2}=a^{2}$
 \end_inset
 
 .
+ If we now wish to describe the  
 \end_layout
 
 \begin_layout Exercise
