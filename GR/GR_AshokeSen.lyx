@@ -673,6 +673,23 @@ Surface of Sphere
 \begin_inset Formula $x^{3}=\pm\sqrt{a^{2}-\left(x^{1}\right)^{2}-\left(x^{2}\right)^{2}}$
 \end_inset
 
+.
+ One can substitute 
+\begin_inset Formula $dx^{3}$
+\end_inset
+
+ in the expression for 
+\begin_inset Formula $ds^{2}=\left(dx^{1}\right)^{2}+\left(dx^{2}\right)^{2}+\left(dx^{3}\right)^{2}$
+\end_inset
+
+ to obtain 
+\begin_inset Formula 
+\[
+ds^{2}=\left(1+\frac{\left(x^{1}\right)^{2}}{a^{2}-\left(x^{1}\right)^{2}-\left(x^{2}\right)^{2}}\right)\left(dx^{1}\right)^{2}+\left(1+\frac{\left(x^{2}\right)^{2}}{a^{2}-\left(x^{1}\right)^{2}-\left(x^{2}\right)^{2}}\right)\left(dx^{2}\right)^{2}+\frac{2x^{1}x^{2}}{a^{2}-\left(x^{1}\right)^{2}-\left(x^{2}\right)^{2}}dx^{1}dx^{2}.
+\]
+
+\end_inset
+
 
 \end_layout
 
