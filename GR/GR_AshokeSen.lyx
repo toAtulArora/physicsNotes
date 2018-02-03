@@ -696,7 +696,15 @@ Alternatively, one could've started with the polar coordinate system and
 \end_inset
 
  to obtain 
-\begin_inset Formula $ds^{2}=\cancel{dr^{2}}+r^{2}d\theta^{2}+r^{2}\sin^{2}\theta d\phi^{2}$
+\begin_inset Formula 
+\[
+ds^{2}=a^{2}d\theta^{2}+a^{2}\sin^{2}\theta d\phi^{2}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $g_{\theta\theta}=a^{2},\,g_{\phi\phi}=a^{2}\sin^{2}\theta$
 \end_inset
 
 .
