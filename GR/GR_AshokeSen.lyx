@@ -748,6 +748,18 @@ Summation: Any index appearing twice in a formula, once as a subscript and
 Index of a matrix appears as a subscript.
 \end_layout
 
+\begin_layout Standard
+Under this convention we have 
+\begin_inset Formula 
+\[
+ds^{2}=\sum_{i,j}
+\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Exercise
 Consider a symmetric matrix 
 \begin_inset Formula $A$
