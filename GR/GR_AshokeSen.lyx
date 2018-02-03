@@ -729,6 +729,7 @@ Index of a coordinate is given by a superscript, e.g.
 \end_layout
 
 \begin_layout Enumerate
+Shorthand for derivatives:
 \begin_inset Formula 
 \[
 \partial_{i}:=\frac{\partial}{\partial x^{i}}.
