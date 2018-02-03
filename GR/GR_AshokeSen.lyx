@@ -634,10 +634,6 @@ which can be used to determine
  even though they both describe the same space.
 \end_layout
 
-\begin_layout Example
-
-\end_layout
-
 \begin_layout Exercise
 Consider a symmetric matrix 
 \begin_inset Formula $A$
