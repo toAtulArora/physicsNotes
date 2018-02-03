@@ -685,7 +685,7 @@ Surface of Sphere
  to obtain 
 \begin_inset Formula 
 \[
-ds^{2}=\left(1+\frac{\left(x^{1}\right)^{2}}{a^{2}-\left(x^{1}\right)^{2}-\left(x^{2}\right)^{2}}\right)\left(dx^{1}\right)^{2}+\left(1+\frac{\left(x^{2}\right)^{2}}{a^{2}-\left(x^{1}\right)^{2}-\left(x^{2}\right)^{2}}\right)\left(dx^{2}\right)^{2}+\frac{2x^{1}x^{2}}{a^{2}-\left(x^{1}\right)^{2}-\left(x^{2}\right)^{2}}dx^{1}dx^{2}.
+ds^{2}=\underbrace{\left(1+\frac{\left(x^{1}\right)^{2}}{a^{2}-\left(x^{1}\right)^{2}-\left(x^{2}\right)^{2}}\right)}_{g_{11}}\left(dx^{1}\right)^{2}+\underbrace{\left(1+\frac{\left(x^{2}\right)^{2}}{a^{2}-\left(x^{1}\right)^{2}-\left(x^{2}\right)^{2}}\right)}_{g_{22}}\left(dx^{2}\right)^{2}+\underbrace{\left(\frac{2x^{1}x^{2}}{a^{2}-\left(x^{1}\right)^{2}-\left(x^{2}\right)^{2}}\right)}_{g_{12}}dx^{1}dx^{2}.
 \]
 
 \end_inset
