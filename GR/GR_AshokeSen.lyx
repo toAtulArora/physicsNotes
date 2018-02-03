@@ -704,7 +704,15 @@ Alternatively, one could've started with the polar coordinate system and
 \end_inset
 
 .
- 
+ Note that 
+\begin_inset Formula $g$
+\end_inset
+
+ is diagonal in the polar representation.
+\end_layout
+
+\begin_layout Standard
+The natural question of interest here is 
 \end_layout
 
 \begin_layout Exercise
