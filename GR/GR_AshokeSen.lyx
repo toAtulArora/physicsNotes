@@ -660,7 +660,11 @@ Surface of Sphere
 
 \end_inset
 
- There are two 
+ Consider the surface of a sphere described by 
+\begin_inset Formula $x^{2}+y^{2}+z^{2}=a^{2}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Exercise
