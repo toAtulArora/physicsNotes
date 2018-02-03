@@ -623,7 +623,15 @@ which can be used to determine
 \end_inset
 
  as described in Landau's book).
- 
+ Manifestly then 
+\begin_inset Formula $g_{rr}=1,\,g_{\theta\theta}=r^{2},\,g_{\phi\phi}=r^{2}\sin^{2}\theta$
+\end_inset
+
+ while in the cartesian case 
+\begin_inset Formula $g_{11}=g_{22}=g_{33}=1$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Exercise
