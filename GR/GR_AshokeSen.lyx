@@ -719,6 +719,19 @@ Given only the metric how can one conclude whether or not they represent
  To proceed we define the following convention.
 \end_layout
 
+\begin_layout Enumerate
+Index of a coordinate is given by a superscript, e.g.
+ 
+\begin_inset Formula $x^{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\end_layout
+
 \begin_layout Exercise
 Consider a symmetric matrix 
 \begin_inset Formula $A$
