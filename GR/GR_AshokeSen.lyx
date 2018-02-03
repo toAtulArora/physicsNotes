@@ -578,7 +578,16 @@ ds^{2}=\sum_{k,l}\underbrace{\left(\sum_{i,j}g_{ij}\frac{\partial x^{i}}{\partia
 \end_layout
 
 \begin_layout Example
-In cartesian coordinates 
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Flat Space
+\end_layout
+
+\end_inset
+
+ In cartesian coordinates 
 \begin_inset Formula $ds^{2}=\left(dx^{1}\right)^{2}+\left(dx^{2}\right)^{2}+\left(dx^{3}\right)^{2}$
 \end_inset
 
@@ -632,6 +641,26 @@ which can be used to determine
 \end_inset
 
  even though they both describe the same space.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Surface of Sphere
+\end_layout
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Exercise
