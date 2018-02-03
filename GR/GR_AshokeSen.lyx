@@ -744,6 +744,10 @@ Summation: Any index appearing twice in a formula, once as a subscript and
  once as a superscript is summed over.
 \end_layout
 
+\begin_layout Enumerate
+Index of a matrix appears as a subscript.
+\end_layout
+
 \begin_layout Exercise
 Consider a symmetric matrix 
 \begin_inset Formula $A$
