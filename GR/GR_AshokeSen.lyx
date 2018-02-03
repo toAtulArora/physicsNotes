@@ -740,7 +740,8 @@ Index of a coordinate is given by a superscript, e.g.
 \end_layout
 
 \begin_layout Enumerate
-Summation: 
+Summation: Any index appearing twice in a formula, once as a subscript and
+ once as a superscript is summed over.
 \end_layout
 
 \begin_layout Exercise
