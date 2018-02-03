@@ -752,7 +752,15 @@ Index of a matrix appears as a subscript.
 Under this convention we have 
 \begin_inset Formula 
 \[
-ds^{2}=\sum_{i,j}
+ds^{2}=\sum_{i,j}g_{ij}dx^{i}dx^{j}\to g_{ij}dx^{i}dx^{j}
+\]
+
+\end_inset
+
+and 
+\begin_inset Formula 
+\[
+g'_{kl}(\vec{x'})=\sum_{i,j}g_{ij}\frac{\partial x^{i}}{\partial x{}^{\prime k}}\frac{\partial x^{j}}{\partial x^{\prime l}}\to g_{ij}\partial'_{k}x^{i}\partial'_{l}x^{j}.
 \]
 
 \end_inset
