@@ -926,7 +926,9 @@ Understanding the Metric: Christophel Symbol, Reimann Tensor
 \begin_layout Standard
 We try to extract all essential information about the space as described
  by the metric.
- The main source of redundancy here is the 
+ The main source of redundancy here is the freedom in choosing the coordinate
+ system.
+ 
 \end_layout
 
 \begin_layout Part
