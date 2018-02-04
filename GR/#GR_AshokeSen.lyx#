@@ -419,7 +419,7 @@ n Geometry as a prerequisite to learning GR.
 \end_layout
 
 \begin_layout Section
-Euclidean Geometry
+Euclidean Geometry, Metric, Tensors
 \end_layout
 
 \begin_layout Standard
@@ -848,16 +848,183 @@ Tensors
  An object that transforms as 
 \begin_inset Formula 
 \[
-C^{\prime i_{1}\dots i_{p}}{}_{g_{1}\dots g_{q}}(\vec{x}')=\partial_{k_{1}}x^{\prime i_{1}}\dots\partial_{k_{p}}x^{\prime i_{p}}.\partial'_{g_{1}}x^{l_{1}}\dots\partial'_{g_{q}}x^{l_{q}}C^{k_{1}\dots k_{p}}{}(\vec{x})
+C^{\prime i_{1}\dots i_{p}}{}_{g_{1}\dots g_{q}}(\vec{x}')=\partial_{k_{1}}x^{\prime i_{1}}\dots\partial_{k_{p}}x^{\prime i_{p}}.\partial'_{g_{1}}x^{l_{1}}\dots\partial'_{g_{q}}x^{l_{q}}C^{k_{1}\dots k_{p}}{}_{l_{1}\dots l_{q}}(\vec{x})
 \]
 
 \end_inset
 
-will be termed a 
+will be termed a rank 
 \begin_inset Formula $(p,q)$
 \end_inset
 
  tensor.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Definition
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Scalars, Contravariant and Covariant vectors
+\end_layout
+
+\end_inset
+
+ A rank
+\end_layout
+
+\begin_layout Itemize
+(0,0) tensor is called a scalar
+\end_layout
+
+\begin_layout Itemize
+(1,0) tensor is called a contravariant vector
+\end_layout
+
+\begin_layout Itemize
+(0,1) tensor is called a covariant vector.
+\end_layout
+
+\begin_layout Standard
+Some observations: Note that 
+\begin_inset Formula $A^{i_{1}\dots i_{p}}{}_{j_{1}\dots j_{q}}B^{k_{1}\dots k_{r}}{}_{l_{1}\dots l_{S}}$
+\end_inset
+
+ transforms as a 
+\begin_inset Formula $(p+r,q+s)$
+\end_inset
+
+ tensor.
+ Note also that for consistency 
+\begin_inset Formula $A^{i_{1}}{}_{i_{1}}$
+\end_inset
+
+ should behave as a scalar.
+ This follows directly from the transformation law and chain rule as
+\begin_inset Formula 
+\begin{align*}
+A^{\prime i_{1}}{}_{i_{1}} & =\underbrace{\partial_{k_{1}}x^{\prime i_{1}}\partial'_{i_{1}}}x^{l_{1}}A^{k_{1}}{}_{l_{1}}\\
+ & =\delta_{k_{1}}^{l_{1}}A^{k_{1}}{}_{l_{1}}=A^{l_{1}}{}_{l_{1}}.
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Understanding the Metric: Christophel Symbol, Reimann Tensor
+\end_layout
+
+\begin_layout Standard
+We try to extract all essential information about the space as described
+ by the metric.
+ The main source of redundancy here is the freedom in choosing the coordinate
+ system.
+ Let us proceed systematically with first simplifying the metric itself.
+ Since 
+\begin_inset Formula $g_{ij}=g_{ji}$
+\end_inset
+
+ and because we restrict ourselves to real numbers, it follows that 
+\begin_inset Formula $g_{ij}$
+\end_inset
+
+ can always be diagonalised by an appropriate orthogonal matrix transformation
+ (at a given point of course).
+ However, one is not restricted to orthogonal matrices in this case (the
+ transformation doesn't have to preserve distances) and so one can do better.
+\end_layout
+
+\begin_layout Proposition
+Take a point 
+\begin_inset Formula $p$
+\end_inset
+
+ and assume its coordinate is given by 
+\begin_inset Formula $\vec{x}_{0}$
+\end_inset
+
+ in some coordinate system.
+ Then, there exists a coordinate transformation 
+\begin_inset Formula $\vec{x}\to\vec{x}'$
+\end_inset
+
+ such that 
+\begin_inset Formula $g_{ij}(\vec{x}_{0})\to g'_{ij}(\vec{x}_{0}')=\text{diag}\{\pm,\dots,\pm,\pm\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The proof is straight forward as we shall see.
+ It is interesting to note that for every continuous metric
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+one that changes only a little when the coordinate is changed a little,
+ roughly speaking
+\end_layout
+
+\end_inset
+
+ will have a fixed number of 
+\begin_inset Formula $+$
+\end_inset
+
+ and 
+\begin_inset Formula $-$
+\end_inset
+
+ entries throughout because otherwise there would have to be a jump for
+ a 
+\begin_inset Formula $+$
+\end_inset
+
+ to turn into a 
+\begin_inset Formula $-$
+\end_inset
+
+ (which is forbidden by the continuity assumption).
+\end_layout
+
+\begin_layout Standard
+The following expansion will be used several times in this sub-section.
+ Consider a point denoted by 
+\begin_inset Formula $\vec{x}_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $\vec{x}'_{0}$
+\end_inset
+
+ by two coordinate systems which are related by 
+\begin_inset Formula $x^{i}=f^{i}(\vec{x}')$
+\end_inset
+
+.
+ I wish to write an expression for a point near 
+\begin_inset Formula $\vec{x}_{0}$
+\end_inset
+
+ which I can write as 
+\begin_inset Formula 
+\[
+x^{i}=\cancelto{x_{0}}{f^{i}(\vec{x}_{0})}+A_{j}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
