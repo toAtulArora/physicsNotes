@@ -1007,7 +1007,7 @@ The following expansion will be used several times in this sub-section.
 \begin_inset Formula $\vec{x}'_{0}$
 \end_inset
 
- by two coordinate systems related by 
+ by two coordinate systems which are related by 
 \begin_inset Formula $\vec{x}=f(\vec{x}')$
 \end_inset
 
