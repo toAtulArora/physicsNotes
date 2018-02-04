@@ -953,7 +953,15 @@ Take a point
 \end_inset
 
  in some coordinate system.
- There exists a 
+ Then, there exists a coordinate transformation 
+\begin_inset Formula $\vec{x}\to\vec{x}'$
+\end_inset
+
+ such that 
+\begin_inset Formula $g_{ij}(\vec{x}_{0})\to g'_{ij}(\vec{x}_{0}')=\text{diag}\{\pm,\dots,\pm,\pm\}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
