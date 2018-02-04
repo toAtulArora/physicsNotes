@@ -939,6 +939,8 @@ We try to extract all essential information about the space as described
 
  can always be diagonalised by an appropriate orthogonal matrix transformation
  (at a given point of course).
+ However, one is not restricted to orthogonal matrices in this case (the
+ transformation doesn't have to preserve distances) and so one can do better.
 \end_layout
 
 \begin_layout Part
