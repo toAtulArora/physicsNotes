@@ -893,7 +893,15 @@ Scalars, Contravariant and Covariant vectors
 \end_layout
 
 \begin_layout Standard
-One can 
+Note that 
+\begin_inset Formula $A^{i_{1}\dots i_{p}}{}_{j_{1}\dots j_{q}}B^{k_{1}\dots k_{r}}{}_{l_{1}\dots l_{S}}$
+\end_inset
+
+ transforms as a 
+\begin_inset Formula $(p+r,q+s)$
+\end_inset
+
+ tensor.
 \end_layout
 
 \begin_layout Part
