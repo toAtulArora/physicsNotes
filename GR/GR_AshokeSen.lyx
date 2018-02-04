@@ -964,6 +964,21 @@ Take a point
 .
 \end_layout
 
+\begin_layout Standard
+The proof is straight forward as we shall see.
+ It is interesting to note that for every continuous metric – one that changes
+ only a little when the coordinate is changed a little, roughly speaking
+ – will have a fixed number of 
+\begin_inset Formula $+$
+\end_inset
+
+ and 
+\begin_inset Formula $-$
+\end_inset
+
+ entries across the entire space.
+\end_layout
+
 \begin_layout Part
 General Relativity
 \end_layout
