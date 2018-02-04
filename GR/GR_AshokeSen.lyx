@@ -968,7 +968,7 @@ Take a point
 The proof is straight forward as we shall see.
  It is interesting to note that for every continuous metric
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 one that changes only a little when the coordinate is changed a little,
@@ -995,6 +995,11 @@ one that changes only a little when the coordinate is changed a little,
 \end_inset
 
  (which is forbidden by the continuity assumption).
+\end_layout
+
+\begin_layout Standard
+The following expansion will be used several times in this sub-section.
+ 
 \end_layout
 
 \begin_layout Part
