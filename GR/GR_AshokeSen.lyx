@@ -1045,7 +1045,20 @@ where we used the assumption that
 \end_layout
 
 \begin_layout Standard
+The basic idea will be that instead of specifying 
+\begin_inset Formula $f^{i}$
+\end_inset
 
+ directly we would specify 
+\begin_inset Formula $f$
+\end_inset
+
+ partially by fixing the constants 
+\begin_inset Formula $A,\,B,\,\dots$
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Part
