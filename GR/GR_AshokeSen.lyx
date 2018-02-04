@@ -1008,11 +1008,31 @@ The following expansion will be used several times in this sub-section.
 \end_inset
 
  by two coordinate systems which are related by 
-\begin_inset Formula $\vec{x}=f(\vec{x}')$
+\begin_inset Formula $x^{i}=f^{i}(\vec{x}')$
 \end_inset
 
 .
- 
+ I wish to write an expression for a point near 
+\begin_inset Formula $\vec{x}_{0}$
+\end_inset
+
+ which I can write as 
+\begin_inset Formula 
+\[
+x^{i}=\cancelto{x_{0}^{i}}{f^{i}(\vec{x}_{0}')}+A^{i}{}_{j}(x^{j}-x_{0}^{\prime j})+B^{i}{}_{jk}(x^{j}-x_{0}^{\prime j})(x^{k}-x_{0}^{\prime k})+\dots
+\]
+
+\end_inset
+
+where the first step follows by the assumption that 
+\begin_inset Formula $x_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $x_{0}'$
+\end_inset
+
+ represent the same point.
 \end_layout
 
 \begin_layout Part
