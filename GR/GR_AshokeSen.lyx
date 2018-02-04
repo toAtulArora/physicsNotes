@@ -419,7 +419,7 @@ n Geometry as a prerequisite to learning GR.
 \end_layout
 
 \begin_layout Section
-Euclidean Geometry
+Euclidean Geometry, Metric, Tensors
 \end_layout
 
 \begin_layout Standard
@@ -907,7 +907,7 @@ Some observations: Note that
 \end_inset
 
  should behave as a scalar.
- This follows directly from the transformation law and chain rule 
+ This follows directly from the transformation law and chain rule as
 \begin_inset Formula 
 \begin{align*}
 A^{\prime i_{1}}{}_{i_{1}} & =\underbrace{\partial_{k_{1}}x^{\prime i_{1}}\partial'_{i_{1}}}x^{l_{1}}A^{k_{1}}{}_{l_{1}}\\
@@ -917,6 +917,10 @@ A^{\prime i_{1}}{}_{i_{1}} & =\underbrace{\partial_{k_{1}}x^{\prime i_{1}}\parti
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+Understanding the Metric
 \end_layout
 
 \begin_layout Part
