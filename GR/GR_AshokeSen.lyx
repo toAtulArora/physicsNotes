@@ -928,6 +928,7 @@ We try to extract all essential information about the space as described
  by the metric.
  The main source of redundancy here is the freedom in choosing the coordinate
  system.
+ Let us proceed systematically with first simplifying the metric itself.
  
 \end_layout
 
