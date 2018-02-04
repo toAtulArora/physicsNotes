@@ -948,12 +948,12 @@ Take a point
 \begin_inset Formula $p$
 \end_inset
 
- and let its coordinate be given by 
+ and assume its coordinate is given by 
 \begin_inset Formula $\vec{x}_{0}$
 \end_inset
 
  in some coordinate system.
- 
+ There exists a 
 \end_layout
 
 \begin_layout Part
