@@ -943,6 +943,19 @@ We try to extract all essential information about the space as described
  transformation doesn't have to preserve distances) and so one can do better.
 \end_layout
 
+\begin_layout Proposition
+Take a point 
+\begin_inset Formula $p$
+\end_inset
+
+ and let its coordinate be given by 
+\begin_inset Formula $\vec{x}_{0}$
+\end_inset
+
+ in some coordinate system.
+ 
+\end_layout
+
 \begin_layout Part
 General Relativity
 \end_layout
