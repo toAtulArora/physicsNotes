@@ -823,9 +823,41 @@ Assume
 
 \end_layout
 
-\begin_layout Solution*
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 We capture the generalisation of objects that transform this way by the
- following definiton.
+ following definition.
+\end_layout
+
+\begin_layout Definition
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Tensors
+\end_layout
+
+\end_inset
+
+ An object that transforms as 
+\begin_inset Formula 
+\[
+C_{g_{1}\dots g_{q}}^{\prime i_{1}\dots i_{p}}(\vec{x}')=\partial_{k_{1}}x^{\prime i_{1}}\dots\partial_{k_{p}}x^{\prime i_{p}}.\partial'_{g_{1}}x^{l_{1}}\dots\partial'_{g_{q}}x^{l_{q}}C_{l_{1}\dots l_{q}}^{k_{1}\dots k_{p}}(\vec{x})
+\]
+
+\end_inset
+
+will be termed a 
+\begin_inset Formula $(p,q)$
+\end_inset
+
+ tensor.
 \end_layout
 
 \begin_layout Part
