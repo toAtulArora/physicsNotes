@@ -765,8 +765,8 @@ g'_{kl}(\vec{x'})=\sum_{i,j}g_{ij}\frac{\partial x^{i}}{\partial x{}^{\prime k}}
 
 \end_layout
 
-\begin_layout Section*
-
+\begin_layout Standard
+We can now capture this 
 \end_layout
 
 \begin_layout Exercise
@@ -821,6 +821,43 @@ Assume
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We capture the generalisation of objects that transform this way by the
+ following definition.
+\end_layout
+
+\begin_layout Definition
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Tensors
+\end_layout
+
+\end_inset
+
+ An object that transforms as 
+\begin_inset Formula 
+\[
+C^{\prime i_{1}\dots i_{p}}{}_{g_{1}\dots g_{q}}(\vec{x}')=\partial_{k_{1}}x^{\prime i_{1}}\dots\partial_{k_{p}}x^{\prime i_{p}}.\partial'_{g_{1}}x^{l_{1}}\dots\partial'_{g_{q}}x^{l_{q}}C^{k_{1}\dots k_{p}}{}(\vec{x})
+\]
+
+\end_inset
+
+will be termed a 
+\begin_inset Formula $(p,q)$
+\end_inset
+
+ tensor.
 \end_layout
 
 \begin_layout Part
