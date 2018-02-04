@@ -848,12 +848,12 @@ Tensors
  An object that transforms as 
 \begin_inset Formula 
 \[
-C_{g_{1}\dots g_{q}}^{\prime i_{1}\dots i_{p}}(\vec{x}')=\partial_{k_{1}}x^{\prime i_{1}}\dots\partial_{k_{p}}x^{\prime i_{p}}.\partial'_{g_{1}}x^{l_{1}}\dots\partial'_{g_{q}}x^{l_{q}}C_{l_{1}\dots l_{q}}^{k_{1}\dots k_{p}}(\vec{x})
+C^{\prime i_{1}\dots i_{p}}{}_{g_{1}\dots g_{q}}(\vec{x}')=\partial_{k_{1}}x^{\prime i_{1}}\dots\partial_{k_{p}}x^{\prime i_{p}}.\partial'_{g_{1}}x^{l_{1}}\dots\partial'_{g_{q}}x^{l_{q}}C^{k_{1}\dots k_{p}}{}_{l_{1}\dots l_{q}}(\vec{x})
 \]
 
 \end_inset
 
-will be termed a 
+will be termed a rank 
 \begin_inset Formula $(p,q)$
 \end_inset
 
