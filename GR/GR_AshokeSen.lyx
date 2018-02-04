@@ -929,7 +929,11 @@ We try to extract all essential information about the space as described
  The main source of redundancy here is the freedom in choosing the coordinate
  system.
  Let us proceed systematically with first simplifying the metric itself.
- 
+ Since 
+\begin_inset Formula $g_{ij}=g_{ji}$
+\end_inset
+
+ and because we restrict ourselves to real numbers, 
 \end_layout
 
 \begin_layout Part
