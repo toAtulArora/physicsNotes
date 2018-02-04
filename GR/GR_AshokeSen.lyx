@@ -766,7 +766,7 @@ g'_{kl}(\vec{x'})=\sum_{i,j}g_{ij}\frac{\partial x^{i}}{\partial x{}^{\prime k}}
 \end_layout
 
 \begin_layout Standard
-At this point we can 
+We can now capture this 
 \end_layout
 
 \begin_layout Exercise
