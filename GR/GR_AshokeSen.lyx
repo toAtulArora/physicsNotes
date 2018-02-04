@@ -902,6 +902,11 @@ Note that
 \end_inset
 
  tensor.
+ Note also that for consistency 
+\begin_inset Formula $A^{i_{1}}{}_{i_{1}}$
+\end_inset
+
+ should behave as a scalar.
 \end_layout
 
 \begin_layout Part
