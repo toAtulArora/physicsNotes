@@ -958,7 +958,7 @@ Take a point
 \end_inset
 
  such that 
-\begin_inset Formula $g_{ij}(\vec{x}_{0})\to g'_{ij}(\vec{x}_{0}')=\text{diag}\{\pm,\dots,\pm,\pm\}$
+\begin_inset Formula $g_{ij}(\vec{x}_{0})\to g'_{ij}(\vec{x}_{0}')=\text{diag}\{\pm,\pm\dots,\pm\}$
 \end_inset
 
 .
