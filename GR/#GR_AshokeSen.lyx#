@@ -1019,12 +1019,46 @@ The following expansion will be used several times in this sub-section.
  which I can write as 
 \begin_inset Formula 
 \[
-x^{i}=\cancelto{x_{0}}{f^{i}(\vec{x}_{0})}+A_{j}
+x^{i}=f^{i}(\vec{x}_{0}'+(\vec{x}'-\vec{x}_{0}'))=\cancelto{x_{0}^{i}}{f^{i}(\vec{x}_{0}')}+A^{i}{}_{j}(x^{\prime j}-x_{0}^{\prime j})+B^{i}{}_{jk}(x^{\prime j}-x_{0}^{\prime j})(x^{\prime k}-x_{0}^{\prime k})+\dots
 \]
 
 \end_inset
 
+where we used the assumption that 
+\begin_inset Formula $x_{0}$
+\end_inset
 
+ and 
+\begin_inset Formula $x_{0}'$
+\end_inset
+
+ represent the same point.
+ Note that 
+\begin_inset Formula $A^{i}{}_{j}=\partial'_{j}f^{i}(x')|_{\vec{x}'=\vec{x}_{0}'}=\partial'_{j}x^{i}|_{\vec{x}'=\vec{x}_{0}'}$
+\end_inset
+
+ and similarly 
+\begin_inset Formula $B^{i}{}_{jk}$
+\end_inset
+
+ would consist of two derivatives and so on.
+\end_layout
+
+\begin_layout Standard
+The basic idea will be that instead of specifying 
+\begin_inset Formula $f^{i}$
+\end_inset
+
+ directly we would specify 
+\begin_inset Formula $f$
+\end_inset
+
+ partially by fixing the constants 
+\begin_inset Formula $A,\,B,\,\dots$
+\end_inset
+
+.
+ This will become clear in the following proof of the proposition.
 \end_layout
 
 \begin_layout Part
