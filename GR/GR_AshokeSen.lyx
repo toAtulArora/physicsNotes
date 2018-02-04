@@ -937,7 +937,7 @@ We try to extract all essential information about the space as described
 \begin_inset Formula $g_{ij}$
 \end_inset
 
- can always be diagonalised by an appropriate coordinate transformation
+ can always be diagonalised by an appropriate orthogonal matrix transformation
  (at a given point of course).
 \end_layout
 
