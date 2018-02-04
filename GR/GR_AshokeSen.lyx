@@ -907,6 +907,16 @@ Some observations: Note that
 \end_inset
 
  should behave as a scalar.
+ This follows directly from the transformation law and chain rule 
+\begin_inset Formula 
+\begin{align*}
+A^{\prime i_{1}}{}_{i_{1}} & =\underbrace{\partial_{k_{1}}x^{\prime i_{1}}\partial'_{i_{1}}}x^{l_{1}}A^{k_{1}}{}_{l_{1}}\\
+ & =\delta_{k_{1}}^{l_{1}}A^{k_{1}}{}_{l_{1}}=A^{l_{1}}{}_{l_{1}}.
+\end{align*}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
