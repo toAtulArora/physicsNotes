@@ -1034,10 +1034,14 @@ where we used the assumption that
 
  represent the same point.
  Note that 
-\begin_inset Formula $A^{i}{}_{j}=$
+\begin_inset Formula $A^{i}{}_{j}=\partial'_{j}f^{i}(x')|_{\vec{x}'=\vec{x}_{0}'}=\partial'_{j}x^{i}|_{\vec{x}'=\vec{x}_{0}'}$
 \end_inset
 
+ and similarly 
+\begin_inset Formula $B^{i}{}_{jk}$
+\end_inset
 
+ would consist of two derivatives and so on.
 \end_layout
 
 \begin_layout Part
