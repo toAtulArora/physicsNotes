@@ -860,8 +860,24 @@ will be termed a rank
  tensor.
 \end_layout
 
-\begin_layout Definition
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
 
+
+\end_layout
+
+\begin_layout Definition
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Scalars, Contravariant and Covariant vectors
+\end_layout
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Part
