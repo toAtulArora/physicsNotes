@@ -765,6 +765,10 @@ g'_{kl}(\vec{x'})=\sum_{i,j}g_{ij}\frac{\partial x^{i}}{\partial x{}^{\prime k}}
 
 \end_layout
 
+\begin_layout Standard
+
+\end_layout
+
 \begin_layout Exercise
 Consider a symmetric matrix 
 \begin_inset Formula $A$
