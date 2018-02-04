@@ -1061,6 +1061,25 @@ The basic idea will be that instead of specifying
  This will become clear in the following proof of the proposition.
 \end_layout
 
+\begin_layout Proof
+\begin_inset Formula $g'_{kl}(\vec{x}'_{0})=\partial'_{k}x^{i}\partial'_{l}x^{j}g_{ij}|_{\vec{x}'=\vec{x}'_{0}\leftrightarrow\vec{x}=\vec{x}_{0}}=A^{i}{}_{k}A^{j}{}_{l}g_{ij}(\vec{x}_{0})=\left(A^{T}gA\right)_{kl}$
+\end_inset
+
+ where in the last step we regard 
+\begin_inset Formula $g_{ij}$
+\end_inset
+
+ as a matrix with 
+\begin_inset Formula $i$
+\end_inset
+
+ as row and 
+\begin_inset Formula $j$
+\end_inset
+
+ as column.
+\end_layout
+
 \begin_layout Part
 General Relativity
 \end_layout
