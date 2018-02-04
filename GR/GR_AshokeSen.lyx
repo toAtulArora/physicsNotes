@@ -999,7 +999,20 @@ one that changes only a little when the coordinate is changed a little,
 
 \begin_layout Standard
 The following expansion will be used several times in this sub-section.
- Consider a point 
+ Consider a point denoted by 
+\begin_inset Formula $\vec{x}_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $\vec{x}'_{0}$
+\end_inset
+
+ by two coordinate systems related by 
+\begin_inset Formula $\vec{x}=f(\vec{x}')$
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Part
