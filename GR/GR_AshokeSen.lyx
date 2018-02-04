@@ -1024,7 +1024,7 @@ x^{i}=f^{i}(\vec{x}_{0}'+(\vec{x}'-\vec{x}_{0}'))=\cancelto{x_{0}^{i}}{f^{i}(\ve
 
 \end_inset
 
-where the first step follows by the assumption that 
+where we used the assumption that 
 \begin_inset Formula $x_{0}$
 \end_inset
 
