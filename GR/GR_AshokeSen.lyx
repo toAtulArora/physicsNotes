@@ -966,9 +966,18 @@ Take a point
 
 \begin_layout Standard
 The proof is straight forward as we shall see.
- It is interesting to note that for every continuous metric – one that changes
- only a little when the coordinate is changed a little, roughly speaking
- – will have a fixed number of 
+ It is interesting to note that for every continuous metric
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+one that changes only a little when the coordinate is changed a little,
+ roughly speaking
+\end_layout
+
+\end_inset
+
+ will have a fixed number of 
 \begin_inset Formula $+$
 \end_inset
 
