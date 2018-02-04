@@ -985,7 +985,7 @@ The proof is straight forward as we shall see.
 \begin_inset Formula $-$
 \end_inset
 
- (which is excluded by the continuity assumption).
+ (which is forbidden by the continuity assumption).
 \end_layout
 
 \begin_layout Part
