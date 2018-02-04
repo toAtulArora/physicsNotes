@@ -877,7 +877,23 @@ Scalars, Contravariant and Covariant vectors
 
 \end_inset
 
- 
+ A rank
+\end_layout
+
+\begin_layout Itemize
+(0,0) tensor is called a scalar
+\end_layout
+
+\begin_layout Itemize
+(1,0) tensor is called a contravariant vector
+\end_layout
+
+\begin_layout Itemize
+(0,1) tensor is called a covariant vector.
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Part
