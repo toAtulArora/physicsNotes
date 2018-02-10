@@ -1026,7 +1026,7 @@ The following expansion will be used several times in this sub-section.
 \begin_inset Formula $\vec{x}_{0}$
 \end_inset
 
- which can be written as 
+ as 
 \begin_inset Formula 
 \[
 x^{i}=f^{i}(\vec{x}_{0}'+(\vec{x}'-\vec{x}_{0}'))=\cancelto{x_{0}^{i}}{f^{i}(\vec{x}_{0}')}+A^{i}{}_{j}(x^{\prime j}-x_{0}^{\prime j})+B^{i}{}_{jk}(x^{\prime j}-x_{0}^{\prime j})(x^{\prime k}-x_{0}^{\prime k})+\dots
