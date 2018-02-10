@@ -1128,7 +1128,7 @@ The basic idea will be that instead of specifying
 \begin_inset Formula $g'_{kl}=\left(A^{T}gA\right)_{kl}=\left(A^{T}S^{T}R^{T}\eta RSA\right)_{kl}$
 \end_inset
 
- which entails 
+ which entails that for 
 \begin_inset Formula $A=\left(RS\right)^{-1}$
 \end_inset
 
