@@ -1101,10 +1101,14 @@ The basic idea will be that instead of specifying
 \end_inset
 
  so that 
-\begin_inset Formula $R^{T}\eta R=$
+\begin_inset Formula $R^{T}\eta R=\text{diag}(\lambda_{1},\lambda_{2}\dots,\lambda_{n})$
 \end_inset
 
+ where 
+\begin_inset Formula $\eta=\text{diag}(\lambda_{1}/\left|\lambda_{1}\right|,\lambda_{2}/\left|\lambda_{2}\right|,\dots,\lambda_{n}/\left|\lambda_{n}\right|)$
+\end_inset
 
+.
 \end_layout
 
 \begin_layout Part
