@@ -1242,8 +1242,8 @@ We must explore the first derivative of the metric.
 \begin_inset Formula 
 \begin{align*}
 K'_{i_{1}i_{2}i_{3}} & =\partial'_{i_{1}}(g'_{i_{2}i_{3}}(x'))\\
- & =\partial'_{i_{1}}(\partial'_{i_{2}}x^{j_{2}}\partial'_{i_{3}}x^{j_{3}}g_{j_{2}j_{3}}(x'))\\
- & =\partial'_{i_{1}}\partial'_{i_{2}}x^{j_{2}}\partial'_{i_{3}}x^{j_{3}}g_{j_{2}j_{3}}+\partial'_{i_{2}}x^{j_{2}}\partial'_{i_{1}}\partial'_{i_{3}}x^{j_{3}}g_{j_{2}j_{3}}+\partial
+ & =\partial'_{i_{1}}(\partial'_{i_{2}}x^{j_{2}}\partial'_{i_{3}}x^{j_{3}}g_{j_{2}j_{3}})\\
+ & =\partial'_{i_{1}}\partial'_{i_{2}}x^{j_{2}}\partial'_{i_{3}}x^{j_{3}}g_{j_{2}j_{3}}+\partial'_{i_{2}}x^{j_{2}}\partial'_{i_{1}}\partial'_{i_{3}}x^{j_{3}}g_{j_{2}j_{3}}+\partial'_{i_{2}}x^{j_{2}}\partial'_{i_{3}}x^{j_{3}}\partial'_{i_{1}}x^{j_{1}}\cancelto{K_{}}{\partial_{j_{1}}g_{j_{2}j_{3}}}
 \end{align*}
 
 \end_inset
