@@ -1437,7 +1437,8 @@ Note that
 \begin_inset Formula $\Gamma'^{l}{}_{mn}=\partial_{i}x'^{l}\partial'_{m}x^{j}\partial'_{n}x^{k}\Gamma^{i}{}_{jk}+\partial_{k}x^{\prime l}\partial'_{m}\partial'_{n}x^{k}$
 \end_inset
 
- (left as an exercise) 
+ (left as an exercise).
+  
 \end_layout
 
 \begin_layout Part
