@@ -1277,16 +1277,22 @@ One idea is to take some linear combination of
 
 \begin_layout Proposition
 Any tensor constructed using a linear combination of 
-\begin_inset Formula $K_{ijk}$
+\begin_inset Formula $K_{ijk}=\partial_{i}g_{jk}$
 \end_inset
 
  or its powers will be a zero tensor.
 \end_layout
 
 \begin_layout Standard
-This can be shown by the following argument.
- Assume it can be shown that given a point, there exists a coordinate transforma
-tion such that 
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+Assume it can be shown that given a point, there exists a coordinate transformat
+ion such that 
 \begin_inset Formula $K$
 \end_inset
 
@@ -1307,14 +1313,15 @@ tion such that
 
  must be zero.
  This establishes the result under the assumption stated which we now prove.
+ 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Proof
 To make 
 \begin_inset Formula $K'_{ijk}=0$
 \end_inset
 
- we need to adjust terms involving two derivatives of 
+ at a given point we need to adjust terms involving two derivatives of 
 \begin_inset Formula $x$
 \end_inset
 
