@@ -1400,8 +1400,12 @@ What happens if we take two derivatives of the metric? Consider
 \begin_inset Formula $S'_{ijkl}=0$
 \end_inset
 
- at a given point.
- 
+ at a given point and thus we can't apply the argument.
+ This means 
+\begin_inset Formula $S$
+\end_inset
+
+ can be a candidate for constructing a tensor.
 \end_layout
 
 \begin_layout Part
