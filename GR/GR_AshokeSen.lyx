@@ -1233,6 +1233,21 @@ Remarks: First, note that `locally' then, viz.
 \end_layout
 
 \begin_layout Standard
+We must explore the first derivative of the metric.
+ Consider 
+\begin_inset Formula $K_{ijk}:=\partial_{i}g_{jk}$
+\end_inset
+
+ so that in the primed coordinate system we would have 
+\begin_inset Formula 
+\begin{align*}
+K'_{i_{1}i_{2}i_{3}} & =\partial'_{i_{1}}(g'_{i_{2}i_{3}}(x'))\\
+ & =\partial'_{i_{1}}(\partial'_{i_{2}}x^{j_{2}}\partial'_{i_{3}}x^{j_{3}}g_{j_{2}j_{3}})\\
+ & =\partial'_{i_{1}}\partial'_{i_{2}}x^{j_{2}}\partial'_{i_{3}}x^{j_{3}}g_{j_{2}j_{3}}+\partial'_{i_{2}}x^{j_{2}}\partial'_{i_{1}}\partial'_{i_{3}}x^{j_{3}}g_{j_{2}j_{3}}+\partial'_{i_{2}}x^{j_{2}}\partial'_{i_{3}}x^{j_{3}}\partial'_{i_{1}}x^{j_{1}}\partial_{j_{1}}g_{j_{2}j_{3}}
+\end{align*}
+
+\end_inset
+
 
 \end_layout
 
