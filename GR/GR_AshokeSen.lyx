@@ -1159,7 +1159,34 @@ The basic idea will be that instead of specifying
 \end_layout
 
 \begin_layout Standard
+The set of eigenvalues of 
+\begin_inset Formula $g'$
+\end_inset
 
+, 
+\begin_inset Formula $\{\pm,\pm,\dots\pm\}$
+\end_inset
+
+, as described above are referred to as the 
+\emph on
+signature
+\emph default
+ of the metric.
+ When all the entries are 
+\begin_inset Formula $+1$
+\end_inset
+
+ then the metric is called Eucledian.
+ When one entry is 
+\begin_inset Formula $-1$
+\end_inset
+
+ (while the others are 
+\begin_inset Formula $+1$
+\end_inset
+
+) the metric is called Lorentzian.
+ 
 \end_layout
 
 \begin_layout Part
