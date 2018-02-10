@@ -1132,7 +1132,7 @@ The basic idea will be that instead of specifying
 \end_inset
 
  is of the 
-\begin_inset Formula $\pm$
+\begin_inset Formula $\text{diag}(\pm,\pm,\dots\pm)$
 \end_inset
 
  form.
