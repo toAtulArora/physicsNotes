@@ -1190,7 +1190,24 @@ signature
 \end_layout
 
 \begin_layout Standard
-Remarks: First, note that 
+Remarks: First, note that `locally' then, viz.
+ from 
+\begin_inset Formula $g$
+\end_inset
+
+ itself (as opposed to its derivatives), there's no more information which
+ can be extracted.
+ Second, this will not distinguish between the surface of a sphere and a
+ plane (both would be Eucledean).
+ Third, the procedure followed above was more than diagonalisation as 
+\begin_inset Formula $A$
+\end_inset
+
+ is not such that 
+\begin_inset Formula $A^{T}A=\mathbb{I}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
