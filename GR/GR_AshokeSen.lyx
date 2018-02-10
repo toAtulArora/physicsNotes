@@ -1364,6 +1364,7 @@ What happens if we take two derivatives of the metric? Consider
 \begin_inset Formula $S_{ijkl}:=\partial_{i}\partial_{j}g_{kl}$
 \end_inset
 
+ and now to apply the same argument we count.
  
 \end_layout
 
