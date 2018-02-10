@@ -1331,7 +1331,23 @@ To make
 \end_inset
 
  as described in the expansion above.
- 
+ Now 
+\begin_inset Formula $K'_{ijk}$
+\end_inset
+
+ has two symmetric indices and one independent index which yields 
+\begin_inset Formula $\frac{n.(n+1)}{2}.n$
+\end_inset
+
+ constraints while 
+\begin_inset Formula $B^{i}{}_{jk}$
+\end_inset
+
+ makes for 
+\begin_inset Formula $\frac{n.(n+1)}{2}.n$
+\end_inset
+
+ adjustable parameters.
 \end_layout
 
 \begin_layout Part
