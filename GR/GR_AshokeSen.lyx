@@ -1096,11 +1096,15 @@ The basic idea will be that instead of specifying
 \end_inset
 
 .
- Now I define 
+ Now define 
 \begin_inset Formula $R=R^{T}=\text{diag}(\sqrt{\left|\lambda_{1}\right|},\sqrt{\left|\lambda_{2}\right|},\dots,\sqrt{\left|\lambda_{n}\right|})$
 \end_inset
 
- 
+ so that 
+\begin_inset Formula $R^{T}\eta R=$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
