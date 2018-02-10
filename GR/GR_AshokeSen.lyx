@@ -1295,8 +1295,7 @@ tion such that
 \end_inset
 
  must be zero.
- This establishes the result under the assumption.
- We now prove the assumption.
+ This establishes the result under the assumption which we now prove.
 \end_layout
 
 \begin_layout Part
