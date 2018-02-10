@@ -1286,7 +1286,11 @@ tion such that
 
  will be zero at that point in all frames because tensor transformations
  only involve multiplicative factors.
- One can repeat this argument for each point.
+ One can repeat this argument for each point thereby establishing that 
+\begin_inset Formula $K$
+\end_inset
+
+ must be zero.
  
 \end_layout
 
