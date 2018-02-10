@@ -1155,6 +1155,10 @@ The basic idea will be that instead of specifying
 \end_inset
 
  for all unitaries 
+\begin_inset Formula $U$
+\end_inset
+
+, 
 \begin_inset Formula $A=(URS)^{-1}$
 \end_inset
 
