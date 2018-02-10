@@ -1190,7 +1190,11 @@ signature
 \begin_inset Formula $+1$
 \end_inset
 
- then the metric is called Eucledian.
+ then the metric is called 
+\emph on
+Eucledian
+\emph default
+.
  When one entry is 
 \begin_inset Formula $-1$
 \end_inset
@@ -1199,7 +1203,11 @@ signature
 \begin_inset Formula $+1$
 \end_inset
 
-) the metric is called Lorentzian.
+) the metric is called 
+\emph on
+Lorentzian
+\emph default
+.
  
 \end_layout
 
