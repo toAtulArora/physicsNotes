@@ -1263,7 +1263,11 @@ where the in the last step we used
 \end_inset
 
  doesn't transform as a tensor.
- One idea is to take some linear combination of 
+ 
+\end_layout
+
+\begin_layout Standard
+One idea is to take some linear combination of 
 \begin_inset Formula $K_{ijk}$
 \end_inset
 
@@ -1291,7 +1295,11 @@ tion such that
 \end_inset
 
  must be zero.
- 
+ This establishes the result.
+\end_layout
+
+\begin_layout Standard
+We establish the 
 \end_layout
 
 \begin_layout Part
