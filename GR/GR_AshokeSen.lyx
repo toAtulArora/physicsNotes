@@ -929,7 +929,12 @@ We try to extract all essential information about the space as described
  The main source of redundancy here is the freedom in choosing the coordinate
  system.
  Let us proceed systematically with first simplifying the metric itself.
- Since 
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Since 
 \begin_inset Formula $g_{ij}=g_{ji}$
 \end_inset
 
@@ -941,6 +946,11 @@ We try to extract all essential information about the space as described
  (at a given point of course).
  However, one is not restricted to orthogonal matrices in this case (the
  transformation doesn't have to preserve distances) and so one can do better.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Proposition
