@@ -1273,7 +1273,18 @@ One idea is to take some linear combination of
 
  (or even polynomials of it) to construct a tensor.
  This turns out to be impossible.
- This can be shown by the following argument.
+\end_layout
+
+\begin_layout Proposition
+Any tensor constructed using a linear combination of 
+\begin_inset Formula $K_{ijk}$
+\end_inset
+
+ or its powers will be a zero tensor.
+\end_layout
+
+\begin_layout Standard
+This can be shown by the following argument.
  Assume it can be shown that given a point, there exists a coordinate transforma
 tion such that 
 \begin_inset Formula $K$
