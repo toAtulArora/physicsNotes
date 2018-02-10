@@ -929,7 +929,12 @@ We try to extract all essential information about the space as described
  The main source of redundancy here is the freedom in choosing the coordinate
  system.
  Let us proceed systematically with first simplifying the metric itself.
- Since 
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Since 
 \begin_inset Formula $g_{ij}=g_{ji}$
 \end_inset
 
@@ -941,6 +946,11 @@ We try to extract all essential information about the space as described
  (at a given point of course).
  However, one is not restricted to orthogonal matrices in this case (the
  transformation doesn't have to preserve distances) and so one can do better.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Proposition
@@ -966,7 +976,7 @@ Take a point
 
 \begin_layout Standard
 The proof is straight forward as we shall see.
- It is interesting to note that for every continuous metric
+ It is interesting to note that every continuous metric
 \begin_inset Foot
 status collapsed
 
@@ -1012,11 +1022,11 @@ The following expansion will be used several times in this sub-section.
 \end_inset
 
 .
- I wish to write an expression for a point near 
+ Let us write an expression for a point near 
 \begin_inset Formula $\vec{x}_{0}$
 \end_inset
 
- which I can write as 
+ as 
 \begin_inset Formula 
 \[
 x^{i}=f^{i}(\vec{x}_{0}'+(\vec{x}'-\vec{x}_{0}'))=\cancelto{x_{0}^{i}}{f^{i}(\vec{x}_{0}')}+A^{i}{}_{j}(x^{\prime j}-x_{0}^{\prime j})+B^{i}{}_{jk}(x^{\prime j}-x_{0}^{\prime j})(x^{\prime k}-x_{0}^{\prime k})+\dots
@@ -1118,7 +1128,7 @@ The basic idea will be that instead of specifying
 \begin_inset Formula $g'_{kl}=\left(A^{T}gA\right)_{kl}=\left(A^{T}S^{T}R^{T}\eta RSA\right)_{kl}$
 \end_inset
 
- which entails 
+ which entails that for 
 \begin_inset Formula $A=\left(RS\right)^{-1}$
 \end_inset
 
@@ -1140,11 +1150,15 @@ The basic idea will be that instead of specifying
 \begin_inset Formula $A$
 \end_inset
 
- is not unique because for 
+ is not unique because when 
 \begin_inset Formula $\eta=\mathbb{I}$
 \end_inset
 
  for all unitaries 
+\begin_inset Formula $U$
+\end_inset
+
+, 
 \begin_inset Formula $A=(URS)^{-1}$
 \end_inset
 
@@ -1167,7 +1181,74 @@ The set of eigenvalues of
 \begin_inset Formula $\{\pm,\pm,\dots\pm\}$
 \end_inset
 
-, as described above
+, as described above are referred to as the 
+\emph on
+signature
+\emph default
+ of the metric.
+ When all the entries are 
+\begin_inset Formula $+1$
+\end_inset
+
+ then the metric is called 
+\emph on
+Eucledian
+\emph default
+.
+ When one entry is 
+\begin_inset Formula $-1$
+\end_inset
+
+ (while the others are 
+\begin_inset Formula $+1$
+\end_inset
+
+) the metric is called 
+\emph on
+Lorentzian
+\emph default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Remarks: First, note that `locally' then, viz.
+ from 
+\begin_inset Formula $g$
+\end_inset
+
+ itself (as opposed to its derivatives), there's no more information which
+ can be extracted.
+ Second, this will not distinguish between the surface of a sphere and a
+ plane (both would be Eucledean).
+ Third, the procedure followed above was more than diagonalisation as 
+\begin_inset Formula $A$
+\end_inset
+
+ is not such that 
+\begin_inset Formula $A^{T}A=\mathbb{I}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+We must explore the first derivative of the metric.
+ Consider 
+\begin_inset Formula $K_{ijk}:=\partial_{i}g_{jk}$
+\end_inset
+
+ so that in the primed coordinate system we would have 
+\begin_inset Formula 
+\begin{align*}
+K'_{i_{1}i_{2}i_{3}} & =\partial'_{i_{1}}(g'_{i_{2}i_{3}}(x'))\\
+ & =\partial'_{i_{1}}(\partial'_{i_{2}}x^{j_{2}}\partial'_{i_{3}}x^{j_{3}}g_{j_{2}j_{3}}(x'))\\
+ & =\partial'_{i_{1}}\partial'_{i_{2}}x^{j_{2}}\partial'_{i_{3}}x^{j_{3}}g_{j_{2}j_{3}}+\partial'_{i_{2}}x^{j_{2}}\partial'_{i_{1}}\partial'_{i_{3}}x^{j_{3}}g_{j_{2}j_{3}}+\partial
+\end{align*}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
