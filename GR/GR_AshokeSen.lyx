@@ -1137,6 +1137,18 @@ The basic idea will be that instead of specifying
 
  form.
  Note that 
+\begin_inset Formula $A$
+\end_inset
+
+ is not unique because for 
+\begin_inset Formula $\eta=\mathbb{I}$
+\end_inset
+
+ for all unitaries 
+\begin_inset Formula $A=(URS)^{-1}$
+\end_inset
+
+ will work.
 \end_layout
 
 \begin_layout Part
