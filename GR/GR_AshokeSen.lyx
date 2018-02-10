@@ -1280,7 +1280,7 @@ Any tensor constructed using a linear combination of
 \begin_inset Formula $K_{ijk}=\partial_{i}g_{jk}$
 \end_inset
 
- or its powers will be a zero tensor.
+ or its powers will be the trivial zero tensor.
 \end_layout
 
 \begin_layout Standard
