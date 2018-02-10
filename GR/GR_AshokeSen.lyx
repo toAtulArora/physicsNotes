@@ -1391,6 +1391,16 @@ What happens if we take two derivatives of the metric? Consider
 \end_inset
 
  are symmetric this time.
+ The difference between the number of constraints and number of parameters
+ is 
+\begin_inset Formula $\frac{1}{12}n^{2}(n-1)$
+\end_inset
+
+ which means in general one can't make 
+\begin_inset Formula $S'_{ijkl}=0$
+\end_inset
+
+ at a given point.
  
 \end_layout
 
