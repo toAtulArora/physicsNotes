@@ -1378,6 +1378,14 @@ What happens if we take two derivatives of the metric? Consider
 \end_inset
 
  are symmetric.
+ However this time 
+\begin_inset Formula $C^{i}{}_{jkl}$
+\end_inset
+
+ would be important and these are 
+\begin_inset Formula $n.\frac{n(n+1)(n+2)}{3!}$
+\end_inset
+
  
 \end_layout
 
