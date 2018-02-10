@@ -1277,7 +1277,7 @@ One idea is to take some linear combination of
 
 \begin_layout Proposition
 Any tensor constructed using a linear combination of 
-\begin_inset Formula $K_{ijk}=\partial_{i}g_{jk}$
+\begin_inset Formula $K_{ijk}:=\partial_{i}g_{jk}$
 \end_inset
 
  or its powers will be the trivial zero tensor.
@@ -1357,6 +1357,10 @@ To make
 \end_inset
 
  which achieve the said constraint (which is left to the reader).
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Part
