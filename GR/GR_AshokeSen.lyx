@@ -1109,6 +1109,11 @@ The basic idea will be that instead of specifying
 \end_inset
 
 .
+ Thus I can write 
+\begin_inset Formula $g=S^{T}g_{d}S=S^{T}R^{T}\eta RS$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
