@@ -1078,6 +1078,28 @@ The basic idea will be that instead of specifying
 \end_inset
 
  as column.
+ To proceed, first note that one can find 
+\begin_inset Formula $S$
+\end_inset
+
+ s.t.
+ 
+\begin_inset Formula $S^{T}S=\mathbb{I}$
+\end_inset
+
+ and 
+\begin_inset Formula $g=S^{T}g_{d}S$
+\end_inset
+
+ where 
+\begin_inset Formula $g_{d}=\text{diag}(\lambda_{1},\lambda_{2},\dots,\lambda_{n})$
+\end_inset
+
+.
+ Now I define 
+\begin_inset Formula $R=R^{T}=\text{diag}(\sqrt{\left|\lambda_{1}\right|},\sqrt{\left|\lambda_{2}\right|},\dots,\sqrt{\left|\lambda_{n}\right|})$
+\end_inset
+
  
 \end_layout
 
