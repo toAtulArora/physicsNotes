@@ -1347,7 +1347,11 @@ To make
 \begin_inset Formula $\frac{n.(n+1)}{2}.n$
 \end_inset
 
- adjustable parameters.
+ adjustable parameters because again 
+\begin_inset Formula $j,k$
+\end_inset
+
+ are symmetric.
 \end_layout
 
 \begin_layout Part
