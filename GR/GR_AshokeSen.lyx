@@ -1424,7 +1424,7 @@ Riemann Tensor
  as 
 \begin_inset Formula 
 \[
-R_{jkl}^{i}:=\partial_{l}\Gamma^{i}{}_{jk}-\partial_{k}\Gamma^{i}{}_{jl}+\Gamma^{m}{}_{jk}\Gamma^{i}{}_{lm}-\Gamma^{m}{}_{jl}\Gamma^{i}{}_{km}.
+R^{i}{}_{jkl}:=\partial_{l}\Gamma^{i}{}_{jk}-\partial_{k}\Gamma^{i}{}_{jl}+\Gamma^{m}{}_{jk}\Gamma^{i}{}_{lm}-\Gamma^{m}{}_{jl}\Gamma^{i}{}_{km}.
 \]
 
 \end_inset
@@ -1442,7 +1442,7 @@ Note that
 \begin_inset Formula $R^{i}{}_{jkl}$
 \end_inset
 
- indeed transforms as a tensor.
+ indeed transforms as a tensor (exercise).
  
 \end_layout
 
