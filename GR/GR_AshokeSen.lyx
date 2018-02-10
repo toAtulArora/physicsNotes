@@ -1114,7 +1114,19 @@ The basic idea will be that instead of specifying
 \end_inset
 
 .
- 
+ We're almost there, let 
+\begin_inset Formula $g'_{kl}=\left(A^{T}gA\right)_{kl}=\left(A^{T}S^{T}R^{T}\eta RSA\right)_{kl}$
+\end_inset
+
+ which entails 
+\begin_inset Formula $A=\left(RS\right)^{-1}$
+\end_inset
+
+ we'll get 
+\begin_inset Formula $g'_{kl}(\vec{x}'_{0})=\eta_{kl}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
