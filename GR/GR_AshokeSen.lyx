@@ -1248,7 +1248,22 @@ K'_{i_{1}i_{2}i_{3}} & =\partial'_{i_{1}}(g'_{i_{2}i_{3}}(x'))\\
 
 \end_inset
 
+where the in the last step we used 
+\begin_inset Formula $\partial'_{i_{1}}=\partial'_{i_{1}}x^{j_{1}}\partial_{j_{1}}$
+\end_inset
 
+.
+ The last term above can be written as 
+\begin_inset Formula $\partial'_{i_{1}}x^{j_{1}}\partial'_{i_{2}}x^{j_{2}}\partial'_{i_{3}}x^{j_{3}}K_{j_{1}j_{2}j_{3}}$
+\end_inset
+
+ which is how a tensor should transform.
+ However, manifestly there are other terms which means 
+\begin_inset Formula $K_{ijk}$
+\end_inset
+
+ doesn't transform as a tensor.
+ One idea is to construct a 
 \end_layout
 
 \begin_layout Part
