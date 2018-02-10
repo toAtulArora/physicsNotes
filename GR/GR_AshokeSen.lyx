@@ -1365,6 +1365,19 @@ What happens if we take two derivatives of the metric? Consider
 \end_inset
 
  and now to apply the same argument we count.
+ The number of constraints is 
+\begin_inset Formula $\frac{n(n+1)}{2}\frac{n(n+1)}{2}$
+\end_inset
+
+ because both 
+\begin_inset Formula $i,j$
+\end_inset
+
+ and 
+\begin_inset Formula $k,l$
+\end_inset
+
+ are symmetric.
  
 \end_layout
 
