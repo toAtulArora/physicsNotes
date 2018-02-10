@@ -1386,7 +1386,11 @@ What happens if we take two derivatives of the metric? Consider
 \begin_inset Formula $n.\frac{n(n+1)(n+2)}{3!}$
 \end_inset
 
- 
+ because 
+\begin_inset Formula $j,k,l$
+\end_inset
+
+ are symmetric this time.
 \end_layout
 
 \begin_layout Part
