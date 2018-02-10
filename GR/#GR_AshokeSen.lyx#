@@ -1158,6 +1158,18 @@ The basic idea will be that instead of specifying
 
 \end_layout
 
+\begin_layout Standard
+The set of eigenvalues of 
+\begin_inset Formula $g'$
+\end_inset
+
+, 
+\begin_inset Formula $\{\pm,\pm,\dots\pm\}$
+\end_inset
+
+, as described above
+\end_layout
+
 \begin_layout Part
 General Relativity
 \end_layout
