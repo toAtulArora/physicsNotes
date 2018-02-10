@@ -1408,6 +1408,30 @@ What happens if we take two derivatives of the metric? Consider
  can be a candidate for constructing a tensor.
 \end_layout
 
+\begin_layout Standard
+Indeed, with 
+\begin_inset Formula $\Gamma^{i}{}_{jk}:=\frac{1}{2}g^{il}(\partial_{j}g_{lk}+\partial_{k}g_{lj}-\partial_{l}g_{jk})$
+\end_inset
+
+ defined to be the 
+\emph on
+Cristoffel symbol/Connection
+\emph default
+ we define the 
+\emph on
+Riemann Tensor
+\emph default
+ as 
+\begin_inset Formula 
+\[
+R_{jkl}^{i}:=\partial_{l}\Gamma^{i}{}_{jk}-\partial_{k}\Gamma^{i}{}_{jl}+\Gamma^{m}{}_{jk}\Gamma^{i}{}_{lm}-\Gamma^{m}{}_{jl}\Gamma^{i}{}_{km}.
+\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 General Relativity
 \end_layout
