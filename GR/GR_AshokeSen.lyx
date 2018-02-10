@@ -1352,7 +1352,11 @@ To make
 \end_inset
 
  are symmetric indices.
- One can obtain 
+ One can explicitly find the values of 
+\begin_inset Formula $B^{i}{}_{jk}$
+\end_inset
+
+ which make the 
 \end_layout
 
 \begin_layout Part
