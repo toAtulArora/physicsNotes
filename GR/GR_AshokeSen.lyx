@@ -1295,11 +1295,7 @@ tion such that
 \end_inset
 
  must be zero.
- This establishes the result.
-\end_layout
-
-\begin_layout Standard
-We establish the 
+ This establishes the result under the assumption.
 \end_layout
 
 \begin_layout Part
