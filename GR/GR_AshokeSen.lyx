@@ -1438,7 +1438,12 @@ Note that
 \end_inset
 
  (left as an exercise).
-  
+ Using this one can explicitly check that 
+\begin_inset Formula $R^{i}{}_{jkl}$
+\end_inset
+
+ indeed transforms as a tensor.
+ 
 \end_layout
 
 \begin_layout Part
