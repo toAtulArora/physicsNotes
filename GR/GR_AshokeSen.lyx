@@ -1299,7 +1299,12 @@ tion such that
 \end_layout
 
 \begin_layout Standard
+To make 
+\begin_inset Formula $K'_{ijk}=0$
+\end_inset
 
+ we need to adjust terms involving two derivatives of the metric.
+ 
 \end_layout
 
 \begin_layout Part
