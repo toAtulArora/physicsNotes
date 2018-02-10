@@ -1268,6 +1268,24 @@ where the in the last step we used
 \end_inset
 
  (or even polynomials of it) to construct a tensor.
+ This turns out to be impossible.
+ This can be shown by the following argument.
+ Assume it can be shown that given a point, there exists a coordinate transforma
+tion such that 
+\begin_inset Formula $K$
+\end_inset
+
+ vanishes at that point.
+ Now if 
+\begin_inset Formula $K$
+\end_inset
+
+ were to transform as a tensor, then 
+\begin_inset Formula $K$
+\end_inset
+
+ will be zero at that point in all frames because tensor transformations
+ only involve multiplicative factors.
  
 \end_layout
 
