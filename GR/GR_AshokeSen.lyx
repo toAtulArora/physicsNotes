@@ -1296,6 +1296,7 @@ tion such that
 
  must be zero.
  This establishes the result under the assumption.
+ We now prove the assumption.
 \end_layout
 
 \begin_layout Part
