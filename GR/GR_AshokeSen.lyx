@@ -1493,7 +1493,29 @@ While this is intimidating at first note that
 \end_layout
 
 \begin_layout Proposition
+The Reimann Tensor, 
+\begin_inset Formula $R_{ijkl}$
+\end_inset
 
+, is anti-symmetric in the indices 
+\begin_inset Formula $i,j$
+\end_inset
+
+ and also in 
+\begin_inset Formula $k,l$
+\end_inset
+
+ viz.
+ 
+\begin_inset Formula $R_{ijkl}=-R_{jikl}$
+\end_inset
+
+, 
+\begin_inset Formula $R_{ijkl}=-R_{ijlk}$
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Part
