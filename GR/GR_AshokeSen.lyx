@@ -1763,8 +1763,7 @@ Case B: Surface of a sphere described by the metric
 \end_layout
 
 \begin_layout Example
-For case A, it follows immediately, for the cartesian coordinates, that
- 
+For case A it follows immediately, for the cartesian coordinates, that 
 \begin_inset Formula $R_{ijkl}=0$
 \end_inset
 
