@@ -1831,8 +1831,12 @@ By this we mean stretching the manifold, i.e.
 .
  For case A it is intuitively obvious that stretching an infinite plane
  would leave it unchanged.
- However, for case B it is not as obvious.
- 
+ This is also consistent with the fact that 
+\begin_inset Formula $R_{ijkl}$
+\end_inset
+
+ stays zero for both cases.
+ However, for case B it is not as obvious and we use the 
 \end_layout
 
 \begin_layout Part
