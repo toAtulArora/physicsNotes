@@ -1700,7 +1700,7 @@ status open
 
 \begin_layout Plain Layout
 Note also that 
-\begin_inset Formula $A_{i}=\partial_{i}R$
+\begin_inset Formula $A_{i}:=\partial_{i}R$
 \end_inset
 
  is a tensor as 
