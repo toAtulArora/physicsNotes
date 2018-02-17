@@ -1690,16 +1690,17 @@ Ricci Scalar
 curvature scalar
 \emph default
 .
- Note that for scalars one has 
+ 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Note that for scalars one has 
 \begin_inset Formula $R'(x')=R(x)$
 \end_inset
 
 .
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-Note also that 
+ Note also that 
 \begin_inset Formula $A_{i}:=\partial_{i}R$
 \end_inset
 
