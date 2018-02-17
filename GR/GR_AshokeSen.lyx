@@ -1410,7 +1410,14 @@ What happens if we take two derivatives of the metric? Consider
 \end_inset
 
  can be a candidate for constructing a tensor.
- The astute reader might complain that 
+ The astute reader might complain that we still have some freedom in the
+ 
+\begin_inset Formula $A$
+\end_inset
+
+s (for e.g.
+ the Unital freedom pointed out for the Eucledian case).
+ 
 \end_layout
 
 \begin_layout Standard
