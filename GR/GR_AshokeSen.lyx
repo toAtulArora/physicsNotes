@@ -1480,7 +1480,11 @@ While this is intimidating at first note that
 \end_inset
 
  indeed transforms as a tensor (exercise).
- We now state some 
+ We now state some symmetries of 
+\begin_inset Formula $R$
+\end_inset
+
+ and prove one leaving the rest as exercises.
 \end_layout
 
 \begin_layout Part
