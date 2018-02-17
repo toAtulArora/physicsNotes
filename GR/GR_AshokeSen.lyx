@@ -1829,9 +1829,10 @@ By this we mean stretching the manifold, i.e.
 \end_inset
 
 .
- For the first case it is intuitively obvious that stretching an infinite
- plane would leave it unchanged.
- However, 
+ For case A it is intuitively obvious that stretching an infinite plane
+ would leave it unchanged.
+ However, for case B it is not as obvious.
+ 
 \end_layout
 
 \begin_layout Part
