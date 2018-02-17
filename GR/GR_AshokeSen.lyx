@@ -1795,7 +1795,26 @@ For case A it follows immediately, for the cartesian coordinates, that
 \emph on
 manifolds
 \emph default
- – .
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+We haven't defined the word manifold precisely yet.
+ It suffices for our purposes to consider an 
+\begin_inset Formula $n$
+\end_inset
+
+-dimensional manifold to be constituted of points that need 
+\begin_inset Formula $n$
+\end_inset
+
+ coordinates to be specified.
+\end_layout
+
+\end_inset
+
+.
  
 \end_layout
 
