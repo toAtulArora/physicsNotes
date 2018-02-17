@@ -1589,7 +1589,7 @@ which shows that indeed
 status open
 
 \begin_layout Plain Layout
-(hint really)
+Proof (hint really).
 \end_layout
 
 \end_inset
@@ -1616,7 +1616,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-(same as above)
+Proof (same as above).
 \end_layout
 
 \end_inset
