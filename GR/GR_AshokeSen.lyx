@@ -1649,12 +1649,11 @@ We now define
 \end_inset
 
 .
- This is can be used to construct scalars out of 
+ This is can be used to extract smaller tensors and scalars out of 
 \begin_inset Formula $R_{ijkl}$
 \end_inset
 
-.
- 
+ which are important enough to bear their own names.
 \end_layout
 
 \begin_layout Part
