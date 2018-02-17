@@ -1417,7 +1417,11 @@ What happens if we take two derivatives of the metric? Consider
 
 s (for e.g.
  the Unital freedom pointed out for the Eucledian case).
- 
+ This ignorance is justified because 
+\begin_inset Formula $A$
+\end_inset
+
+s are made of first derivatives of the metric .
 \end_layout
 
 \begin_layout Standard
