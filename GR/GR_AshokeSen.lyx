@@ -1763,6 +1763,11 @@ Case B: Surface of a sphere described by the metric
 \end_layout
 
 \begin_layout Example
+Question: Can one tell (without using prior knowledge of how the metric
+ was constructed) if the two cases describe the same space?
+\begin_inset Newline newline
+\end_inset
+
 For case A it follows immediately, for the cartesian coordinates, that 
 \begin_inset Formula $R_{ijkl}=0$
 \end_inset
@@ -1782,7 +1787,11 @@ For case A it follows immediately, for the cartesian coordinates, that
 
  is a tensor, it must also vanish in all coordinate systems and in particular
  in the polar coordinate system.
- 
+ If 
+\begin_inset Formula $R_{ijkl}\neq0$
+\end_inset
+
+ for case B then we can be sure that 
 \end_layout
 
 \begin_layout Part
