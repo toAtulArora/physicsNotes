@@ -1543,7 +1543,7 @@ Proof sketch.
  so that 
 \begin_inset Formula 
 \begin{align*}
-A'_{ijkl} & =\partial'_{i}x^{m}\partial'_{j}x^{n}\partial'_{k}x^{p}\partial_{l}x^{q}R_{mnpq}+\underbrace{\partial'_{j}x^{m}\partial'_{i}x^{n}\partial'_{k}x^{p}\partial_{l}x^{q}R_{mnpq}}_{=\partial'_{i}x^{n}\partial'_{j}x^{m}\partial'_{k}x^{p}\partial_{l}x^{q}R_{nmpq}}\\
+A'_{ijkl} & =\partial'_{i}x^{m}\partial'_{j}x^{n}\partial'_{k}x^{p}\partial_{l}x^{q}R_{mnpq}+\underbrace{\partial'_{j}x^{m}\partial'_{i}x^{n}\partial'_{k}x^{p}\partial_{l}x^{q}R_{nmpq}}_{=\partial'_{i}x^{n}\partial'_{j}x^{m}\partial'_{k}x^{p}\partial_{l}x^{q}R_{nmpq}}\\
  & =\partial'_{i}x^{m}\partial'_{j}x^{n}\partial'_{k}x^{p}\partial_{l}x^{q}A_{mnpq}
 \end{align*}
 
