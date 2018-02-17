@@ -1649,6 +1649,11 @@ We now define
 \end_inset
 
 .
+ This is can be used to construct scalars out of 
+\begin_inset Formula $R_{ijkl}$
+\end_inset
+
+.
  
 \end_layout
 
