@@ -1411,7 +1411,7 @@ What happens if we take two derivatives of the metric? Consider
 
  can be a candidate for constructing a tensor.
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 The astute reader might complain that we still have some freedom in the
@@ -1433,7 +1433,7 @@ s are made of first derivatives of the metric.
 \end_inset
 
 s.
- Thus change in 
+ Thus changes in 
 \begin_inset Formula $A$
 \end_inset
 
