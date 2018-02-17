@@ -1532,6 +1532,29 @@ status open
 
 \end_inset
 
+ Consider the symmetric tensor 
+\begin_inset Formula $A_{ijkl}=R_{ijkl}+R_{jikl}$
+\end_inset
+
+.
+ Note that 
+\begin_inset Formula $R'_{ijkl}=\partial'_{i}x^{m}\partial'_{j}x^{n}\partial'_{k}x^{p}\partial_{l}x^{q}R_{mnpq}$
+\end_inset
+
+ so that 
+\begin_inset Formula 
+\begin{align*}
+A'_{ijkl} & =\partial'_{i}x^{m}\partial'_{j}x^{n}\partial'_{k}x^{p}\partial_{l}x^{q}R_{mnpq}+\underbrace{\partial'_{j}x^{m}\partial'_{i}x^{n}\partial'_{k}x^{p}\partial_{l}x^{q}R_{mnpq}}_{=\partial'_{i}x^{n}\partial'_{j}x^{m}\partial'_{k}x^{p}\partial_{l}x^{q}R_{nmpq}}\\
+ & =\partial'_{i}x^{m}\partial'_{j}x^{n}\partial'_{k}x^{p}\partial_{l}x^{q}A_{mnpq}
+\end{align*}
+
+\end_inset
+
+which shows that indeed 
+\begin_inset Formula $A_{ijkl}$
+\end_inset
+
+ is a tensor.
  
 \end_layout
 
