@@ -1655,6 +1655,15 @@ We now define
 
  which are important enough to bear their own names.
  
+\begin_inset Formula $g^{ik}R_{ijkl}=R_{jl}$
+\end_inset
+
+ is called the 
+\emph on
+Ricci Tensor
+\emph default
+.
+ Note that from the definition of 
 \end_layout
 
 \begin_layout Part
