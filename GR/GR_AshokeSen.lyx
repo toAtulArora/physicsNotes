@@ -1690,7 +1690,11 @@ Ricci Scalar
 curvature scalar
 \emph default
 .
- 
+ Note that for scalars one has 
+\begin_inset Formula $R'(x')=R(x)$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
