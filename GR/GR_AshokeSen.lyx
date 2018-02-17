@@ -1492,8 +1492,15 @@ While this is intimidating at first note that
  and hint at how they might be proved.
 \end_layout
 
-\begin_layout Proposition
-The Reimann Tensor, 
+\begin_layout Claim
+\begin_inset Formula $R_{ijkl}=-R_{jikl}$
+\end_inset
+
+, 
+\begin_inset Formula $R_{ijkl}=-R_{ijlk}$
+\end_inset
+
+ that is the Reimann Tensor, 
 \begin_inset Formula $R_{ijkl}$
 \end_inset
 
@@ -1505,17 +1512,25 @@ The Reimann Tensor,
 \begin_inset Formula $k,l$
 \end_inset
 
- viz.
- 
-\begin_inset Formula $R_{ijkl}=-R_{jikl}$
-\end_inset
-
-, 
-\begin_inset Formula $R_{ijkl}=-R_{ijlk}$
-\end_inset
-
 .
- 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Claim
+\begin_inset Formula $R_{ijkl}=R_{klij}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Claim
+
 \end_layout
 
 \begin_layout Part
