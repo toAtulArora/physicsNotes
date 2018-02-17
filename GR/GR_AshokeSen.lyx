@@ -1718,7 +1718,7 @@ Note that for scalars one has
 \end_layout
 
 \begin_layout Example
-Consider a flat space metric 
+Case A: Consider a flat space metric 
 \begin_inset Formula $ds^{2}=\left(dx^{1}\right)^{2}+\left(dx^{2}\right)^{2}=dr^{2}+r^{2}d\theta$
 \end_inset
 
@@ -1743,6 +1743,10 @@ Consider a flat space metric
  is a tensor, it must also vanish in all coordinate systems and in particular
  in the polar coordinate system.
  
+\end_layout
+
+\begin_layout Example
+Case B: Consider 
 \end_layout
 
 \begin_layout Part
