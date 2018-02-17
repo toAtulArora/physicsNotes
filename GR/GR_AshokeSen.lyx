@@ -1844,7 +1844,21 @@ By this we mean stretching the manifold, i.e.
 \end_inset
 
 .
- Now since 
+ Now since stretching changes the radius, 
+\begin_inset Formula $a$
+\end_inset
+
+, of the sphere it follows that 
+\begin_inset Formula $R$
+\end_inset
+
+ will get changed.
+ Since 
+\begin_inset Formula $R$
+\end_inset
+
+ is a scalar (and hence unchanged by any coordinate transformation) we are
+ forced to conclude that stretching changes the manifold.
 \begin_inset Note Comment
 status collapsed
 
