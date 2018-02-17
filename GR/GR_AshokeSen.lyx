@@ -1678,10 +1678,10 @@ Ricci Tensor
 
  as it contracts symmetric and anti-symmetric indices.
  Finally we define 
-\begin_inset Formula $ $
+\begin_inset Formula $g^{lj}R_{lj}=R$
 \end_inset
 
-
+ to be the Ricci Scalar or curvature scalar.
 \end_layout
 
 \begin_layout Part
