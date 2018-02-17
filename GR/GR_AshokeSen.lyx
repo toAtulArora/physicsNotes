@@ -140,10 +140,10 @@ logicalmkup
 \leftmargin 2cm
 \topmargin 2cm
 \rightmargin 2cm
-\bottommargin 2cm
+\bottommargin 1.5cm
 \headheight 2cm
 \headsep 2cm
-\footskip 0.75cm
+\footskip 1cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -1899,6 +1899,14 @@ cm (and so on).
 \begin_layout Example
 In general it is hard to compare metrics to check if they describe the same
  manifold but these tools give us some handle on them.
+\end_layout
+
+\begin_layout Section
+Covariant Derivatives
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Part
