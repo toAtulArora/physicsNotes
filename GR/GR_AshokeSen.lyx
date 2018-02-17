@@ -1690,9 +1690,8 @@ Ricci Scalar
 curvature scalar
 \emph default
 .
- 
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Note that for scalars one has 
