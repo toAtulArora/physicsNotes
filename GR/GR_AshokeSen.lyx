@@ -1918,7 +1918,7 @@ Taking the derivative of a tensor doesn't produce a tensor in general.
  is a tensor so that 
 \begin_inset Formula 
 \[
-B'_{ij}=\partial'_{i}A'_{j}=\partial'_{i}(\partial'_{j}x^{l}A_{l}
+B'_{ij}=\partial'_{i}A'_{j}=\partial'_{i}(\partial'_{j}x^{l}A_{l})=
 \]
 
 \end_inset
