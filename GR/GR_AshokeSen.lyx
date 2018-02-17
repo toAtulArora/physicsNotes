@@ -1718,12 +1718,52 @@ Note that for scalars one has
 \end_layout
 
 \begin_layout Example
-Case A: Consider a flat space metric 
-\begin_inset Formula $ds^{2}=\left(dx^{1}\right)^{2}+\left(dx^{2}\right)^{2}=dr^{2}+r^{2}d\theta$
+Consider the following cases:
+\end_layout
+
+\begin_layout Example
+Case A: Flat space metric 
+\begin_inset Formula $ds^{2}=\left(dx^{1}\right)^{2}+\left(dx^{2}\right)^{2}=dr^{2}+r^{2}d\theta^{2}$
+\end_inset
+
+ which entails 
+\begin_inset Formula $g_{ij}=\delta_{ij}$
+\end_inset
+
+ while for the polar case 
+\begin_inset Formula $g_{rr}=1$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{\theta\theta}=r^{2}$
 \end_inset
 
 .
- It follows immediately, for the cartesian coordinates, that 
+ 
+\end_layout
+
+\begin_layout Example
+Case B: Surface of a sphere described by the metric 
+\begin_inset Formula $ds^{2}=\left(d\theta^{2}+\sin^{2}\theta d\phi^{2}\right)a^{2}$
+\end_inset
+
+ which entails 
+\begin_inset Formula $g$
+\end_inset
+
+ is diagonal with 
+\begin_inset Formula $g_{\theta\theta}=a^{2}$
+\end_inset
+
+, 
+\begin_inset Formula $g_{\phi\phi}=\sin^{2}\theta a^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+It follows immediately, for the cartesian coordinates, that 
 \begin_inset Formula $R_{ijkl}=0$
 \end_inset
 
@@ -1743,10 +1783,6 @@ Case A: Consider a flat space metric
  is a tensor, it must also vanish in all coordinate systems and in particular
  in the polar coordinate system.
  
-\end_layout
-
-\begin_layout Example
-Case B: Consider 
 \end_layout
 
 \begin_layout Part
