@@ -1632,8 +1632,7 @@ Proof (same as above).
 \end_layout
 
 \begin_layout Standard
-So far we have only lowered indices.
- We now define 
+We now define 
 \begin_inset Formula $g^{ij}:=g^{-1}{}_{ij}$
 \end_inset
 
