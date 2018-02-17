@@ -1423,7 +1423,12 @@ s (for e.g.
 
 s are made of first derivatives of the metric.
  These first derivatives appear multiplicatively in the tensor transformation.
- 
+ If our objective is to show that a tensor is zero (and thereby no non-trivial
+ tensor exists) we can't use 
+\begin_inset Formula $A$
+\end_inset
+
+s themselves.
 \end_layout
 
 \begin_layout Standard
