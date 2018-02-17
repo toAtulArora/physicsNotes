@@ -1935,7 +1935,7 @@ It is obviously convenient to have a notion of derivatives that preserves
  which would transform as 
 \begin_inset Formula 
 \[
-C'_{ij}=
+C'_{ij}=\dots
 \]
 
 \end_inset
