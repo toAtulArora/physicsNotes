@@ -1722,7 +1722,7 @@ Consider the following cases:
 \end_layout
 
 \begin_layout Example
-Case A: Flat space metric 
+Case A: Flat space described by the metric 
 \begin_inset Formula $ds^{2}=\left(dx^{1}\right)^{2}+\left(dx^{2}\right)^{2}=dr^{2}+r^{2}d\theta^{2}$
 \end_inset
 
@@ -1797,7 +1797,7 @@ manifolds
 \emph default
 
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 We haven't defined the word manifold precisely yet.
