@@ -1632,7 +1632,24 @@ Proof (same as above).
 \end_layout
 
 \begin_layout Standard
-It can be shown that 
+So far we have only lowered indices.
+ We now define 
+\begin_inset Formula $g^{ij}:=g^{-1}{}_{ij}$
+\end_inset
+
+ where 
+\begin_inset Formula $g^{-1}{}_{ij}$
+\end_inset
+
+ is the 
+\begin_inset Formula $i,j$
+\end_inset
+
+ element of the inverse of the matrix 
+\begin_inset Formula $g$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
