@@ -1522,6 +1522,19 @@ While this is intimidating at first note that
 
 \end_layout
 
+\begin_layout Proof
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+(sketch)
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
 \begin_layout Claim
 \begin_inset Formula $R_{ijkl}=R_{klij}$
 \end_inset
@@ -1540,7 +1553,18 @@ While this is intimidating at first note that
 \begin_inset Formula $R_{i[jkl]}:=\frac{1}{6}\left(R_{ijkl}-R_{ijlk}+R_{iljk}-R_{ilkj}+R_{iklj}-R_{ikjl}\right)=0$
 \end_inset
 
+ 
+\end_layout
 
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Remark
+(can be proved from the definitions)
 \end_layout
 
 \begin_layout Part
