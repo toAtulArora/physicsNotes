@@ -1410,7 +1410,12 @@ What happens if we take two derivatives of the metric? Consider
 \end_inset
 
  can be a candidate for constructing a tensor.
- The astute reader might complain that we still have some freedom in the
+ 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+The astute reader might complain that we still have some freedom in the
  
 \begin_inset Formula $A$
 \end_inset
@@ -1434,6 +1439,11 @@ s.
 \end_inset
 
  can't influence the counting.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
