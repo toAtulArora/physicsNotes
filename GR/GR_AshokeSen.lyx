@@ -1859,6 +1859,39 @@ By this we mean stretching the manifold, i.e.
 
  is a scalar (and hence unchanged by any coordinate transformation) we are
  forced to conclude that stretching changes the manifold.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+If you are confused about whether 
+\begin_inset Formula $x^{i}\to\lambda x^{i}$
+\end_inset
+
+ is itself a coordinate transformation then the notation has you confused.
+ Think of a ruler.
+ Now stretching the ruler means that you take the 
+\begin_inset Formula $1$
+\end_inset
+
+cm mark and stretch it to the 
+\begin_inset Formula $2$
+\end_inset
+
+cm mark (and so on), say.
+ Contrast this to taking a ruler and changing its 
+\begin_inset Formula $1$
+\end_inset
+
+cm mark to a 
+\begin_inset Formula $2$
+\end_inset
+
+cm (and so on).
+\end_layout
+
+\end_inset
+
+
 \begin_inset Note Comment
 status collapsed
 
