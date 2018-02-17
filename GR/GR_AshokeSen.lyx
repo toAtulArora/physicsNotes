@@ -1844,6 +1844,12 @@ By this we mean stretching the manifold, i.e.
 \end_inset
 
 .
+ Now since it is a scalar 
+\begin_inset Formula $S(\vec{x})=S'(\vec{x}')$
+\end_inset
+
+ under coordinate transformations.
+ 
 \end_layout
 
 \begin_layout Part
