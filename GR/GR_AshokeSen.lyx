@@ -1557,7 +1557,11 @@ which shows that indeed
  is a tensor.
  Recall that at a coordinate system can be found such that the first derivative
  of the metric vanishes at a point.
- Using this and the definitions one can show that 
+ Using this and the definition of 
+\begin_inset Formula $R$
+\end_inset
+
+ one can show that 
 \begin_inset Formula $A_{ijkl}=0$
 \end_inset
 
