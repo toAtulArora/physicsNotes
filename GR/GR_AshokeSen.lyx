@@ -1672,6 +1672,11 @@ Ricci Tensor
 \end_inset
 
 .
+ Note also that 
+\begin_inset Formula $g^{ij}R_{ijkl}=0$
+\end_inset
+
+ as it contracts symmetric and anti-symmetric indices.
 \end_layout
 
 \begin_layout Part
