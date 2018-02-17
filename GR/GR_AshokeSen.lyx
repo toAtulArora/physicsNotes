@@ -1555,7 +1555,19 @@ which shows that indeed
 \end_inset
 
  is a tensor.
- 
+ Recall that at a coordinate system can be found such that the first derivative
+ of the metric vanishes at a point.
+ Using this and the definitions one can show that 
+\begin_inset Formula $A_{ijkl}=0$
+\end_inset
+
+ at a point.
+ Since the point was arbitrary one concludes (similar to the arguments used
+ above) that 
+\begin_inset Formula $A_{ijkl}$
+\end_inset
+
+ is a zero tensor which proves the result.
 \end_layout
 
 \begin_layout Claim
