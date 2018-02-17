@@ -1526,7 +1526,7 @@ While this is intimidating at first note that
 status open
 
 \begin_layout Plain Layout
-(sketch)
+Proof sketch.
 \end_layout
 
 \end_inset
@@ -1628,10 +1628,6 @@ status open
 \begin_inset Separator plain
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
