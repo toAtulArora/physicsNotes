@@ -1839,12 +1839,11 @@ By this we mean stretching the manifold, i.e.
  However, for case B it is not as obvious because intuitively the surface
  of a very large balloon would almost seem flat compared to that of a small
  balloon.
- We consider the Ricci scalar to answer the question.
- 
+ We consider the Ricci scalar to answer the question: 
 \begin_inset Formula $R\overset{\text{claim}}{=}\text{const}.a^{-2}$
 \end_inset
 
- which entails that 
+.
 \end_layout
 
 \begin_layout Part
