@@ -1740,7 +1740,8 @@ Consider a flat space metric
 \begin_inset Formula $R_{ijkl}$
 \end_inset
 
- is a tensor, it must also vanish in all coordinate systems.
+ is a tensor, it must also vanish in all coordinate systems, in particular
+ also in the .
  
 \end_layout
 
