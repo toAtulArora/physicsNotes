@@ -1731,7 +1731,11 @@ Consider a flat space metric
 \begin_inset Formula $g_{ij}=\text{const}$
 \end_inset
 
- and 
+ and so 
+\begin_inset Formula $\Gamma^{i}{}_{jk}=\partial_{l}\Gamma^{i}{}_{jk}=0$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
