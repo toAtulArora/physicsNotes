@@ -1663,7 +1663,15 @@ We now define
 Ricci Tensor
 \emph default
 .
- Note that from the definition of 
+ Note that from the symmetry property 
+\begin_inset Formula $R_{ijkl}=R_{klij}$
+\end_inset
+
+ it follows that 
+\begin_inset Formula $R_{jl}=R_{lj}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
