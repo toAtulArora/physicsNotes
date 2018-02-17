@@ -1722,7 +1722,7 @@ Consider the following cases:
 \end_layout
 
 \begin_layout Example
-Case A: Flat space described by the metric 
+Case A: Surface of a plane described by the metric 
 \begin_inset Formula $ds^{2}=\left(dx^{1}\right)^{2}+\left(dx^{2}\right)^{2}=dr^{2}+r^{2}d\theta^{2}$
 \end_inset
 
