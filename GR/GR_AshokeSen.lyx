@@ -1888,7 +1888,7 @@ cm mark to a
 
 cm (and so on).
  The coordinate transformation just changes the labels of the points.
- Stretching changes the locations of points in the same coordinate system.
+ Stretching changes the locations of points.
 \end_layout
 
 \end_inset
