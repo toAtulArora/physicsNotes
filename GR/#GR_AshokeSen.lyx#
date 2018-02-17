@@ -341,7 +341,7 @@ Foreword
 The content is due to Prof.
  Ashoke Sen while all errors in its presentation here are mine.
  Strictly then this contains not a word of Ashoke Sen and effectively no
- thought of mine.
+ thought of mine (reminds you of something?).
  That was the disclaimer, wait, one more thing: there's nothing useful any
  further in this section.
  So with that I am free to express my motivation for writing this.
@@ -1410,7 +1410,11 @@ What happens if we take two derivatives of the metric? Consider
 \end_inset
 
  can be a candidate for constructing a tensor.
- The astute reader might complain that we still have some freedom in the
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+The astute reader might complain that we still have some freedom in the
  
 \begin_inset Formula $A$
 \end_inset
@@ -1423,12 +1427,22 @@ s (for e.g.
 
 s are made of first derivatives of the metric.
  These first derivatives appear multiplicatively in the tensor transformation.
- If a tensor were zero (and thereby no non-trivial tensor exists) we can't
- use 
+ It is easy to see that if a tensor were zero at a point it will remain
+ so regardless of the 
 \begin_inset Formula $A$
 \end_inset
 
-s 
+s.
+ Thus changes in 
+\begin_inset Formula $A$
+\end_inset
+
+s can't influence the counting.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1452,11 +1466,11 @@ R^{i}{}_{jkl}:=\partial_{l}\Gamma^{i}{}_{jk}-\partial_{k}\Gamma^{i}{}_{jl}+\Gamm
 
 \end_inset
 
-Note that 
+While this is intimidating at first note that 
 \begin_inset Formula $\Gamma$
 \end_inset
 
- is not a tensor and transforms as 
+ is not a tensor and can be shown to transform as 
 \begin_inset Formula $\Gamma'^{l}{}_{mn}=\partial_{i}x'^{l}\partial'_{m}x^{j}\partial'_{n}x^{k}\Gamma^{i}{}_{jk}+\partial_{k}x^{\prime l}\partial'_{m}\partial'_{n}x^{k}$
 \end_inset
 
@@ -1466,7 +1480,239 @@ Note that
 \end_inset
 
  indeed transforms as a tensor (exercise).
+ We also define 
+\begin_inset Formula $R_{ijkl}:=g_{im}R^{m}{}_{jkl}$
+\end_inset
+
+ and state some symmetries of 
+\begin_inset Formula $R_{ijkl}$
+\end_inset
+
+ and hint at how they might be proved.
+\end_layout
+
+\begin_layout Claim
+\begin_inset Formula $R_{ijkl}=-R_{jikl}$
+\end_inset
+
+, 
+\begin_inset Formula $R_{ijkl}=-R_{ijlk}$
+\end_inset
+
+ that is the Reimann Tensor, 
+\begin_inset Formula $R_{ijkl}$
+\end_inset
+
+, is anti-symmetric in the indices 
+\begin_inset Formula $i,j$
+\end_inset
+
+ and also in 
+\begin_inset Formula $k,l$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Proof sketch.
+\end_layout
+
+\end_inset
+
+ Consider the symmetric tensor 
+\begin_inset Formula $A_{ijkl}=R_{ijkl}+R_{jikl}$
+\end_inset
+
+.
+ Note that 
+\begin_inset Formula $R'_{ijkl}=\partial'_{i}x^{m}\partial'_{j}x^{n}\partial'_{k}x^{p}\partial_{l}x^{q}R_{mnpq}$
+\end_inset
+
+ so that 
+\begin_inset Formula 
+\begin{align*}
+A'_{ijkl} & =\partial'_{i}x^{m}\partial'_{j}x^{n}\partial'_{k}x^{p}\partial_{l}x^{q}R_{mnpq}+\underbrace{\partial'_{j}x^{m}\partial'_{i}x^{n}\partial'_{k}x^{p}\partial_{l}x^{q}R_{mnpq}}_{=\partial'_{j}x^{n}\partial'_{i}x^{m}\partial'_{k}x^{p}\partial_{l}x^{q}R_{nmpq}}\\
+ & =\partial'_{i}x^{m}\partial'_{j}x^{n}\partial'_{k}x^{p}\partial_{l}x^{q}A_{mnpq}
+\end{align*}
+
+\end_inset
+
+which shows that indeed 
+\begin_inset Formula $A_{ijkl}$
+\end_inset
+
+ is a tensor.
+ Recall that at a coordinate system can be found such that the first derivative
+ of the metric vanishes at a point.
+ Using this and the definition of 
+\begin_inset Formula $R_{ijkl}$
+\end_inset
+
+ and 
+\begin_inset Formula $\Gamma^{i}{}_{jk}$
+\end_inset
+
+ one can show that 
+\begin_inset Formula $A_{ijkl}=0$
+\end_inset
+
+ at a point.
+ Since the point was arbitrary one concludes (similar to the arguments used
+ above) that 
+\begin_inset Formula $A_{ijkl}$
+\end_inset
+
+ is a zero tensor which proves the result.
+\end_layout
+
+\begin_layout Claim
+\begin_inset Formula $R_{ijkl}=R_{klij}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Proof (hint really).
+\end_layout
+
+\end_inset
+
+ This can be proved by looking at the definitions (apparently!).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Claim
+\begin_inset Formula $R_{i[jkl]}:=\frac{1}{6}\left(R_{ijkl}-R_{ijlk}+R_{iljk}-R_{ilkj}+R_{iklj}-R_{ikjl}\right)=0$
+\end_inset
+
  
+\end_layout
+
+\begin_layout Proof
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Proof (same as above).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We now define 
+\begin_inset Formula $g^{ij}:=g^{-1}{}_{ij}$
+\end_inset
+
+ where 
+\begin_inset Formula $g^{-1}{}_{ij}$
+\end_inset
+
+ is the 
+\begin_inset Formula $i,j$
+\end_inset
+
+ element of the inverse of the matrix 
+\begin_inset Formula $g$
+\end_inset
+
+.
+ This is can be used to extract smaller tensors and scalars out of 
+\begin_inset Formula $R_{ijkl}$
+\end_inset
+
+ which are important enough to bear their own names.
+ 
+\begin_inset Formula $g^{ik}R_{ijkl}=R_{jl}$
+\end_inset
+
+ is called the 
+\emph on
+Ricci Tensor
+\emph default
+.
+ Note that from the symmetry property 
+\begin_inset Formula $R_{ijkl}=R_{klij}$
+\end_inset
+
+ it follows that 
+\begin_inset Formula $R_{jl}=R_{lj}$
+\end_inset
+
+.
+ Note also that 
+\begin_inset Formula $g^{ij}R_{ijkl}=0$
+\end_inset
+
+ as it contracts symmetric and anti-symmetric indices.
+ Finally we define 
+\begin_inset Formula $g^{lj}R_{lj}=R$
+\end_inset
+
+ to be the 
+\emph on
+Ricci Scalar
+\emph default
+ or 
+\emph on
+curvature scalar
+\emph default
+.
+ Note that for scalars one has 
+\begin_inset Formula $R'(x')=R(x)$
+\end_inset
+
+.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Note also that 
+\begin_inset Formula $A_{i}=\partial_{i}R$
+\end_inset
+
+ is a tensor; Use 
+\begin_inset Formula $A'_{i}=\partial'_{i}R'=\partial'_{i}x^{j}\partial_{j}R=\partial_{i}R=A_{i}$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
