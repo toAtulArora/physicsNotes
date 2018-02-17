@@ -1906,7 +1906,7 @@ Covariant Derivatives
 \end_layout
 
 \begin_layout Standard
-Taking the derivative of a tensor doesn't produce a tensor.
+Taking the derivative of a tensor doesn't produce a tensor in general.
  Consider 
 \end_layout
 
