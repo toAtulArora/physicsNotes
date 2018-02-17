@@ -1584,6 +1584,19 @@ which shows that indeed
 
 \end_layout
 
+\begin_layout Proof
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+(hint really)
+\end_layout
+
+\end_inset
+
+ This can be proved by looking at the definitions (apparently!).
+\end_layout
+
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
