@@ -1928,7 +1928,19 @@ B'_{ij}=\partial'_{i}A'_{j} & =\partial'_{i}(\partial'_{j}x^{l}A_{l})\\
 It is obviously convenient to have a notion of derivatives that preserves
  the tensor structure and reduces to the usual notion when the space is
  flat.
- 
+ Consider the variant 
+\begin_inset Formula $C_{ij}:=D_{i}A_{j}:=\partial_{i}A_{j}-\Gamma_{ij}^{k}A_{k}$
+\end_inset
+
+ which would transform as 
+\begin_inset Formula 
+\[
+C'_{ij}=
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
