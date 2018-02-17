@@ -1718,7 +1718,20 @@ Note that for scalars one has
 \end_layout
 
 \begin_layout Example
-Consider two manifolds described by 
+Consider a flat space metric 
+\begin_inset Formula $ds^{2}=\left(dx^{1}\right)^{2}+\left(dx^{2}\right)^{2}$
+\end_inset
+
+.
+ It follows immediately that 
+\begin_inset Formula $R_{ijkl}=0$
+\end_inset
+
+ because 
+\begin_inset Formula $g_{ij}=\text{const}$
+\end_inset
+
+ and 
 \end_layout
 
 \begin_layout Part
