@@ -1919,6 +1919,8 @@ Taking the derivative of a tensor doesn't produce a tensor in general.
 \begin_inset Formula 
 \begin{align*}
 B'_{ij}=\partial'_{i}A'_{j} & =\partial'_{i}(\partial'_{j}x^{l}A_{l})\\
+ & =\partial'_{i}\partial'_{j}x^{l}A_{l}+\underbrace{\partial'_{j}x^{l}\partial'_{i}A_{l}}_{=\partial'_{j}x^{l}\partial'_{i}x^{k}\partial_{k}A_{l}}\\
+ & =\partial'_{i}\partial'_{j}x^{l}A_{l}+
 \end{align*}
 
 \end_inset
