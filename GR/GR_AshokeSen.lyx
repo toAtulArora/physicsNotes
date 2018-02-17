@@ -1480,6 +1480,11 @@ While this is intimidating at first note that
 \end_inset
 
  indeed transforms as a tensor (exercise).
+ One defines 
+\begin_inset Formula $R_{ijkl}=g_{im}R^{m}{}_{jkl}$
+\end_inset
+
+.
  We now state some symmetries of 
 \begin_inset Formula $R$
 \end_inset
