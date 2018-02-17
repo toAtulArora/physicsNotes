@@ -1696,7 +1696,7 @@ curvature scalar
 
 .
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Note also that 
@@ -1713,7 +1713,7 @@ Note also that
 
 \end_inset
 
-
+ 
 \end_layout
 
 \begin_layout Part
