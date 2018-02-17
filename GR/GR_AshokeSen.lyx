@@ -1466,11 +1466,11 @@ R^{i}{}_{jkl}:=\partial_{l}\Gamma^{i}{}_{jk}-\partial_{k}\Gamma^{i}{}_{jl}+\Gamm
 
 \end_inset
 
-Note that 
+While this is intimidating at first note that 
 \begin_inset Formula $\Gamma$
 \end_inset
 
- is not a tensor and transforms as 
+ is not a tensor and can be shown to transform as 
 \begin_inset Formula $\Gamma'^{l}{}_{mn}=\partial_{i}x'^{l}\partial'_{m}x^{j}\partial'_{n}x^{k}\Gamma^{i}{}_{jk}+\partial_{k}x^{\prime l}\partial'_{m}\partial'_{n}x^{k}$
 \end_inset
 
