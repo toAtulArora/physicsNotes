@@ -1695,7 +1695,25 @@ curvature scalar
 \end_inset
 
 .
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Note also that 
+\begin_inset Formula $A_{i}=\partial_{i}R$
+\end_inset
+
+ is a tensor as 
+\begin_inset Formula $A'_{i}=\partial'_{i}R'=\partial'_{i}x^{j}\partial_{j}R=\partial'_{i}x^{j}A_{j}$
+\end_inset
+
+.
  
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
