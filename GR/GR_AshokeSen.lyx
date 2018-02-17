@@ -1836,7 +1836,11 @@ By this we mean stretching the manifold, i.e.
 \end_inset
 
  stays zero for both situations.
- However, for case B it is not as obvious and we use the 
+ However, for case B it is not as obvious because intuitively the surface
+ of a very large balloon would almost seem flat compared to that of a small
+ balloon.
+ We consider the Ricci scalar to answer the question.
+ 
 \end_layout
 
 \begin_layout Part
