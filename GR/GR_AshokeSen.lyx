@@ -1423,13 +1423,17 @@ s (for e.g.
 
 s are made of first derivatives of the metric.
  These first derivatives appear multiplicatively in the tensor transformation.
- If a tensor were zero at a point it will remain so regardless of the linear
- 
+ It is easy to see that if a tensor were zero at a point it will remain
+ so regardless of the 
 \begin_inset Formula $A$
 \end_inset
 
 s.
- 
+ Thus changes in 
+\begin_inset Formula $A$
+\end_inset
+
+ can't influence the counting.
 \end_layout
 
 \begin_layout Standard
