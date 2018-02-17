@@ -1681,7 +1681,16 @@ Ricci Tensor
 \begin_inset Formula $g^{lj}R_{lj}=R$
 \end_inset
 
- to be the Ricci Scalar or curvature scalar.
+ to be the 
+\emph on
+Ricci Scalar
+\emph default
+ or 
+\emph on
+curvature scalar
+\emph default
+.
+ 
 \end_layout
 
 \begin_layout Part
