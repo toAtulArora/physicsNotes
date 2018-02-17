@@ -1860,7 +1860,7 @@ By this we mean stretching the manifold, i.e.
  is a scalar (and hence unchanged by any coordinate transformation) we are
  forced to conclude that stretching changes the manifold.
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 If you are confused about whether 
@@ -1899,21 +1899,6 @@ cm (and so on).
 \begin_layout Example
 In general it is hard to compare metrics to check if they describe the same
  manifold but these tools give us some handle on them.
-\begin_inset Note Comment
-status collapsed
-
-\begin_layout Plain Layout
-Now since it is a scalar 
-\begin_inset Formula $S(\vec{x})=S'(\vec{x}')$
-\end_inset
-
- under coordinate transformations.
- 
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Part
