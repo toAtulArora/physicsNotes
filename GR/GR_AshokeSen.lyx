@@ -1558,11 +1558,11 @@ which shows that indeed
  Recall that at a coordinate system can be found such that the first derivative
  of the metric vanishes at a point.
  Using this and the definition of 
-\begin_inset Formula $R$
+\begin_inset Formula $R_{ijkl}$
 \end_inset
 
  and 
-\begin_inset Formula $\Gamma$
+\begin_inset Formula $\Gamma^{i}{}_{jk}$
 \end_inset
 
  one can show that 
