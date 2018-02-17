@@ -1422,7 +1422,8 @@ s (for e.g.
 \end_inset
 
 s are made of first derivatives of the metric.
- This enforces 
+ These first derivatives appear multiplicatively in the tensor transformation.
+ 
 \end_layout
 
 \begin_layout Standard
