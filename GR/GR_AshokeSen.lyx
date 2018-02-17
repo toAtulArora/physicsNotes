@@ -1925,7 +1925,10 @@ B'_{ij}=\partial'_{i}A'_{j} & =\partial'_{i}(\partial'_{j}x^{l}A_{l})\\
 
 \end_inset
 
-
+It is obviously convenient to have a notion of derivatives that preserves
+ the tensor structure and reduces to the usual notion when the space is
+ flat.
+ 
 \end_layout
 
 \begin_layout Part
