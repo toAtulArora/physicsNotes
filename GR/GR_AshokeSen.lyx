@@ -1480,11 +1480,19 @@ While this is intimidating at first note that
 \end_inset
 
  indeed transforms as a tensor (exercise).
- We also define 
+ 
+\end_layout
+
+\begin_layout Section
+Understanding the Reimann Tensor
+\end_layout
+
+\begin_layout Standard
+We define 
 \begin_inset Formula $R_{ijkl}:=g_{im}R^{m}{}_{jkl}$
 \end_inset
 
- and state some symmetries of 
+ and use this to state some symmetries of 
 \begin_inset Formula $R_{ijkl}$
 \end_inset
 
