@@ -1719,11 +1719,11 @@ Note that for scalars one has
 
 \begin_layout Example
 Consider a flat space metric 
-\begin_inset Formula $ds^{2}=\left(dx^{1}\right)^{2}+\left(dx^{2}\right)^{2}$
+\begin_inset Formula $ds^{2}=\left(dx^{1}\right)^{2}+\left(dx^{2}\right)^{2}=dr^{2}+r^{2}d\theta$
 \end_inset
 
 .
- It follows immediately that 
+ It follows immediately, for the cartesian coordinates, that 
 \begin_inset Formula $R_{ijkl}=0$
 \end_inset
 
@@ -1736,6 +1736,12 @@ Consider a flat space metric
 \end_inset
 
 .
+ Since 
+\begin_inset Formula $R_{ijkl}$
+\end_inset
+
+ is a tensor, it must also vanish in all coordinate systems.
+ 
 \end_layout
 
 \begin_layout Part
