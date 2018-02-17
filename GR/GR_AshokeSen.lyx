@@ -1421,7 +1421,8 @@ s (for e.g.
 \begin_inset Formula $A$
 \end_inset
 
-s are made of first derivatives of the metric .
+s are made of first derivatives of the metric.
+ This enforces 
 \end_layout
 
 \begin_layout Standard
