@@ -1611,6 +1611,19 @@ status open
  
 \end_layout
 
+\begin_layout Proof
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+(same as above)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -1618,8 +1631,8 @@ status open
 
 \end_layout
 
-\begin_layout Remark
-(can be proved from the definitions)
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Part
