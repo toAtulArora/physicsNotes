@@ -1823,7 +1823,12 @@ Question: Does scaling leave the manifolds invariant?
 \begin_inset Newline newline
 \end_inset
 
+By this we mean stretching the manifold, i.e.
+ 
+\begin_inset Formula $x^{i}\to\lambda x^{i}$
+\end_inset
 
+.
 \end_layout
 
 \begin_layout Part
