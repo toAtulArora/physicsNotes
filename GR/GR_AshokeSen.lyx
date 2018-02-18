@@ -1998,16 +1998,7 @@ At this point it is helpful to extend our convention to include the following.
 \end_inset
 
 .
- E.g.
  
-\begin_inset Formula $A_{j_{1}i_{2}j_{3}\dots j_{q}}$
-\end_inset
-
- one defines 
-\begin_inset Formula $A_{j_{1}}{}^{i_{2}}{}_{j_{3}\dots j_{q}}:=A_{j_{1}i_{1}j_{3}\dots j_{q}}g^{i_{2}j_{2}}$
-\end_inset
-
-.
 \begin_inset Newline newline
 \end_inset
 
@@ -2021,6 +2012,19 @@ At this point it is helpful to extend our convention to include the following.
 
  we multiply with 
 \begin_inset Formula $g_{ij}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+E.g.
+ 
+\begin_inset Formula $A_{j_{1}i_{2}j_{3}\dots j_{q}}$
+\end_inset
+
+ one defines 
+\begin_inset Formula $A_{j_{1}}{}^{i_{2}}{}_{j_{3}\dots j_{q}}:=A_{j_{1}i_{1}j_{3}\dots j_{q}}g^{i_{2}j_{2}}$
 \end_inset
 
 .
