@@ -1657,6 +1657,11 @@ We now define
 \end_inset
 
 .
+ It follows that 
+\begin_inset Formula $g^{ij}$
+\end_inset
+
+ is a tensor (exercise).
  This is can be used to extract smaller tensors and scalars out of 
 \begin_inset Formula $R_{ijkl}$
 \end_inset
