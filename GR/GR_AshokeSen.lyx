@@ -2148,6 +2148,10 @@ Contracting before or after taking a covariant derivative are equivalent.
 \end_layout
 
 \begin_layout Proof
+Consider the tensor 
+\begin_inset Formula $A^{i_{1}\dots i_{p}}{}_{j_{1}\dots j_{q}}=$
+\end_inset
+
 
 \end_layout
 
