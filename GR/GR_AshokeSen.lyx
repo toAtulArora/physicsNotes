@@ -1994,6 +1994,24 @@ It would be useful to see how the covariant derivative acts on the metric
  and the delta function.
 \end_layout
 
+\begin_layout Standard
+D
+\end_layout
+
+\begin_layout Claim
+\begin_inset Formula $D_{i}(\delta^{i}{}_{j})=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Claim
 \begin_inset Formula $D_{i}g_{jk}=0$
 \end_inset
