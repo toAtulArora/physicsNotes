@@ -1982,7 +1982,7 @@ so that we are guaranteed that if
 \end_inset
 
 .
- It is also easy to see that the usual product rule holds
+ It is also easy to see that the usual product rule holds as
 \begin_inset Formula 
 \[
 D_{k}\left(A^{\dots}{}_{\dots}B^{\dots}{}_{\dots}\right)=D_{k}\left(A^{\dots}{}_{\dots}\right)B^{\dots}{}_{\dots}+A^{\dots}{}_{\dots}D_{k}\left(B^{\dots}{}_{\dots}\right).
