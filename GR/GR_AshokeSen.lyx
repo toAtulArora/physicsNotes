@@ -1957,6 +1957,9 @@ which is indeed how a tensor should transform.
 \end_inset
 
  also transforms as a tensor (notice the difference in the sign).
+ With these two building blocks it is not hard to generalise to an arbitrary
+ tensor.
+ 
 \end_layout
 
 \begin_layout Part
