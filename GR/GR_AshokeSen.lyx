@@ -2093,54 +2093,8 @@ we will use the result
 \end_layout
 
 \begin_layout Standard
-To see the usefulness of these results it is helpful to extend our convention
- to include the following.
-\begin_inset Newline newline
-\end_inset
-
-(5) Raising an index: To raise a lower index 
-\begin_inset Formula $i$
-\end_inset
-
- to an upper index 
-\begin_inset Formula $j$
-\end_inset
-
- we multiply with 
-\begin_inset Formula $g^{ij}$
-\end_inset
-
-.
+To see the usefulness of these results consider the following.
  
-\begin_inset Newline newline
-\end_inset
-
-(6) Lower an index: To lower an upper index 
-\begin_inset Formula $i$
-\end_inset
-
- to a lower index 
-\begin_inset Formula $j$
-\end_inset
-
- we multiply with 
-\begin_inset Formula $g_{ij}$
-\end_inset
-
-.
-\begin_inset Newline newline
-\end_inset
-
-E.g.
- 
-\begin_inset Formula $A_{j_{1}j_{2}j_{3}\dots j_{q}}$
-\end_inset
-
- one defines 
-\begin_inset Formula $A_{j_{1}}{}^{j_{2}}{}_{j_{3}\dots j_{q}}:=A_{j_{1}i_{2}j_{3}\dots j_{q}}g^{i_{2}j_{2}}$
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Claim
@@ -2193,16 +2147,80 @@ Proof sketch.
 
 \begin_layout Proof
 Similarly one can extend this to contractions with the metric.
+ It is helpful to extend our convention to include the following.
+\begin_inset Newline newline
+\end_inset
+
+(5) Raising an index: To raise a lower index 
+\begin_inset Formula $i$
+\end_inset
+
+ to an upper index 
+\begin_inset Formula $j$
+\end_inset
+
+ we multiply with 
+\begin_inset Formula $g^{ij}$
+\end_inset
+
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+(6) Lower an index: To lower an upper index 
+\begin_inset Formula $i$
+\end_inset
+
+ to a lower index 
+\begin_inset Formula $j$
+\end_inset
+
+ we multiply with 
+\begin_inset Formula $g_{ij}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+E.g.
+ 
+\begin_inset Formula $A_{j_{1}j_{2}j_{3}\dots j_{q}}$
+\end_inset
+
+ one defines 
+\begin_inset Formula $A_{j_{1}}{}^{j_{2}}{}_{j_{3}\dots j_{q}}:=A_{j_{1}i_{2}j_{3}\dots j_{q}}g^{i_{2}j_{2}}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Claim
 Raising/lowering before or after taking a covariant derivative are equivalent,
  viz.
  
-\begin_inset Formula $D_{k}(A^{i_{1}\dots i_{p}j_{1}}{}_{j_{2}\dots j_{q}})=D_{k}(A^{i_{1}\dots i_{p}}{}_{k_{1}j_{2}\dots j_{q}})\delta^{j_{1}}{}_{k_{1}}$
+\begin_inset Formula $D_{k}(A^{i_{1}\dots i_{p}j_{1}}{}_{j_{2}\dots j_{q}})=D_{k}(A^{i_{1}\dots i_{p}}{}_{k_{1}j_{2}\dots j_{q}})g^{j_{1}k_{1}}$
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Proof
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Proof hint.
+\end_layout
+
+\end_inset
+
+ Same argument as above using 
+\begin_inset Formula $D_{k}(g^{j_{1}k_{1}})=0$
+\end_inset
+
+ instead.
 \end_layout
 
 \begin_layout Part
