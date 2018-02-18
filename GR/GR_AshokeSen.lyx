@@ -2017,9 +2017,13 @@ It is nice to see that while
 \end_layout
 
 \begin_layout Claim
-\begin_inset Formula $D_{i}(\delta^{i}{}_{j})=$
+\begin_inset Formula $D_{i}(\delta^{i}{}_{j})=0$
 \end_inset
 
+
+\end_layout
+
+\begin_layout Claim
 
 \end_layout
 
