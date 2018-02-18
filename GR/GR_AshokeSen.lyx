@@ -2196,7 +2196,13 @@ Similarly one can extend this to contractions with the metric.
 \end_layout
 
 \begin_layout Claim
-Raising/lowering before or after taking a covariant derivative are equivalent.
+Raising/lowering before or after taking a covariant derivative are equivalent,
+ viz.
+ 
+\begin_inset Formula $D_{k}(A^{i_{1}\dots i_{p}j_{1}}{}_{j_{2}\dots j_{q}})=D_{k}(A^{i_{1}\dots i_{p}}{}_{k_{1}j_{2}\dots j_{q}})\delta^{j_{1}}{}_{k_{1}}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
