@@ -2033,7 +2033,11 @@ E.g.
 \end_inset
 
 .
- It is nice to see that while 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+It is nice to see that while 
 \begin_inset Formula $\delta^{i}{}_{j}$
 \end_inset
 
@@ -2041,7 +2045,15 @@ E.g.
 \begin_inset Formula $\delta_{ij}$
 \end_inset
 
- is not.
+ is not while 
+\begin_inset Formula $g_{ij}$
+\end_inset
+
+ is.
+\end_layout
+
+\end_inset
+
  
 \end_layout
 
