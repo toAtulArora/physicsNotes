@@ -2250,7 +2250,8 @@ The fact that the Reimann Tensor is indeed a tensor.
 \end_layout
 
 \begin_layout Itemize
-
+One has to use the covariant derivative to preserve the tensor structure
+ and how it has properties similar to that of the usual derivative.
 \end_layout
 
 \begin_layout Standard
