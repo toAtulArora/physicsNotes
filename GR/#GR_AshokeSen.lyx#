@@ -1946,9 +1946,65 @@ It is obviously convenient to have a notion of derivatives that preserves
 C'_{ij} & =\partial'_{i}A'_{j}-\Gamma'^{k}{}_{ij}A'_{k}\\
  & =\underbrace{\partial'_{i}\partial'_{j}x^{l}A_{l}}_{\text{cancels with the last term}}+\partial'_{i}x^{k}\partial'_{j}x^{l}\partial_{k}A_{l}-\left(\partial_{m}x'^{k}\right)\partial'_{i}x^{n}\partial'_{j}x^{p}\Gamma^{m}{}_{np}\left(\partial'_{k}x^{l}\right)A_{l}-\left(\partial_{m}x'^{k}\right)\partial'_{i}\partial'_{j}x^{m}\left(\partial'_{k}x^{l}\right)A_{l}.\\
  & =\partial'_{i}x^{k}\partial'_{j}x^{l}\partial_{k}A_{l}-\partial'_{i}x^{n}\partial'_{j}x^{p}\Gamma^{l}{}_{np}A_{l}\\
- & =\partial'_{i}x^{m}\partial'_{j}x^{p}(
+ & =\partial'_{i}x^{m}\partial'_{j}x^{p}(\partial_{m}A_{p}-\Gamma^{k}{}_{mp}A_{k})=\partial'_{i}x^{m}\partial'_{j}x^{p}C_{mp}
 \end{align*}
 
+\end_inset
+
+which is indeed how a tensor should transform.
+ We leave it as an exercise to check that 
+\begin_inset Formula $D_{i}A^{j}:=\partial_{i}A^{j}+\Gamma^{j}{}_{ik}A^{k}$
+\end_inset
+
+ also transforms as a tensor (notice the difference in the sign).
+ With these two building blocks it is not hard to generalise to an arbitrary
+ tensor as 
+\begin_inset Formula 
+\begin{align*}
+D_{k}A^{i_{1}i_{2}\dots i_{p}}{}_{j_{1}j_{2}\dots j_{q}}= & \partial_{k}A^{i_{1}i_{2}\dots p_{p}}{}_{j_{1}j_{2}\dots j_{q}}\\
+ & +\left(\Gamma^{i_{1}}{}_{kl}A^{li_{2}\dots i_{p}}{}_{j_{1}j_{2}\dots j_{q}}+\Gamma^{i_{2}}{}_{kl}A^{i_{1}li_{3}\dots i_{p}}{}_{j_{1}j_{2}\dots j_{q}}+\dots\right)\\
+ & -\left(\Gamma^{l}{}_{kj_{1}}A^{i_{1}i_{2}\dots i_{p}}{}_{lj_{2}\dots j_{q}}+\Gamma^{l}{}_{kj_{2}}A^{i_{1}i_{2}\dots i_{p}}{}_{j_{1}lj_{3}\dots j_{q}}+\dots\right)
+\end{align*}
+
+\end_inset
+
+so that we are guaranteed that if 
+\begin_inset Formula $A^{i_{1}i_{2}\dots i_{p}}{}_{j_{1}j_{2}\dots j_{q}}$
+\end_inset
+
+ is a tensor then so is 
+\begin_inset Formula $D_{k}A^{i_{1}i_{2}\dots i_{p}}{}_{j_{1}j_{2}\dots j_{q}}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+At this point it is helpful to extend our convention to include the following.
+\begin_inset Newline newline
+\end_inset
+
+(5) Raising an index: To raise a lower index 
+\begin_inset Formula $i$
+\end_inset
+
+ to an upper index 
+\begin_inset Formula $j$
+\end_inset
+
+ we multiply with 
+\begin_inset Formula $g^{ij}$
+\end_inset
+
+.
+ E.g.
+ 
+\begin_inset Formula $A_{j_{1}i_{2}j_{3}\dots j_{q}}$
+\end_inset
+
+ one defines 
+\begin_inset Formula $A_{j_{1}}{}^{i_{2}}{}_{j_{3}\dots j_{q}}A_{j_{1}i_{1}j_{3}\dots j_{q}}g^{i_{1}i_{2}}$
 \end_inset
 
 
