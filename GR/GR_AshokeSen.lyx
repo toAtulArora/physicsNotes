@@ -1944,13 +1944,14 @@ It is obviously convenient to have a notion of derivatives that preserves
 \begin_inset Formula 
 \begin{align*}
 C'_{ij} & =\partial'_{i}A'_{j}-\Gamma'^{k}{}_{ij}A'_{k}\\
- & =\underbrace{\partial'_{i}\partial'_{j}x^{l}A_{l}}_{\text{cancels with the last term}}+\partial'_{i}x^{k}\partial'_{j}x^{l}B_{kl}-\left(\partial_{m}x'^{k}\right)\partial'_{i}x^{n}\partial'_{j}x^{p}\Gamma^{m}{}_{np}\left(\partial'_{k}x^{l}\right)A_{l}-\left(\partial_{m}x'^{k}\right)\partial'_{i}\partial'_{j}x^{m}\left(\partial'_{k}x^{l}\right)A_{l}.\\
- & =
+ & =\underbrace{\partial'_{i}\partial'_{j}x^{l}A_{l}}_{\text{cancels with the last term}}+\partial'_{i}x^{k}\partial'_{j}x^{l}\partial_{k}A_{l}-\left(\partial_{m}x'^{k}\right)\partial'_{i}x^{n}\partial'_{j}x^{p}\Gamma^{m}{}_{np}\left(\partial'_{k}x^{l}\right)A_{l}-\left(\partial_{m}x'^{k}\right)\partial'_{i}\partial'_{j}x^{m}\left(\partial'_{k}x^{l}\right)A_{l}.\\
+ & =\partial'_{i}x^{k}\partial'_{j}x^{l}\partial_{k}A_{l}-\partial'_{i}x^{n}\partial'_{j}x^{p}\Gamma^{l}{}_{np}A_{l}\\
+ & =\partial'_{i}x^{m}\partial'_{j}x^{p}(\partial_{m}A_{p}-\Gamma^{k}{}_{mp}A_{k})=\partial'_{i}x^{m}\partial'_{j}x^{p}C_{mp}
 \end{align*}
 
 \end_inset
 
-
+which is indeed how a tensor should transform.
 \end_layout
 
 \begin_layout Part
