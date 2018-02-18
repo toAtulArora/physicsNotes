@@ -1961,7 +1961,7 @@ which is indeed how a tensor should transform.
  tensor as 
 \begin_inset Formula 
 \[
-D_{k}A^{i_{1}i_{2}\dots i_{p}}{}_{j_{1}j_{2}\dots j_{q}}=\partial_{k}A^{i_{1}i_{2}\dots p_{p}}{}_{j_{1}j_{2}\dots j_{q}}+\left(\Gamma^{i_{1}}{}_{kl}A^{li_{2}\dots i_{p}}{}_{j_{1}j_{2}\dots j_{q}}\right)
+D_{k}A^{i_{1}i_{2}\dots i_{p}}{}_{j_{1}j_{2}\dots j_{q}}=\partial_{k}A^{i_{1}i_{2}\dots p_{p}}{}_{j_{1}j_{2}\dots j_{q}}+\left(\Gamma^{i_{1}}{}_{kl}A^{li_{2}\dots i_{p}}{}_{j_{1}j_{2}\dots j_{q}}+\right)
 \]
 
 \end_inset
