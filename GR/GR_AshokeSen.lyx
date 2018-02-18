@@ -1992,10 +1992,28 @@ D_{k}\left(A^{\dots}{}_{\dots}B^{\dots}{}_{\dots}\right)=D_{k}\left(A^{\dots}{}_
 
 It would be useful to see how the covariant derivative acts on the metric
  and the delta function.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+It is nice to see that while 
+\begin_inset Formula $\delta^{i}{}_{j}$
+\end_inset
+
+ is a tensor, 
+\begin_inset Formula $\delta_{ij}$
+\end_inset
+
+ is not while 
+\begin_inset Formula $g_{ij}$
+\end_inset
+
+ is.
 \end_layout
 
-\begin_layout Standard
-D
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Claim
@@ -2108,28 +2126,6 @@ E.g.
 \end_inset
 
 .
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-It is nice to see that while 
-\begin_inset Formula $\delta^{i}{}_{j}$
-\end_inset
-
- is a tensor, 
-\begin_inset Formula $\delta_{ij}$
-\end_inset
-
- is not while 
-\begin_inset Formula $g_{ij}$
-\end_inset
-
- is.
-\end_layout
-
-\end_inset
-
- 
 \end_layout
 
 \begin_layout Part
