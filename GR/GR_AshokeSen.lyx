@@ -1993,7 +1993,7 @@ D_{k}\left(A^{\dots}{}_{\dots}B^{\dots}{}_{\dots}\right)=D_{k}\left(A^{\dots}{}_
 It would be useful to see how the covariant derivative acts on the metric
  and the delta function.
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 It is nice to see that while 
@@ -2221,6 +2221,10 @@ Proof hint.
 \end_inset
 
  instead.
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Part
