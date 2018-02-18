@@ -2069,7 +2069,7 @@ We already proved that first derivatives of the metric can't form a non-trivial
 \end_layout
 
 \begin_layout Proof
-To prove the second statement note that 
+To prove the second statement we use 
 \begin_inset Formula $0=D_{i}(\delta^{j}{}_{l})=D_{i}(g^{jk}g_{kl})=$
 \end_inset
 
