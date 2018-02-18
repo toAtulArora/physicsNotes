@@ -1980,6 +1980,14 @@ so that we are guaranteed that if
  
 \end_layout
 
+\begin_layout Standard
+At this point it is helpful to extend our convention to include the following.
+\begin_inset Newline newline
+\end_inset
+
+(5) Raising an index: 
+\end_layout
+
 \begin_layout Part
 General Relativity
 \end_layout
