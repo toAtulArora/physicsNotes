@@ -1956,7 +1956,7 @@ which is indeed how a tensor should transform.
 \begin_inset Formula $D_{i}A^{j}:=\partial_{i}A^{j}+\Gamma^{j}{}_{ik}A^{k}$
 \end_inset
 
- also transforms as a tensor.
+ also transforms as a tensor (notice the difference in the sign).
 \end_layout
 
 \begin_layout Part
