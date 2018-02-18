@@ -2024,10 +2024,10 @@ It is nice to see that while
 \end_layout
 
 \begin_layout Proof
-\begin_inset Formula $D_{i}(\delta^{j}{}_{j})=\partial_{i}\delta^{j}{}_{k}-\Gamma^{l}{}_{ik}\delta^{j}{}_{l}+\Gamma^{j}{}$
+\begin_inset Formula $D_{i}(\delta^{j}{}_{j})=\cancel{\partial_{i}\delta^{j}{}_{k}}-\Gamma^{l}{}_{ik}\delta^{j}{}_{l}+\Gamma^{j}{}_{il}\delta^{l}{}_{k}=-\Gamma^{j}{}_{ik}+\Gamma^{j}{}_{ik}=0$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
