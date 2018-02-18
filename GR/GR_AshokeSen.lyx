@@ -2070,10 +2070,11 @@ We already proved that first derivatives of the metric can't form a non-trivial
 
 \begin_layout Proof
 To prove the second statement we use 
-\begin_inset Formula $0=D_{i}(\delta^{j}{}_{l})=D_{i}(g^{jk}g_{kl})=$
+\begin_inset Formula $0=D_{i}(\delta^{j}{}_{l})=D_{i}(g^{jk}g_{kl})=D_{i}(g^{jk})g_{kl}+g^{jk}D_{i}(g_{kl})$
 \end_inset
 
-we will use the result 
+.
+ we will use the result 
 \begin_inset Formula $\partial_{i}(g^{-1})=-g^{-1}\left(\partial g\right)g^{-1}$
 \end_inset
 
