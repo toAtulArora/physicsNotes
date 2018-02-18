@@ -1993,7 +1993,7 @@ D_{k}\left(A^{\dots}{}_{\dots}B^{\dots}{}_{\dots}\right)=D_{k}\left(A^{\dots}{}_
 It would be useful to see how the covariant derivative acts on the metric
  and the delta function.
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 It is nice to see that while 
@@ -2004,11 +2004,11 @@ It is nice to see that while
 \begin_inset Formula $\delta_{ij}$
 \end_inset
 
- is not while 
+ is not and 
 \begin_inset Formula $g_{ij}$
 \end_inset
 
- is.
+ is!
 \end_layout
 
 \end_inset
@@ -2221,10 +2221,6 @@ Proof hint.
 \end_inset
 
  instead.
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Part
