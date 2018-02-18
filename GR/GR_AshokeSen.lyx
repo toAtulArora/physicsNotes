@@ -2237,6 +2237,18 @@ Given a point, one can always find a frame in which the first derivative
  of the metric is zero (at that point).
 \end_layout
 
+\begin_layout Itemize
+Transformation of the Christoffel Symbol 
+\begin_inset Formula $\Gamma'^{i}{}_{jk}=$
+\end_inset
+
+ (TODO).
+\end_layout
+
+\begin_layout Itemize
+
+\end_layout
+
 \begin_layout Standard
 With this we conclude the chapter.
  In the next chapter we will consider 
