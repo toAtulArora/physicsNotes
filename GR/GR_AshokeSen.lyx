@@ -1944,7 +1944,8 @@ It is obviously convenient to have a notion of derivatives that preserves
 \begin_inset Formula 
 \begin{align*}
 C'_{ij} & =\partial'_{i}A'_{j}-\Gamma'^{k}{}_{ij}A'_{k}\\
- & =\partial'_{i}\partial'_{j}x^{l}A_{l}+\partial'_{i}x^{k}\partial'_{j}x^{l}B_{kl}-\partial_{m}x'^{k}\partial'_{i}x^{n}\partial'_{j}x^{p}\Gamma^{m}{}_{np}\partial'_{k}x^{l}A_{l}-\partial_{m}x'^{k}\partial'_{i}\partial'_{j}x^{m}\partial'_{k}x^{l}A_{l}.
+ & =\underbrace{\partial'_{i}\partial'_{j}x^{l}A_{l}}_{\text{cancels with the last term}}+\partial'_{i}x^{k}\partial'_{j}x^{l}B_{kl}-\left(\partial_{m}x'^{k}\right)\partial'_{i}x^{n}\partial'_{j}x^{p}\Gamma^{m}{}_{np}\left(\partial'_{k}x^{l}\right)A_{l}-\left(\partial_{m}x'^{k}\right)\partial'_{i}\partial'_{j}x^{m}\left(\partial'_{k}x^{l}\right)A_{l}.\\
+ & =
 \end{align*}
 
 \end_inset
