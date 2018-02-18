@@ -2071,9 +2071,8 @@ We already proved that first derivatives of the metric can't form a non-trivial
 \end_inset
 
 .
- 
-\begin_inset Note Comment
-status collapsed
+\begin_inset Note Note
+status open
 
 \begin_layout Plain Layout
 we will use the result 
