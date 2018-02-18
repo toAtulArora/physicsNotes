@@ -2165,7 +2165,7 @@ Proof sketch.
 \begin_inset Formula $D_{k}\left(A^{i_{1}\dots i_{p}}{}_{j_{1}\dots j_{q}}\delta^{m}{}_{n}\right)=D_{k}\left(A^{i_{1}\dots i_{p}}{}_{j_{1}\dots j_{q}}\delta^{m}{}_{n}\right)\delta^{m}{}_{n}$
 \end_inset
 
- because 
+ using the chain rule and 
 \begin_inset Formula $D_{k}(\delta^{m}{}_{n})=0$
 \end_inset
 
