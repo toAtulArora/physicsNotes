@@ -1995,6 +1995,13 @@ It would be useful to see how the covariant derivative acts on the metric
 \end_layout
 
 \begin_layout Claim
+\begin_inset Formula $D_{i}g_{jk}=0$
+\end_inset
+
+ and similarly 
+\begin_inset Formula $D_{i}g^{jk}=0$
+\end_inset
+
 
 \end_layout
 
