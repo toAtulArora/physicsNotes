@@ -2283,7 +2283,11 @@ The Geodesic Equation
 \end_layout
 
 \begin_layout Standard
-Let us start with 
+We will start with requiring 
+\begin_inset Formula $\delta L=0$
+\end_inset
+
+ to first order.
 \end_layout
 
 \begin_layout Part
