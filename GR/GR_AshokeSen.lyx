@@ -2017,7 +2017,16 @@ We already proved that first derivatives of the metric can't form a non-trivial
 \begin_inset Formula $D_{i}g_{jk}$
 \end_inset
 
- can only be the trivial tensor, that is 0.
+ can only be the trivial tensor, i.e.
+ 
+\begin_inset Formula $D_{i}g_{jk}=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+To prove the second statement, note that 
 \end_layout
 
 \begin_layout Standard
