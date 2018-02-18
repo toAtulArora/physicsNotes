@@ -1661,7 +1661,7 @@ We now define
 \begin_inset Formula $g^{ij}$
 \end_inset
 
- is a tensor (exercise).
+ is a tensor (exercise) and thus a well defined quantitiy.
  This is can be used to extract smaller tensors and scalars out of 
 \begin_inset Formula $R_{ijkl}$
 \end_inset
