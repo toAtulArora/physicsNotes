@@ -2028,6 +2028,16 @@ E.g.
 \end_inset
 
 .
+ It is nice to see that while 
+\begin_inset Formula $\delta^{i}{}_{j}$
+\end_inset
+
+ is a tensor, 
+\begin_inset Formula $\delta_{ij}$
+\end_inset
+
+ is not.
+ 
 \end_layout
 
 \begin_layout Part
