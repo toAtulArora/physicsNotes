@@ -140,10 +140,10 @@ logicalmkup
 \leftmargin 2cm
 \topmargin 2cm
 \rightmargin 2cm
-\bottommargin 2cm
+\bottommargin 1.5cm
 \headheight 2cm
 \headsep 2cm
-\footskip 0.75cm
+\footskip 1cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -450,7 +450,7 @@ ds^{2}=\sum_{i=1}^{N}(dx^{i})^{2}.
 
 \end_inset
 
-In Remanian geometry the notion of distance between two close by points
+In Remanian geometry the notion of distance between two close-by points
  is generalised to 
 \begin_inset Formula 
 \[
@@ -1480,11 +1480,19 @@ While this is intimidating at first note that
 \end_inset
 
  indeed transforms as a tensor (exercise).
- We also define 
+ 
+\end_layout
+
+\begin_layout Section
+Understanding the Reimann Tensor
+\end_layout
+
+\begin_layout Standard
+We define 
 \begin_inset Formula $R_{ijkl}:=g_{im}R^{m}{}_{jkl}$
 \end_inset
 
- and state some symmetries of 
+ and use this to state some symmetries of 
 \begin_inset Formula $R_{ijkl}$
 \end_inset
 
@@ -1690,25 +1698,256 @@ Ricci Scalar
 curvature scalar
 \emph default
 .
- Note that for scalars one has 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Note that for scalars one has 
 \begin_inset Formula $R'(x')=R(x)$
 \end_inset
 
 .
+ Note also that 
+\begin_inset Formula $A_{i}:=\partial_{i}R$
+\end_inset
+
+ is a tensor as 
+\begin_inset Formula $A'_{i}=\partial'_{i}R'=\partial'_{i}x^{j}\partial_{j}R=\partial'_{i}x^{j}A_{j}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+ We conclude by examining whether or not after all the hard work we can
+ distinguish between the surface of a sphere and flat space.
+\end_layout
+
+\begin_layout Example
+Consider the following cases:
+\end_layout
+
+\begin_layout Example
+Case A: A plane described by the metric 
+\begin_inset Formula $ds^{2}=\left(dx^{1}\right)^{2}+\left(dx^{2}\right)^{2}=dr^{2}+r^{2}d\theta^{2}$
+\end_inset
+
+ which entails 
+\begin_inset Formula $g_{ij}=\delta_{ij}$
+\end_inset
+
+ while for the polar case 
+\begin_inset Formula $g_{rr}=1$
+\end_inset
+
+ and 
+\begin_inset Formula $g_{\theta\theta}=r^{2}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Example
+Case B: Surface of a sphere described by the metric 
+\begin_inset Formula $ds^{2}=\left(d\theta^{2}+\sin^{2}\theta d\phi^{2}\right)a^{2}$
+\end_inset
+
+ which entails 
+\begin_inset Formula $g$
+\end_inset
+
+ is diagonal with 
+\begin_inset Formula $g_{\theta\theta}=a^{2}$
+\end_inset
+
+, 
+\begin_inset Formula $g_{\phi\phi}=\sin^{2}\theta a^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+Question: Can one tell (without using any prior knowledge of how the metric
+ was constructed) if the two cases describe the same space?
+\begin_inset Newline newline
+\end_inset
+
+For case A it follows immediately, for the cartesian coordinates, that 
+\begin_inset Formula $R_{ijkl}=0$
+\end_inset
+
+ because 
+\begin_inset Formula $g_{ij}=\text{const}$
+\end_inset
+
+ and so 
+\begin_inset Formula $\Gamma^{i}{}_{jk}=\partial_{l}\Gamma^{i}{}_{jk}=0$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $R_{ijkl}$
+\end_inset
+
+ is a tensor, it must also vanish in all coordinate systems and in particular
+ in the polar coordinate system.
+ If 
+\begin_inset Formula $R_{ijkl}\neq0$
+\end_inset
+
+ for case B then we know the two cases described different 
+\emph on
+manifolds
+\emph default
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+We haven't defined the word manifold precisely yet.
+ It suffices for our purposes to consider an 
+\begin_inset Formula $n$
+\end_inset
+
+-dimensional manifold to be constituted of points that need 
+\begin_inset Formula $n$
+\end_inset
+
+ coordinates to be specified.
+\end_layout
+
+\end_inset
+
+.
+ This indeed turns out to be the case and is left to the reader to verify.
+\end_layout
+
+\begin_layout Example
+Question: Does scaling leave the manifolds invariant?
+\begin_inset Newline newline
+\end_inset
+
+By this we mean stretching the manifold, i.e.
+ 
+\begin_inset Formula $x^{i}\to\lambda x^{i}$
+\end_inset
+
+.
+ For case A it is intuitively obvious that stretching an infinite plane
+ would leave it unchanged.
+ This is also consistent with the fact that 
+\begin_inset Formula $R_{ijkl}$
+\end_inset
+
+ stays zero for both situations.
+ However, for case B it is not as obvious because intuitively the surface
+ of a very large balloon would almost seem flat compared to that of a small
+ balloon.
+ We consider the Ricci scalar to answer the question: 
+\begin_inset Formula $R\overset{\text{claim}}{=}\text{const}.a^{-2}$
+\end_inset
+
+.
+ Now since stretching changes the radius, 
+\begin_inset Formula $a$
+\end_inset
+
+, of the sphere it follows that 
+\begin_inset Formula $R$
+\end_inset
+
+ will get changed.
+ Since 
+\begin_inset Formula $R$
+\end_inset
+
+ is a scalar (and hence unchanged by any coordinate transformation) we are
+ forced to conclude that stretching changes the manifold.
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-Note also that 
-\begin_inset Formula $A_{i}=\partial_{i}R$
+If you are confused about whether 
+\begin_inset Formula $x^{i}\to\lambda x^{i}$
 \end_inset
 
- is a tensor; Use 
-\begin_inset Formula $A'_{i}=\partial'_{i}R'=\partial'_{i}x^{j}\partial_{j}R=\partial_{i}R=A_{i}$
+ is itself a coordinate transformation then the notation has you confused.
+ Think of a ruler.
+ Stretching the ruler means that you take the 
+\begin_inset Formula $1$
 \end_inset
 
- 
+cm mark and stretch it to the 
+\begin_inset Formula $2$
+\end_inset
+
+cm mark (and so on), say.
+ Contrast this to taking a ruler and changing its 
+\begin_inset Formula $1$
+\end_inset
+
+cm mark to a 
+\begin_inset Formula $2$
+\end_inset
+
+cm (and so on).
+ The coordinate transformation just changes the labels of the points.
+ Stretching changes the locations of points.
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+In general it is hard to compare metrics to check if they describe the same
+ manifold but these tools give us some handle on them.
+\end_layout
+
+\begin_layout Section
+Covariant Derivatives
+\end_layout
+
+\begin_layout Standard
+Taking the derivative of a tensor doesn't produce a tensor in general.
+ Consider 
+\begin_inset Formula $B_{ij}:=\partial_{i}A_{j}$
+\end_inset
+
+ where 
+\begin_inset Formula $A_{j}$
+\end_inset
+
+ is a tensor so that 
+\begin_inset Formula 
+\begin{align*}
+B'_{ij}=\partial'_{i}A'_{j} & =\partial'_{i}(\partial'_{j}x^{l}A_{l})\\
+ & =\partial'_{i}\partial'_{j}x^{l}A_{l}+\underbrace{\partial'_{j}x^{l}\partial'_{i}A_{l}}_{=\partial'_{j}x^{l}\partial'_{i}x^{k}\partial_{k}A_{l}}\\
+ & =\partial'_{i}\partial'_{j}x^{l}A_{l}+\underbrace{\partial'_{i}x^{k}\partial'_{j}x^{l}B_{kl}}_{\text{how a tensor should transform}}.
+\end{align*}
+
+\end_inset
+
+It is obviously convenient to have a notion of derivatives that preserves
+ the tensor structure and reduces to the usual notion when the space is
+ flat.
+ Consider the variant 
+\begin_inset Formula $C_{ij}:=D_{i}A_{j}:=\partial_{i}A_{j}-\Gamma_{ij}^{k}A_{k}$
+\end_inset
+
+ which would transform as 
+\begin_inset Formula 
+\begin{align*}
+C'_{ij} & =\partial'_{i}A'_{j}-\Gamma'^{k}{}_{ij}A'_{k}\\
+ & =\underbrace{\partial'_{i}\partial'_{j}x^{l}A_{l}}_{\text{cancels with the last term}}+\partial'_{i}x^{k}\partial'_{j}x^{l}\partial_{k}A_{l}-\left(\partial_{m}x'^{k}\right)\partial'_{i}x^{n}\partial'_{j}x^{p}\Gamma^{m}{}_{np}\left(\partial'_{k}x^{l}\right)A_{l}-\left(\partial_{m}x'^{k}\right)\partial'_{i}\partial'_{j}x^{m}\left(\partial'_{k}x^{l}\right)A_{l}.\\
+ & =\partial'_{i}x^{k}\partial'_{j}x^{l}\partial_{k}A_{l}-\partial'_{i}x^{n}\partial'_{j}x^{p}\Gamma^{l}{}_{np}A_{l}\\
+ & =\partial'_{i}x^{m}\partial'_{j}x^{p}(
+\end{align*}
 
 \end_inset
 
