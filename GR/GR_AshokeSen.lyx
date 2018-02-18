@@ -1962,7 +1962,8 @@ which is indeed how a tensor should transform.
 \begin_inset Formula 
 \begin{align*}
 D_{k}A^{i_{1}i_{2}\dots i_{p}}{}_{j_{1}j_{2}\dots j_{q}}= & \partial_{k}A^{i_{1}i_{2}\dots p_{p}}{}_{j_{1}j_{2}\dots j_{q}}\\
- & +\left(\Gamma^{i_{1}}{}_{kl}A^{li_{2}\dots i_{p}}{}_{j_{1}j_{2}\dots j_{q}}+\Gamma^{i_{2}}{}_{kl}A^{i_{1}li_{3}\dots i_{p}}{}_{j_{1}j_{2}\dots j_{q}}\right)-\left(\Gamma^{l}{}_{kj_{1}}A^{i_{1}i_{2}\dots i_{p}}{}_{lj_{2}\dots j_{q}}+\Gamma^{l}{}_{kj_{2}}A^{i_{1}i_{2}\dots i_{p}}{}_{j_{1}lj_{3}\dots j_{q}}\right)
+ & +\left(\Gamma^{i_{1}}{}_{kl}A^{li_{2}\dots i_{p}}{}_{j_{1}j_{2}\dots j_{q}}+\Gamma^{i_{2}}{}_{kl}A^{i_{1}li_{3}\dots i_{p}}{}_{j_{1}j_{2}\dots j_{q}}\right)\\
+ & -\left(\Gamma^{l}{}_{kj_{1}}A^{i_{1}i_{2}\dots i_{p}}{}_{lj_{2}\dots j_{q}}+\Gamma^{l}{}_{kj_{2}}A^{i_{1}i_{2}\dots i_{p}}{}_{j_{1}lj_{3}\dots j_{q}}\right)
 \end{align*}
 
 \end_inset
