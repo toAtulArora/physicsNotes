@@ -2268,7 +2268,10 @@ Motivation
 \end_layout
 
 \begin_layout Standard
-Einstein's general theory of relativity uses the notion of 
+Einstein's general theory of relativity uses the notion of geodesic – the
+ shortest length path between two points – in its description.
+ It reduces to the usual special theory of relativity in the flat space.
+ 
 \end_layout
 
 \begin_layout Section
