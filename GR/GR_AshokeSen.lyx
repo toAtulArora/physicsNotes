@@ -2072,7 +2072,7 @@ We already proved that first derivatives of the metric can't form a non-trivial
 
 .
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 we will use the result 
@@ -2144,7 +2144,7 @@ E.g.
 \end_layout
 
 \begin_layout Standard
-
+auoe
 \end_layout
 
 \begin_layout Part
