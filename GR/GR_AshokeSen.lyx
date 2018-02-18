@@ -2190,6 +2190,10 @@ Similarly one can extend this to contractions with the metric.
 \end_layout
 
 \begin_layout Claim
+Raising/lowering before or after taking a covariant derivative are equivalent.
+\end_layout
+
+\begin_layout Claim
 
 \end_layout
 
