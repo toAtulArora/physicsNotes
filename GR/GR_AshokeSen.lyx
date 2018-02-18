@@ -1958,8 +1958,15 @@ which is indeed how a tensor should transform.
 
  also transforms as a tensor (notice the difference in the sign).
  With these two building blocks it is not hard to generalise to an arbitrary
- tensor.
- 
+ tensor as 
+\begin_inset Formula 
+\[
+D_{k}A^{i_{1}i_{2}\dots i_{p}}{}_{j_{1}j_{2}\dots j_{q}}=
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
