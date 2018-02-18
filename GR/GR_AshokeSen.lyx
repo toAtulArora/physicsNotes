@@ -2170,6 +2170,19 @@ Proof sketch.
 \end_inset
 
  as proved above.
+ Now set 
+\begin_inset Formula $m=j_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $n=i_{1}$
+\end_inset
+
+ to get 
+\begin_inset Formula $D_{k}(A^{i_{1}\dots i_{p}}{}_{i_{1}j_{2}\dots j_{q}})=D_{k}(A^{i_{1}\dots i_{p}}{}_{j_{1}\dots j_{q}})\delta^{j_{1}}{}_{i_{1}}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
