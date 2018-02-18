@@ -2026,7 +2026,12 @@ We already proved that first derivatives of the metric can't form a non-trivial
 \end_layout
 
 \begin_layout Proof
-To prove the second statement, note that one can 
+To prove the second statement we will use the result 
+\begin_inset Formula $\partial_{i}(g^{-1})=-g^{-1}\left(\partial g\right)g^{-1}$
+\end_inset
+
+ (which we prove shortly).
+ 
 \end_layout
 
 \begin_layout Standard
