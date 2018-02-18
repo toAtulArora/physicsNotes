@@ -2026,12 +2026,20 @@ We already proved that first derivatives of the metric can't form a non-trivial
 \end_layout
 
 \begin_layout Proof
-To prove the second statement we will use the result 
+To prove the second statement note that 
+\begin_inset Formula $0=D_{i}(\delta^{j}{}_{l})=D_{i}(g^{jk}g_{kl})=$
+\end_inset
+
+we will use the result 
 \begin_inset Formula $\partial_{i}(g^{-1})=-g^{-1}\left(\partial g\right)g^{-1}$
 \end_inset
 
  (which we prove shortly).
- 
+ From the definition one can write 
+\begin_inset Formula $D_{i}g^{jk}=\partial_{i}g^{jk}+\Gamma^{j}{}_{il}g^{lk}+\Gamma^{k}{}_{il}g^{il}$
+\end_inset
+
+ where the first 
 \end_layout
 
 \begin_layout Standard
