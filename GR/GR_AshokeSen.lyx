@@ -2008,6 +2008,22 @@ At this point it is helpful to extend our convention to include the following.
 \end_inset
 
 .
+\begin_inset Newline newline
+\end_inset
+
+(6) Lower an index: To lower an upper index 
+\begin_inset Formula $i$
+\end_inset
+
+ to a lower index 
+\begin_inset Formula $j$
+\end_inset
+
+ we multiply with 
+\begin_inset Formula $g_{ij}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
