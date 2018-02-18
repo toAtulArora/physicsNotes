@@ -1952,6 +1952,11 @@ C'_{ij} & =\partial'_{i}A'_{j}-\Gamma'^{k}{}_{ij}A'_{k}\\
 \end_inset
 
 which is indeed how a tensor should transform.
+ We leave it as an exercise to check that 
+\begin_inset Formula $D_{i}A^{j}:=\partial_{i}A^{j}+\Gamma^{j}{}_{ik}A^{k}$
+\end_inset
+
+ also transforms as a tensor.
 \end_layout
 
 \begin_layout Part
