@@ -141,7 +141,7 @@ logicalmkup
 \topmargin 3cm
 \rightmargin 2cm
 \bottommargin 2cm
-\headheight 2cm
+\headheight 1cm
 \headsep 1cm
 \footskip 1cm
 \secnumdepth 3
