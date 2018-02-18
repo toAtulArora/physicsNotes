@@ -2233,7 +2233,8 @@ The following are worth keeping in mind.
 \end_layout
 
 \begin_layout Itemize
-
+Given a point, one can always find a frame in which the first derivative
+ of the metric is zero (at that point).
 \end_layout
 
 \begin_layout Standard
