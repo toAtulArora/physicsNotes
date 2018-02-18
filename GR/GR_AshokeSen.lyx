@@ -2006,16 +2006,18 @@ It would be useful to see how the covariant derivative acts on the metric
 \end_layout
 
 \begin_layout Proof
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Proof Sketch.
-\end_layout
-
+We already proved that first derivatives of the metric can't form a non-trivial
+ tensor.
+ We also saw that 
+\begin_inset Formula $D_{i}$
 \end_inset
 
- 
+ of a tensor is a tensor.
+ Hence 
+\begin_inset Formula $D_{i}g_{jk}$
+\end_inset
+
+ can only be the trivial tensor, that is 0.
 \end_layout
 
 \begin_layout Standard
