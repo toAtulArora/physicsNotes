@@ -2298,7 +2298,29 @@ Let us first find a suitable way of representing a curve in an
 \end_inset
 
  dimensional space.
- We will start with requiring 
+ 
+\end_layout
+
+\begin_layout Enumerate
+We could define 
+\begin_inset Formula $n-1$
+\end_inset
+
+ coordinates in terms of the 
+\begin_inset Formula $n^{\text{th}}$
+\end_inset
+
+ coordinate.
+ This is how we usually describe a line for instance.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\end_layout
+
+\begin_layout Enumerate
+We will start with requiring 
 \begin_inset Formula $\delta L=0$
 \end_inset
 
