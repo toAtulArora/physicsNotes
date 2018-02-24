@@ -2330,7 +2330,19 @@ status open
 
 \end_inset
 
+We define 
+\begin_inset Formula $n-1$
+\end_inset
 
+ equations in 
+\begin_inset Formula $n$
+\end_inset
+
+ variables.
+\end_layout
+
+\begin_layout Standard
+This is certainly nicer but it .
 \end_layout
 
 \begin_layout Enumerate
