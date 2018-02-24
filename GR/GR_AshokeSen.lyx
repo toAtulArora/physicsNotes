@@ -2316,7 +2316,21 @@ We could define
 
 \begin_layout Standard
 This is how we usually describe a line for instance.
- The difficulty with this method is that it 
+ The difficulty with this method is that it doesn't preserve the symmetry
+ of the coordinates – one of the coordinates is given a special treatment.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
