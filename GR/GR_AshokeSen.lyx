@@ -2279,7 +2279,8 @@ Motivation
 \begin_layout Standard
 Einstein's general theory of relativity uses the notion of geodesic – the
  shortest length path between two points – in its description.
- It reduces to the special theory of relativity in the flat space.
+ It reduces to the special theory of relativity in the special case of flat
+ space.
  In addition to studying geodesics we will generalise the notion of parallel
  vectors to the non-Eucledian0 case.
  We will connect this to a scheme for detecting the curvature of the underlying
