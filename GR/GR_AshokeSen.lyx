@@ -2311,12 +2311,12 @@ We could define
 \end_inset
 
  coordinate.
- This is how we usually describe a line for instance.
  
 \end_layout
 
-\begin_layout Enumerate
-
+\begin_layout Standard
+This is how we usually describe a line for instance.
+ The difficulty with this method is that 
 \end_layout
 
 \begin_layout Enumerate
