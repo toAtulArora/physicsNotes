@@ -2483,7 +2483,7 @@ We will now perform an integration by parts of the second term in the sum
 \end_inset
 
 ) to get 
-\begin_inset Formula $\int_{0}^{1}du\left(\dots\right)\delta x^{i}\left[\frac{d}{du}\left(2g_{ij}\frac{dx^{j}}{du}\right)\right]+\cancel{\left[\delta x^{i}\left(\dots\right)\right]_{u=0}^{u=1}}$
+\begin_inset Formula $\int_{0}^{1}du\left(\dots\right)\delta x^{i}\left[\frac{d}{du}\left(2g_{ij}\frac{dx^{j}}{du}\right)\right]+\cancel{\left[\left(\dots\right)\delta x^{i}\left(\dots\right)\right]_{u=0}^{u=1}}$
 \end_inset
 
  which yields
