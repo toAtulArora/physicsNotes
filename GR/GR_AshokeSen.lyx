@@ -2406,7 +2406,11 @@ We will use the variational approach to derive the differential equation
 \end_inset
 
 .
- 
+ Let 
+\begin_inset Formula $L$
+\end_inset
+
+ denote the length of the curve
 \end_layout
 
 \begin_layout Part
