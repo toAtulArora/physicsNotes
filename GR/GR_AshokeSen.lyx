@@ -2477,10 +2477,19 @@ affine parameter
 
 \end_inset
 
-We can write 
+We will now perform an integration by parts of the second term in the sum
+ (in the expression for 
+\begin_inset Formula $\delta L$
+\end_inset
+
+) to get 
+\begin_inset Formula $\delta x^{i}$
+\end_inset
+
+
 \begin_inset Formula 
 \[
-\delta L=\int_{0}^{1}\frac{1}{2}\left(g_{mn}\frac{dx^{m}}{du}\frac{dx^{n}}{du}\right)^{-1/2}\delta x^{k}\left\{ \partial_{k}g_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}-\right\} 
+\delta L=\int_{0}^{1}\frac{1}{2}\left(g_{mn}\frac{dx^{m}}{du}\frac{dx^{n}}{du}\right)^{-1/2}\delta x^{k}\left\{ \partial_{k}g_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}-\delta x^{i}\right\} 
 \]
 
 \end_inset
