@@ -2480,7 +2480,7 @@ affine parameter
 We can write 
 \begin_inset Formula 
 \[
-\delta L=
+\delta L=\int_{0}^{1}\frac{1}{2}\left(g_{mn}\frac{dx^{m}}{du}\frac{dx^{n}}{du}\right)^{-1/2}
 \]
 
 \end_inset
