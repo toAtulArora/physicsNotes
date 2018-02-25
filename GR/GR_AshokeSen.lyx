@@ -2406,11 +2406,15 @@ We will use the variational approach to derive the differential equation
 \end_inset
 
 .
- Let 
-\begin_inset Formula $L$
+ We can evaluate the length of a given curve as 
+\begin_inset Formula 
+\[
+L=\int_{\text{curve}}ds=\int_{\text{curve}}du.\frac{ds}{du}=\int_{0}^{1}du\left.\sqrt{g_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}}\right|_{x^{i}=f^{i}(u)}.
+\]
+
 \end_inset
 
- denote the length of the curve
+ denote the length of the initial curve
 \end_layout
 
 \begin_layout Part
