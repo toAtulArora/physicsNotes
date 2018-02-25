@@ -2415,7 +2415,11 @@ L=\int_{\text{curve}}ds=\int_{\text{curve}}du.\frac{ds}{du}=\int_{0}^{1}du\left.
 \end_inset
 
 Now the change in length between this curve and the arbitrary nearby curve
- must vanish to first order as we assumed that 
+ must vanish to first order in 
+\begin_inset Formula $\delta x^{k}$
+\end_inset
+
+ as we assumed that 
 \begin_inset Formula $f^{i}$
 \end_inset
 
