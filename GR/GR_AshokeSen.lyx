@@ -2656,11 +2656,7 @@ and note that these constitute
 \begin_inset Formula $l,i,j\in\{1,2,\dots n$
 \end_inset
 
-}) differential equations of 
-\begin_inset Formula $2^{\text{nd}}$
-\end_inset
-
- order, which means we must specify 
+}) second order differential equations which means we must specify 
 \begin_inset Formula $2n$
 \end_inset
 
