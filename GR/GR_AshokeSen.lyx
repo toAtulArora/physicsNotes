@@ -2355,15 +2355,19 @@ status open
 
 \end_inset
 
- Parametric description: Define 
-\begin_inset Formula $n-1$
+ Parametric description: Define the curve in terms of 
+\begin_inset Formula $f$
 \end_inset
 
- coordinates in 
-\begin_inset Formula $n$
+ as 
+\begin_inset Formula $x^{i}=f^{i}(u)$
 \end_inset
 
- variables 
+ where 
+\begin_inset Formula $u$
+\end_inset
+
+ is a parameter which changes monotonically as you move along the curve.
 \end_layout
 
 \begin_layout Standard
