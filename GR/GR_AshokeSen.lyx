@@ -2518,7 +2518,18 @@ For
 \end_inset
 
 , manifestly then, the term indicated must vanish.
- 
+ Multiplying this term by 
+\begin_inset Formula $-\frac{1}{2}g^{lk}$
+\end_inset
+
+ and equating it to zero one obtains 
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
