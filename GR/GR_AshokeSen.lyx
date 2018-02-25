@@ -2546,7 +2546,7 @@ geodesic equation
  as
 \begin_inset Formula 
 \[
-\frac{d^{2}x^{l}}{du^{2}}+\Gamma^{l}{}_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}=0.
+\boxed{\frac{d^{2}x^{l}}{du^{2}}+\Gamma^{l}{}_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}=0.}
 \]
 
 \end_inset
@@ -2640,7 +2640,32 @@ Consider a point
  and a geodesic passing through it.
  To arrive at the notion of tangent vectors we ask the following: How many
  parameters are needed to describe all possible geodesics that pass through
- this point? 
+ this point? To answer this recall the geodesic equation 
+\begin_inset Formula 
+\[
+\frac{d^{2}x^{l}}{du^{2}}+\Gamma^{l}{}_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}=0
+\]
+
+\end_inset
+
+and note that these constitute 
+\begin_inset Formula $n$
+\end_inset
+
+ (where 
+\begin_inset Formula $l,i,j\in\{1,2,\dots n$
+\end_inset
+
+}) differential equations of 
+\begin_inset Formula $2^{\text{nd}}$
+\end_inset
+
+ order, which means we must specify 
+\begin_inset Formula $2n$
+\end_inset
+
+ constants.
+ 
 \end_layout
 
 \begin_layout Part
