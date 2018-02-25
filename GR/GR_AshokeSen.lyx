@@ -2414,7 +2414,7 @@ L=\int_{\text{curve}}ds=\int_{\text{curve}}du.\frac{ds}{du}=\int_{0}^{1}du\left.
 
 \end_inset
 
- denote the length of the initial curve
+Now the change in length between this curve and the 
 \end_layout
 
 \begin_layout Part
