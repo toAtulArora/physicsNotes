@@ -2531,6 +2531,14 @@ For
 
 \end_inset
 
+It is left as an exercise to reduce this to the final form
+\begin_inset Formula 
+\[
+\frac{d^{2}x^{l}}{du^{2}}
+\]
+
+\end_inset
+
 
 \end_layout
 
