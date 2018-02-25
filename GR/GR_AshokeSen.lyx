@@ -2472,7 +2472,7 @@ affine parameter
  Thus an affine parameter must satisfy 
 \begin_inset Formula 
 \[
-\frac{d}{du}\left\{ g_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}\right\} ^{1/2}=0
+\frac{d}{du}\left[\left(g_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}\right)^{1/2}\right]=0.
 \]
 
 \end_inset
