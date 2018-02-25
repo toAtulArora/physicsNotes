@@ -2620,7 +2620,12 @@ where
 
 \end_inset
 
-after integration.
+after integration where note that 
+\begin_inset Formula $\mathcal{O}(\left(u-u_{0}\right)^{2})$
+\end_inset
+
+ like terms are absent.
+ 
 \end_layout
 
 \begin_layout Part
