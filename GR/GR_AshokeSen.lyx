@@ -2665,6 +2665,15 @@ and note that these constitute
 \end_inset
 
  constants.
+ We already enforce 
+\begin_inset Formula $x^{l}|_{u=u_{0}}=x_{0}^{l}$
+\end_inset
+
+ which is a set of 
+\begin_inset Formula $n$
+\end_inset
+
+ conditions.
  
 \end_layout
 
