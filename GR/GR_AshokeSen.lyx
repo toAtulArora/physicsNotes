@@ -2431,7 +2431,7 @@ first order
  This difference will be given by 
 \begin_inset Formula 
 \[
-\delta L=\int
+\delta L=\int_{0}^{1}\left(g_{mn}\frac{dx^{m}}{du}\frac{dx^{n}}{du}\right)^{-1/2}
 \]
 
 \end_inset
