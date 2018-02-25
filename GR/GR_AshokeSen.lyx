@@ -2531,7 +2531,11 @@ For
 
 \end_inset
 
-It is left as an exercise to reduce this to the final form
+From the definition of 
+\begin_inset Formula $\Gamma^{l}{}_{ij}$
+\end_inset
+
+ and 
 \begin_inset Formula 
 \[
 \frac{d^{2}x^{l}}{du^{2}}+\Gamma^{l}{}_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}=0.
