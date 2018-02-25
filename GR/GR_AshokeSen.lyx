@@ -2415,20 +2415,11 @@ L=\int_{\text{curve}}ds=\int_{\text{curve}}du.\frac{ds}{du}=\int_{0}^{1}du\left.
 \end_inset
 
 Now the change in length between this curve and the arbitrary nearby curve
- must vanish to 
-\begin_inset Quotes eld
-\end_inset
-
-first order
-\begin_inset Quotes erd
-\end_inset
-
- as we assumed that 
+ must vanish to first order as we assumed that 
 \begin_inset Formula $f^{i}$
 \end_inset
 
- already represents the geodesic.
- The small parameter here would be 
+ already represents the geodesic where the small parameter is 
 \begin_inset Formula $\delta x^{k}:=f^{i}-\left(f^{i}-\delta f^{i}\right)=\delta f^{i}$
 \end_inset
 
