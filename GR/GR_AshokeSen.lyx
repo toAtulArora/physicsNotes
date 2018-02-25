@@ -2489,7 +2489,7 @@ We will now perform an integration by parts of the second term in the sum
  which yields
 \begin_inset Formula 
 \[
-\delta L=\int_{0}^{1}du\frac{1}{2}\left(g_{mn}\frac{dx^{m}}{du}\frac{dx^{n}}{du}\right)^{-1/2}\delta x^{k}\left\{ \partial_{k}g_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}-\right\} 
+\delta L=\int_{0}^{1}du\frac{1}{2}\left(g_{mn}\frac{dx^{m}}{du}\frac{dx^{n}}{du}\right)^{-1/2}\delta x^{k}\left\{ \partial_{k}g_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}-2\frac{dg_{kj}}{du}\frac{dx^{j}}{du}-2g_{kj}\frac{d^{2}x^{j}}{du^{2}}\right\} .
 \]
 
 \end_inset
