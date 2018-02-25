@@ -2442,11 +2442,21 @@ where the last two terms are the same which explains the factor of two.
 \end_inset
 
  so that we can demand the first bracket to be zero to obtain a differential
- equation for the geodesic (Atul: admittedly we only extremised the length
- and therefore it might even be the longest length curve but since that
- in most cases the longest curve would have infinite length I think the
- result here would apply to shortest length curves as we start with assuming
- a finite length curve)
+ equation for the geodesic
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Atul: admittedly we only extremised the length and therefore it might even
+ be the longest length curve but since that in most cases the longest curve
+ would have infinite length I think the result here would apply to shortest
+ length curves as we start with assuming a finite length curve.
+\end_layout
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Part
