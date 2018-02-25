@@ -2638,8 +2638,9 @@ Consider a point
 \end_inset
 
  and a geodesic passing through it.
- How many parameters are needed to describe all possible geodesics that
- pass through this point? 
+ To arrive at the notion of tangent vectors we ask the following: How many
+ parameters are needed to describe all possible geodesics that pass through
+ this point? 
 \end_layout
 
 \begin_layout Part
