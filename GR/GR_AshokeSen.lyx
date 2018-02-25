@@ -2428,7 +2428,14 @@ first order
 \end_inset
 
  already represents the geodesic.
- Let us evaluate this difference as 
+ This difference will be given by 
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
