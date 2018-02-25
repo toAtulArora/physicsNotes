@@ -2423,7 +2423,11 @@ first order
 \begin_inset Quotes erd
 \end_inset
 
- 
+ as we assumed that 
+\begin_inset Formula $f^{i}$
+\end_inset
+
+ already represents the geodesic.
 \end_layout
 
 \begin_layout Part
