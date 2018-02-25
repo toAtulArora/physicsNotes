@@ -2431,7 +2431,7 @@ Now the change in length between this curve and the arbitrary nearby curve
  This difference will be given by 
 \begin_inset Formula 
 \[
-\delta L=\int_{0}^{1}\frac{1}{2}\left(g_{mn}\frac{dx^{m}}{du}\frac{dx^{n}}{du}\right)^{-1/2}\left\{ \partial_{k}g_{ij}\delta x^{k}\frac{dx^{i}}{du}\frac{dx^{j}}{du}+\underbrace{2}g_{ij}\frac{d(\delta x^{i})}{du}\frac{dx^{j}}{du}+\cancel{g_{ij}\frac{dx^{i}}{du}\frac{d(\delta x^{j})}{du}}\right\} 
+\delta L=\int_{0}^{1}\frac{1}{2}\left(g_{mn}\frac{dx^{m}}{du}\frac{dx^{n}}{du}\right)^{-1/2}\left\{ \partial_{k}g_{ij}\delta x^{k}\frac{dx^{i}}{du}\frac{dx^{j}}{du}+g_{ij}\frac{d(\delta x^{i})}{du}\frac{dx^{j}}{du}+\cancel{g_{ij}\frac{dx^{i}}{du}\frac{d(\delta x^{j})}{du}}\right\} 
 \]
 
 \end_inset
