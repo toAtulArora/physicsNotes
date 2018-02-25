@@ -2569,7 +2569,15 @@ Some consistency checks.
 
 \begin_layout Standard
 Let us find the geodesic for flat space.
- 
+ In this case 
+\begin_inset Formula $g_{ij}=\delta_{ij}$
+\end_inset
+
+ which entails 
+\begin_inset Formula $\Gamma^{i}{}_{jk}=0$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
