@@ -2414,7 +2414,8 @@ L=\int_{\text{curve}}ds=\int_{\text{curve}}du.\frac{ds}{du}=\int_{0}^{1}du\left.
 
 \end_inset
 
-Now the change in length between this curve and the 
+Now the change in length between this curve and the arbitrary nearby curve
+ must vanish to 
 \end_layout
 
 \begin_layout Part
