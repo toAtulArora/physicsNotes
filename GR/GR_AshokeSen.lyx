@@ -2579,6 +2579,22 @@ Let us find the geodesic for flat space.
 
 .
  Consequently the geodesic equation becomes 
+\begin_inset Formula 
+\[
+\frac{d^{2}x^{l}}{du^{2}}=0\implies x^{l}=a^{l}u+b^{l}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $a^{l}$
+\end_inset
+
+ describes the direction and 
+\begin_inset Formula $b^{l}$
+\end_inset
+
+ the location of a straight line.
 \end_layout
 
 \begin_layout Part
