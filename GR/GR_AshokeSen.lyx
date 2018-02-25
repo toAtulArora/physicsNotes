@@ -2539,7 +2539,11 @@ From the definition of
 \begin_inset Formula $ij$
 \end_inset
 
- one obtains (small exercise) the final form of the geodesic equation as
+ one obtains (small exercise) the final form of the 
+\emph on
+geodesic equation
+\emph default
+ as
 \begin_inset Formula 
 \[
 \frac{d^{2}x^{l}}{du^{2}}+\Gamma^{l}{}_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}=0.
