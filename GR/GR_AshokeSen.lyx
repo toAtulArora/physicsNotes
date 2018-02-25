@@ -2556,7 +2556,10 @@ Note that (exercise)
 \end_inset
 
  follows from the geodesic equation.
- Note also (again left as an exercise) that changing 
+ Note also (again left as an exercise) that changing the coordinate system
+ leaves the form of the geodesic equation unchanged.
+ This is expected as we did not make any assumptions about the coordinate
+ system in the derivation.
 \end_layout
 
 \begin_layout Part
