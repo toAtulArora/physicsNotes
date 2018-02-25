@@ -2396,7 +2396,12 @@ We will use the variational approach to derive the differential equation
  corresponds to the ending point.
  Let us pretend that this curve already represents the shortest path between
  the two extreme points.
- Now consider 
+ Now consider some arbitrary nearby curve starting and ending at the same
+ point as given by 
+\begin_inset Formula $x^{i}=$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
