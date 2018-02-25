@@ -2509,7 +2509,16 @@ note the affine parameter assumption allows us to neglect the effect of
 
 \end_inset
 
+For 
+\begin_inset Formula $\delta L$
+\end_inset
 
+ to be zero to first order in 
+\begin_inset Formula $\delta x^{k}$
+\end_inset
+
+, manifestly the term indicated must vanish.
+ 
 \end_layout
 
 \begin_layout Part
