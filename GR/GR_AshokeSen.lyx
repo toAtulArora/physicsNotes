@@ -2394,11 +2394,9 @@ We will use the variational approach to derive the differential equation
 \end_inset
 
  corresponds to the ending point.
- We will start with requiring 
-\begin_inset Formula $\delta L=0$
-\end_inset
-
- to first order.
+ Let us pretend that this curve already represents the shortest path between
+ the two extreme points.
+ 
 \end_layout
 
 \begin_layout Part
