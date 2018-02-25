@@ -2633,7 +2633,13 @@ Tangent Vectors and Tangent Space
 \end_layout
 
 \begin_layout Standard
+Consider a point 
+\begin_inset Formula $\vec{x}_{0}$
+\end_inset
 
+ and a geodesic passing through it.
+ We ask how many parameters are needed to describe all possible geodesics
+ that pass through this point? 
 \end_layout
 
 \begin_layout Part
