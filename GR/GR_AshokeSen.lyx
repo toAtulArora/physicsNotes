@@ -2325,7 +2325,7 @@ This is how we usually describe a line for instance.
 status open
 
 \begin_layout Plain Layout
-2
+(2)
 \end_layout
 
 \end_inset
@@ -2350,7 +2350,7 @@ This is symmetric in its treatment of the coordinates but it is implicit.
 status open
 
 \begin_layout Plain Layout
-3
+(3)
 \end_layout
 
 \end_inset
