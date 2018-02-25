@@ -2374,7 +2374,7 @@ status open
 This is both explicit and preserves the symmetry.
  We will use this scheme for describing our curves.
  The drawback of this scheme is that different parametrizations may describe
- different curves.
+ different curves but we will handle this appropriately when needed.
  
 \end_layout
 
