@@ -2423,7 +2423,7 @@ Now the change in length between this curve and the arbitrary nearby curve
 \begin_inset Formula $f^{i}$
 \end_inset
 
- already represents the geodesic where the small parameter is 
+ already represents the geodesic where the small parameter, 
 \begin_inset Formula $\delta x^{k}:=f^{i}-\left(f^{i}-\delta f^{i}\right)=\delta f^{i}$
 \end_inset
 
