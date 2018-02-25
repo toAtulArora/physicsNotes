@@ -2438,10 +2438,15 @@ Now the change in length between this curve and the arbitrary nearby curve
 
 where the last two terms are the same which explains the factor of two.
  The goal here is to obtain an expression of the form 
-\begin_inset Formula $\int_{0}^{1}du(\dots)\delta x^{k}$
+\begin_inset Formula $\int_{0}^{1}du(\dots)\delta x^{k}+(\dots)\mathcal{O}(\delta x^{2})\dots$
 \end_inset
 
-
+ so that we can demand the first bracket to be zero to obtain a differential
+ equation for the geodesic (Atul: admittedly we only extremised the length
+ and therefore it might even be the longest length curve but since that
+ in most cases the longest curve would have infinite length I think the
+ result here would apply to shortest length curves as we start with assuming
+ a finite length curve)
 \end_layout
 
 \begin_layout Part
