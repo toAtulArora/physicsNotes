@@ -2428,6 +2428,11 @@ first order
 \end_inset
 
  already represents the geodesic.
+ The small parameter here would be 
+\begin_inset Formula $\delta x^{k}:=f^{i}-\left(f^{i}-\delta f^{i}\right)=\delta f^{i}$
+\end_inset
+
+.
  This difference will be given by 
 \begin_inset Formula 
 \[
