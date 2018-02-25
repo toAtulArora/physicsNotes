@@ -2551,6 +2551,10 @@ geodesic equation
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 Some consistency checks.
  Note that (exercise) 
 \begin_inset Formula $\frac{d}{du}\left(g_{mn}\frac{dx^{m}}{du}\frac{dx^{n}}{du}\right)=0$
@@ -2561,6 +2565,10 @@ Some consistency checks.
  leaves the form of the geodesic equation unchanged.
  This is expected as we did not make any assumptions about the coordinate
  system in the derivation but we did assume the parameter to be affine.
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Part
