@@ -2460,7 +2460,16 @@ Atul: admittedly we only extremised the length and therefore it might even
 \emph on
 affine parameter
 \emph default
- – 
+ – the parameter 
+\begin_inset Formula $u$
+\end_inset
+
+ is such that equal 
+\begin_inset Formula $u$
+\end_inset
+
+ spans equal distance along the curve.
+ 
 \end_layout
 
 \begin_layout Part
