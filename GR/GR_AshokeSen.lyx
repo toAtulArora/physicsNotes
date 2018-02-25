@@ -2379,8 +2379,8 @@ This is both explicit and preserves the symmetry.
 \end_layout
 
 \begin_layout Standard
-We will use the variational approach to derive the differential equation
- for a geodesic.
+We use the variational approach to derive the differential equation for
+ a geodesic.
  Consider a curve described by 
 \begin_inset Formula $x^{i}=f^{i}(u)$
 \end_inset
