@@ -2560,7 +2560,7 @@ Some consistency checks.
  Note also (again left as an exercise) that changing the coordinate system
  leaves the form of the geodesic equation unchanged.
  This is expected as we did not make any assumptions about the coordinate
- system in the derivation.
+ system in the derivation but we did assume the parameter to be affine.
 \end_layout
 
 \begin_layout Part
