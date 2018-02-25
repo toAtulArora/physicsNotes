@@ -2437,7 +2437,11 @@ Now the change in length between this curve and the arbitrary nearby curve
 \end_inset
 
 where the last two terms are the same which explains the factor of two.
- 
+ The goal here is to obtain an expression of the form 
+\begin_inset Formula $\int_{0}^{1}du(\dots)\delta x^{k}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
