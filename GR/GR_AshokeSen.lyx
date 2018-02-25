@@ -2522,10 +2522,11 @@ For
 \begin_inset Formula $-\frac{1}{2}g^{lk}$
 \end_inset
 
- and equating it to zero one obtains 
+, using the chain rule for the derivative of the metric and equating it
+ to zero one obtains 
 \begin_inset Formula 
 \[
-\frac{d^{2}x^{l}}{du^{2}}+g^{lk}\frac{dx^{j}}{du}\partial_{m}g_{kj}\frac{dx^{m}}{du}-\frac{1}{2}g^{lk}g_{ij}
+\frac{d^{2}x^{l}}{du^{2}}+g^{lk}\frac{dx^{j}}{du}\partial_{m}g_{kj}\frac{dx^{m}}{du}-\frac{1}{2}g^{lk}g_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}=0
 \]
 
 \end_inset
