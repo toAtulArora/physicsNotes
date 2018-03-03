@@ -2798,7 +2798,7 @@ We are now in a position to ask what it would mean for two tangent vectors
 .
  Now if I look at their relation in a new coordinate system I would get
  
-\begin_inset Formula $n'^{l}=\partial_{k}x'^{l}$
+\begin_inset Formula $n'^{l}=\left.\partial_{k}x'^{l}\right|_{\vec{x}_{0}}=$
 \end_inset
 
 
