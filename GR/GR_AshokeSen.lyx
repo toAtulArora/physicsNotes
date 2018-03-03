@@ -2705,6 +2705,19 @@ tangent vectors
 \end_inset
 
  exactly then the scaling (of the affine parameter) is also specified.
+ We can now define the tangent space at 
+\begin_inset Formula $\vec{x}_{0}$
+\end_inset
+
+ to be the space containing all vectors 
+\begin_inset Formula $n^{l}$
+\end_inset
+
+ through the point 
+\begin_inset Formula $\vec{x}_{0}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
