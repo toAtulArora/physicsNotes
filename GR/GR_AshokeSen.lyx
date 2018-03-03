@@ -2903,7 +2903,34 @@ where we dropped the
 \end_inset
 
 .
- Note that it is important to retain the freedom 
+ Recall that in making 
+\begin_inset Formula $\Gamma'^{i}{}_{jk}=0$
+\end_inset
+
+ we had only used the freedom in 
+\begin_inset Formula $B$
+\end_inset
+
+s (the 
+\begin_inset Formula $A$
+\end_inset
+
+s anyway didn't affect 
+\begin_inset Formula $\Gamma$
+\end_inset
+
+ as we saw) but we still had the freedom in specifying 
+\begin_inset Formula $C$
+\end_inset
+
+s.
+ These will define different coordinate systems each of which would have
+ 
+\begin_inset Formula $\Gamma$
+\end_inset
+
+ zero.
+ Note that we can't demand an exact equality.
 \end_layout
 
 \begin_layout Part
