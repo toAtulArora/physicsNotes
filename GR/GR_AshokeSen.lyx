@@ -3055,7 +3055,7 @@ which upon multiplication with
  yields 
 \begin_inset Formula 
 \[
-\cancel{\delta_{\mu}^{i}}\frac{\partial^{2}x^{\cancelto{i}{\mu}}}{\partial x'^{l}\partial x'^{k}}=\cancel{\delta_{\mu}^{i}}\frac{\partial x^{\nu}}{\partial x'^{l}}\frac{\partial x^{\rho}}{\partial x'^{k}}\Gamma^{\cancelto{i}{\mu}}{}_{\nu\rho}.
+\cancel{\delta_{\mu}^{i}}\frac{\partial^{2}x^{\cancelto{i}{\mu}}}{\partial x'^{l}\partial x'^{k}}=-\cancel{\delta_{\mu}^{i}}\frac{\partial x^{\nu}}{\partial x'^{l}}\frac{\partial x^{\rho}}{\partial x'^{k}}\Gamma^{\cancelto{i}{\mu}}{}_{\nu\rho}.
 \]
 
 \end_inset
