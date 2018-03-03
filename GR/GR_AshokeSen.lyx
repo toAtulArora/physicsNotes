@@ -2722,7 +2722,8 @@ tangent space
 \end_inset
 
 .
- 
+ In this terminology, any vector in the tangent space specifies a geodesic
+ through the given point.
 \end_layout
 
 \begin_layout Part
