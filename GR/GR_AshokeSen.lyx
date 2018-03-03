@@ -3138,8 +3138,9 @@ ation.
 \end_inset
 
 which we leave as an exercise.
- It can also be shown that the norm of a tangent vector is preserved by
- the 
+ It can also be shown that the norm of a tangent vector is preserved under
+ parallel transport.
+ 
 \end_layout
 
 \begin_layout Part
