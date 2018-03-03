@@ -3032,7 +3032,7 @@ n^{i}(u+\delta u) & =\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x
 which yields 
 \begin_inset Formula 
 \[
-\frac{dn^{i}}{du}=
+\frac{dn^{i}}{du}=\frac{\partial^{2}x^{i}}{\partial x'^{l}\partial x'^{k}}\frac{\partial x'^{l}}{\partial u}n'^{k}
 \]
 
 \end_inset
