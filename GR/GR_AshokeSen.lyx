@@ -2863,7 +2863,24 @@ This is formalised as follows.
 \begin_inset Formula $n^{l}=\lambda m^{l}+\mathcal{O}(\delta x^{2})$
 \end_inset
 
- 
+.
+ We also say that 
+\begin_inset Formula $\vec{m}$
+\end_inset
+
+ is a 
+\emph on
+parallel transport
+\emph default
+ of 
+\begin_inset Formula $\vec{n}$
+\end_inset
+
+ if 
+\begin_inset Formula $\vec{m}'=\vec{n}'+\mathcal{O}(\delta x^{2})$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
