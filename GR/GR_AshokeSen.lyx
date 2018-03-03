@@ -3043,7 +3043,18 @@ where in the last step we used the chain rule twice.
  was given by 
 \begin_inset Formula 
 \[
-\Gamma'^{i}{}_{lk}=\frac{\partial x'^{i}}{\partial x^{\mu}}\frac{\partial x^{\nu}}{\partial x'^{l}}\frac{\partial x^{\rho}}{\partial x'^{k}}\Gamma^{\mu}{}_{\nu\rho}+\frac{\partial x'^{i}}{\partial x^{\mu}}\frac{\partial^{2}x^{\mu}}{\partial x'^{l}\partial x'^{k}}=0.
+\Gamma'^{j}{}_{lk}=\frac{\partial x'^{i}}{\partial x^{\mu}}\frac{\partial x^{\nu}}{\partial x'^{l}}\frac{\partial x^{\rho}}{\partial x'^{k}}\Gamma^{\mu}{}_{\nu\rho}+\frac{\partial x'^{j}}{\partial x^{\mu}}\frac{\partial^{2}x^{\mu}}{\partial x'^{l}\partial x'^{k}}=0
+\]
+
+\end_inset
+
+which upon multiplication with 
+\begin_inset Formula $\partial x^{i}/\partial x'^{j}$
+\end_inset
+
+ becomes 
+\begin_inset Formula 
+\[
 \]
 
 \end_inset
