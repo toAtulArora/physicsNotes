@@ -3009,7 +3009,12 @@ So far our definition suffers from two issues.
 \end_inset
 
 .
- Let us translate this condition back to 
+ Let us translate this condition back to the 
+\begin_inset Formula $x$
+\end_inset
+
+ coordinate system.
+ 
 \end_layout
 
 \begin_layout Part
