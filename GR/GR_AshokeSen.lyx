@@ -3022,6 +3022,7 @@ So far our definition suffers from two issues.
 \begin_inset Formula 
 \begin{align*}
 n^{i}(u+\delta u) & =\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x}'(u+\delta u)}n'^{k}(u+\delta u)\\
+ & =\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x}'(u+\delta u)}n'^{k}(u)+\mathcal{O}(\delta u^{2}) & \text{(using the transport equation)}\\
  & =
 \end{align*}
 
