@@ -3038,7 +3038,7 @@ which yields
 \end_inset
 
 This is better but it still depends on the primed coordinates.
- To remove this dependence recall the transformation of the Christofel symbel
+ To remove this dependence recall the transformation of the Christofel symbol
  was given by 
 \begin_inset Formula 
 \[
@@ -3049,6 +3049,9 @@ This is better but it still depends on the primed coordinates.
 
 The term involving second derivatives is the one we would like to replace
  in our initial equation.
+ This trading of second derivatives for a Christofel symbol and first derivative
+s is useful because the first derivatives become delta functions upon multiplica
+tion with tensor like transformations.
  From the transport equation we know
 \end_layout
 
