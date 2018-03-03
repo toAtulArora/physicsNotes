@@ -3080,7 +3080,7 @@ parallel transport equation
  given by
 \begin_inset Formula 
 \[
-\boxed{\frac{dn^{i}}{du}+\Gamma^{i}{}_{jk}n^{j}\frac{\partial x^{k}}{\partial u}=0}
+\boxed{\frac{dn^{i}}{du}+\Gamma^{i}{}_{jk}n^{j}\frac{dx^{k}}{du}=0}
 \]
 
 \end_inset
@@ -3095,7 +3095,20 @@ where we changed dummy indices and used the fact that
 \begin_layout Standard
 Note that in our derivation we did not make any assumptions about the curve.
  In particular it needn't be a geodesic.
- 
+ We can also show that the equation is parametrisation independent as follows.
+ Let 
+\begin_inset Formula $u=f(v)$
+\end_inset
+
+, assume that  and note that 
+\begin_inset Formula 
+\[
+\frac{dn^{i}}{du}=\frac{dv}{du}\frac{dn^{i}}{dv},\,\frac{dx^{k}}{du}=\frac{dv}{du}\frac{dx^{k}}{du}\implies\frac{dv}{du}\left[\frac{dn^{i}}{du}+\Gamma^{i}{}_{jk}n^{j}\frac{dx^{k}}{du}\right]=0
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
