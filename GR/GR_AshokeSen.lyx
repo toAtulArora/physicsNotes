@@ -2880,7 +2880,19 @@ parallel transport
 \begin_inset Formula $\vec{m}'=\vec{n}'+\mathcal{O}(\delta x^{2})$
 \end_inset
 
-.
+ (where we dropped the 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ for 
+\begin_inset Formula $n$
+\end_inset
+
+ and 
+\begin_inset Formula $m$
+\end_inset
+
+ can be assumed to have the same normalisation).
 \end_layout
 
 \begin_layout Part
