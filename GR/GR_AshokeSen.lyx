@@ -2504,7 +2504,7 @@ note the affine parameter assumption allows us to neglect the effect of
 
 \begin_inset Formula 
 \[
-\delta L=\int_{0}^{1}du\frac{1}{2}\left(g_{mn}\frac{dx^{m}}{du}\frac{dx^{n}}{du}\right)^{-1/2}\delta x^{k}\left\{ \underbrace{\partial_{k}g_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}-2\frac{dg_{kj}}{du}\frac{dx^{j}}{du}-2g_{kj}\frac{d^{2}x^{j}}{du^{2}}}_{\text{must vanish}}\right\} .
+\delta L=\int_{0}^{1}du\frac{1}{2}\left(g_{mn}\frac{dx^{m}}{du}\frac{dx^{n}}{du}\right)^{-1/2}\delta x^{k}\underbrace{\left\{ \partial_{k}g_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}-2\frac{dg_{kj}}{du}\frac{dx^{j}}{du}-2g_{kj}\frac{d^{2}x^{j}}{du^{2}}\right\} }_{\text{must vanish}}.
 \]
 
 \end_inset
