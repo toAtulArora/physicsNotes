@@ -3108,7 +3108,8 @@ Note that in our derivation we did not make any assumptions about the curve.
 
 \end_inset
 
-
+This is unlike the geodesic equation which was derived for a specific parametriz
+ation.
 \end_layout
 
 \begin_layout Part
