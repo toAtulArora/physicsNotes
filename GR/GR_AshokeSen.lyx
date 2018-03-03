@@ -2555,7 +2555,7 @@ geodesic equation
 \end_layout
 
 \begin_layout Standard
-Some consistency checks.
+Some consistency checks are in order.
  Note that (exercise) 
 \begin_inset Formula $\frac{d}{du}\left(g_{mn}\frac{dx^{m}}{du}\frac{dx^{n}}{du}\right)=0$
 \end_inset
@@ -3081,7 +3081,7 @@ parallel transport equation
  given by
 \begin_inset Formula 
 \[
-\frac{dn^{i}}{du}+\Gamma^{i}{}_{jk}n^{j}\frac{\partial x^{k}}{\partial u}=0
+\boxed{\frac{dn^{i}}{du}+\Gamma^{i}{}_{jk}n^{j}\frac{\partial x^{k}}{\partial u}=0}
 \]
 
 \end_inset
