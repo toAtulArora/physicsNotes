@@ -2982,7 +2982,11 @@ So far our definition suffers from two issues.
 \begin_inset Formula $n^{i}(u)$
 \end_inset
 
-, implicitly defined, 
+, implicitly defined, is known and we need to evaluate 
+\begin_inset Formula $n^{i}(u+\delta u)$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
