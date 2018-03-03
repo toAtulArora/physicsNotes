@@ -2767,8 +2767,19 @@ Parallel Transport
 \begin_layout Standard
 We are now in a position to ask what it would mean for two tangent vectors
  to be parallel? Let us try the usual notion of parallel vectors from flat
- space.
- 
+ space where 
+\begin_inset Formula $\vec{n}\parallel\vec{m}$
+\end_inset
+
+ if 
+\begin_inset Formula $n^{l}=\lambda m^{l}$
+\end_inset
+
+ for some scalar 
+\begin_inset Formula $\lambda$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
