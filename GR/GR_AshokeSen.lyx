@@ -3166,7 +3166,8 @@ which we leave as an exercise.
 \begin_inset Formula $n'(u+\delta u)=n(u)+\mathcal{O}(\delta u^{2})$
 \end_inset
 
-  
+ where the norm is explicitly preserved to first order.
+ 
 \end_layout
 
 \begin_layout Part
