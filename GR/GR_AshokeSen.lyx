@@ -2828,7 +2828,8 @@ flat
 \begin_inset Quotes erd
 \end_inset
 
- only locally let us start by considering two close by points 
+ only locally let us start by considering two close by points.
+  
 \begin_inset Formula $\vec{x}_{0}$
 \end_inset
 
@@ -2846,6 +2847,10 @@ flat
 \end_inset
 
  are parallel if 
+\begin_inset Formula $n^{l}=\lambda m^{l}$
+\end_inset
+
+ in a coordinate system 
 \end_layout
 
 \begin_layout Part
