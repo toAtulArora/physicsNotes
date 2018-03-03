@@ -3121,7 +3121,15 @@ ation.
 \begin_inset Formula $x''$
 \end_inset
 
+ and using 
+\begin_inset Formula $n^{i}=n''^{k}\partial''_{k}x^{i}$
+\end_inset
 
+, the transformation of the Christofel symbol and 
+\begin_inset Formula $dx^{i}/du=\partial''_{r}x^{i}dx''^{r}/du$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
