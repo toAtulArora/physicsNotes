@@ -2748,12 +2748,12 @@ s might correspond to the same geodesic, e.g.
  coordinate system it is given by 
 \begin_inset Formula 
 \[
-n'^{l}=\left.\frac{dx'^{l}}{du}\right|_{\vec{x}'_{0}}=\partial_{m}x'^{l}\left.\frac{dx^{m}}{du}\right|_{\vec{x}_{0}}=\partial_{m}x'^{l}n^{m}
+n'^{l}=\left.\frac{dx'^{l}}{du}\right|_{\vec{x}'_{0}}=\partial_{m}x'^{l}\left.\frac{dx^{m}}{du}\right|_{\vec{x}_{0}}=\partial_{m}x'^{l}n^{m},
 \]
 
 \end_inset
 
-that is 
+that is, 
 \begin_inset Formula $n^{l}$
 \end_inset
 
