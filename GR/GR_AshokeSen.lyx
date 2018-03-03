@@ -3115,7 +3115,13 @@ ation.
 \begin_inset Formula $x$
 \end_inset
 
- was chosen arbitrary
+ was chosen arbitrarily.
+ This can also be seen explicitly by choosing another coordinate system
+ 
+\begin_inset Formula $x''$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
