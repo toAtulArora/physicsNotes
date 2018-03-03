@@ -2930,11 +2930,12 @@ s.
 \end_inset
 
  zero.
- This is why our in definition of parallel vectors we had to add 
+ To ensure invariance under such coordinate transformations we had to add
+ 
 \begin_inset Formula $\mathcal{O}(\delta x'^{2})$
 \end_inset
 
- terms 
+ terms in definition of parallel vectors.
 \end_layout
 
 \begin_layout Part
