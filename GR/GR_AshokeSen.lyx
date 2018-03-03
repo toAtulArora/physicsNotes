@@ -2829,6 +2829,11 @@ flat
 \end_inset
 
  only locally let us start by considering two close by points.
+ 
+\end_layout
+
+\begin_layout Standard
+This is formalised as follows.
  First choose a coordinate system 
 \begin_inset Formula $x'$
 \end_inset
