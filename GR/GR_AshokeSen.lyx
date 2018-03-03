@@ -2944,7 +2944,27 @@ So far our definition suffers from two issues.
  We remedy this by determining the condition for parallel transport in an
  arbitrary frame and use the differential equation so obtained to parallel
  transport a given vector to finitely spaced points.
- Consider a 
+ Consider a curve between two points 
+\begin_inset Formula $\vec{x}_{(1)}$
+\end_inset
+
+ and 
+\begin_inset Formula $\vec{x}_{(2)}$
+\end_inset
+
+ parametrised by 
+\begin_inset Formula $u$
+\end_inset
+
+ which starts at 
+\begin_inset Formula $0$
+\end_inset
+
+ and ends at 
+\begin_inset Formula $1$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
