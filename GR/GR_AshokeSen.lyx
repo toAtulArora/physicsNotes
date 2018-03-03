@@ -3092,6 +3092,11 @@ where we changed dummy indices and used the fact that
 .
 \end_layout
 
+\begin_layout Standard
+Note that in our derivation we did not make any assumptions about the curve.
+ 
+\end_layout
+
 \begin_layout Part
 General Relativity
 \end_layout
