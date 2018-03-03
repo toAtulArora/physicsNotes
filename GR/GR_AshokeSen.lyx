@@ -2737,7 +2737,27 @@ s might correspond to the same geodesic, e.g.
  to two tangent vectors (TODO: add figure).
  We close this section by relating tangent vectors for the same geodesic
  written in different coordinate systems.
- 
+ In the 
+\begin_inset Formula $x$
+\end_inset
+
+ coordinate system if it is given by 
+\begin_inset Formula $n^{l}=\left.dx^{l}/du\right|_{\vec{x}_{0}}$
+\end_inset
+
+ and in the 
+\begin_inset Formula $x'$
+\end_inset
+
+ coordinate system it is given by 
+\begin_inset Formula 
+\[
+n'^{l}=\left.\frac{dx'^{l}}{du}\right|_{\vec{x}'_{0}}=\partial_{m}x'^{l}\left.\frac{dx^{m}}{du}\right|_{\vec{x}_{0}}=\partial_{m}x'^{l}n^{m}.
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
