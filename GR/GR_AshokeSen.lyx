@@ -2724,7 +2724,13 @@ tangent space
 .
  In this terminology, any vector in the tangent space specifies a geodesic
  through the given point.
- It is worth noting that 
+ It is worth noting that two different 
+\begin_inset Formula $n$
+\end_inset
+
+s might correspond to the same geodesic, e.g.
+ the great circle on a sphere is one curve globally but locally will correspond
+ to two tangent vectors (TODO: add figure).
 \end_layout
 
 \begin_layout Part
