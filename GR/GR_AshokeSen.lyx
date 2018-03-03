@@ -3110,7 +3110,12 @@ Note that in our derivation we did not make any assumptions about the curve.
 
 This is unlike the geodesic equation which was derived for a specific parametris
 ation.
- 
+ Note also that this equation is coordinate invariant because the coordinate
+ system 
+\begin_inset Formula $x$
+\end_inset
+
+ was chosen arbitrary
 \end_layout
 
 \begin_layout Part
