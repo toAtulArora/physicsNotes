@@ -2944,7 +2944,7 @@ So far our definition suffers from two issues.
  We remedy this by determining the condition for parallel transport in an
  arbitrary frame and use the differential equation so obtained to parallel
  transport a given vector to finitely spaced points.
- 
+ Consider 
 \end_layout
 
 \begin_layout Part
