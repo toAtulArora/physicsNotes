@@ -3094,6 +3094,7 @@ where we changed dummy indices and used the fact that
 
 \begin_layout Standard
 Note that in our derivation we did not make any assumptions about the curve.
+ In particular it needn't be a geodesic.
  
 \end_layout
 
