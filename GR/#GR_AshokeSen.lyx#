@@ -2806,8 +2806,8 @@ We are now in a position to ask what it would mean for two tangent vectors
 \end_inset
 
 .
- Manifestly then in the new coordinate system the tangent vectors may cease
- to be parallel according to our naïve definition.
+ Manifestly then two parallel tangent vectors may cease to be parallel in
+ the new coordinate system the tangent vectors according to our naïve definition.
  This seems to suggest that there's no unambiguous way of determining if
  two tangents are parallel.
  We fix this demanding the said condition in a coordinate system which is
@@ -2833,8 +2833,7 @@ flat
 \end_layout
 
 \begin_layout Standard
-This is formalised as follows.
- First choose a coordinate system 
+First choose a coordinate system 
 \begin_inset Formula $x'$
 \end_inset
 
@@ -2842,7 +2841,11 @@ This is formalised as follows.
 \begin_inset Formula $\Gamma'^{i}{}_{jk}(\vec{x}')=0$
 \end_inset
 
- and now consider two points 
+ (or equivalently 
+\begin_inset Formula $\partial'_{i}g'_{jk}=0$
+\end_inset
+
+) and now consider two points 
 \begin_inset Formula $\vec{x'}_{0}$
 \end_inset
 
@@ -2860,7 +2863,7 @@ This is formalised as follows.
 \end_inset
 
 , are parallel if 
-\begin_inset Formula $n^{l}=\lambda m^{l}+\mathcal{O}(\delta x^{2})$
+\begin_inset Formula $n^{l}=\lambda m^{l}+\mathcal{O}(\delta x'^{2})$
 \end_inset
 
 .
@@ -2877,7 +2880,7 @@ parallel transport
 \end_inset
 
  if 
-\begin_inset Formula $\vec{m}'=\vec{n}'+\mathcal{O}(\delta x^{2})$
+\begin_inset Formula $\vec{m}'=\vec{n}'+\mathcal{O}(\delta x'^{2})$
 \end_inset
 
 
@@ -2920,10 +2923,137 @@ s anyway didn't affect
 \end_inset
 
  as we saw) but we still had the freedom in specifying 
-\begin_inset Formula $ $
+\begin_inset Formula $C$
 \end_inset
 
-Note that we can't demand an exact equality.
+s.
+ These will define different coordinate systems each of which would have
+ 
+\begin_inset Formula $\Gamma$
+\end_inset
+
+ zero.
+ To ensure invariance under such coordinate transformations we had to add
+ 
+\begin_inset Formula $\mathcal{O}(\delta x'^{2})$
+\end_inset
+
+ terms in our definition of parallel vectors.
+\end_layout
+
+\begin_layout Standard
+So far our definition suffers from two issues.
+ First, it is only defined for infinitesimally close points and second,
+ it requires use to pick a specific coordinate system.
+ We remedy this by determining the condition for parallel transport in an
+ arbitrary frame and use the differential equation so obtained to parallel
+ transport a given vector to finitely spaced points.
+ Consider a curve between two points 
+\begin_inset Formula $\vec{x}_{(0)}$
+\end_inset
+
+ and 
+\begin_inset Formula $\vec{x}_{(1)}$
+\end_inset
+
+ parametrised by 
+\begin_inset Formula $u$
+\end_inset
+
+ which starts at 
+\begin_inset Formula $0$
+\end_inset
+
+ and ends at 
+\begin_inset Formula $1$
+\end_inset
+
+.
+ We wish to start with a tangent vector 
+\begin_inset Formula $n^{i}(0)$
+\end_inset
+
+ at point 
+\begin_inset Formula $\vec{x}_{(0)}$
+\end_inset
+
+ and parallel transport it to 
+\begin_inset Formula $\vec{x}_{(1)}$
+\end_inset
+
+.
+ Assume that 
+\begin_inset Formula $n^{i}(u)$
+\end_inset
+
+, implicitly defined, is known and we need to evaluate 
+\begin_inset Formula $n^{i}(u+\delta u)$
+\end_inset
+
+.
+ According to our definition of parallel transport we must first choose
+ a coordinate system 
+\begin_inset Formula $x'$
+\end_inset
+
+ such that 
+\begin_inset Formula $\partial'_{i}g'_{jk}=0$
+\end_inset
+
+ at 
+\begin_inset Formula $\vec{x}'=\vec{x}'(u)$
+\end_inset
+
+ and then we can write 
+\begin_inset Formula $n'^{i}(u+\delta u)=n'^{i}(u)+\mathcal{O}(\delta u^{2})$
+\end_inset
+
+.
+ Let us translate this condition back to the 
+\begin_inset Formula $x$
+\end_inset
+
+ coordinate system.
+ Recall 
+\begin_inset Formula $n^{i}(u)=\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x}'(u)}n'^{k}(u)$
+\end_inset
+
+ and 
+\begin_inset Formula 
+\begin{align*}
+n^{i}(u+\delta u) & =\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x}'(u+\delta u)}n'^{k}(u+\delta u)\\
+ & =\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x}'(u+\delta u)}\left(n'^{k}(u)+\mathcal{O}(\delta u^{2})\right) & \text{(using the transport equation)}\\
+ & =\left(\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x}'(u)}+\frac{\partial^{2}x^{i}}{\partial x'^{l}\partial x'^{k}}\delta x'^{l}+\dots\right)\left(n'^{k}(u)+\mathcal{O}(\delta u^{2})\right)\\
+ & =\left(\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x}'(u)}+\frac{\partial^{2}x^{i}}{\partial x'^{l}\partial x'^{k}}\frac{\partial x'^{l}}{\partial u}\delta u+\dots\right)\left(n'^{k}(u)+\mathcal{O}(\delta u^{2})\right)
+\end{align*}
+
+\end_inset
+
+which yields 
+\begin_inset Formula 
+\[
+\frac{dn^{i}}{du}=\frac{\partial^{2}x^{i}}{\partial x'^{l}\partial x'^{k}}\frac{\partial x'^{l}}{\partial u}n'^{k}=\frac{\partial^{2}x^{i}}{\partial x'^{l}\partial x'^{k}}\frac{\partial x'^{l}}{\partial x^{}}\frac{\partial x'^{k}}{\partial x^{j}}n^{j}.
+\]
+
+\end_inset
+
+This is better but it still depends on the primed coordinates.
+ To remove this dependence recall the transformation of the Christofel symbol
+ was given by 
+\begin_inset Formula 
+\[
+\Gamma'^{i}{}_{lk}=\frac{\partial x'^{i}}{\partial x^{\mu}}\frac{\partial x^{\nu}}{\partial x'^{l}}\frac{\partial x^{\rho}}{\partial x'^{k}}\Gamma^{\mu}{}_{\nu\rho}+\frac{\partial x'^{i}}{\partial x^{\mu}}\frac{\partial^{2}x^{\mu}}{\partial x'^{l}\partial x'^{k}}=0.
+\]
+
+\end_inset
+
+The term involving second derivatives is the one we would like to replace
+ in our initial equation.
+ This trading of second derivatives for a Christofel symbol and first derivative
+s is useful because the first derivatives become delta functions upon multiplica
+tion with tensor like transformation factors.
+ We would also need to use the fact that From the transport equation we
+ know
 \end_layout
 
 \begin_layout Part
