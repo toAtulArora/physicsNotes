@@ -2833,7 +2833,11 @@ flat
 \begin_inset Formula $x'$
 \end_inset
 
-  
+ so that 
+\begin_inset Formula $\Gamma'^{i}{}_{jk}=0$
+\end_inset
+
+ 
 \begin_inset Formula $\vec{x}_{0}$
 \end_inset
 
