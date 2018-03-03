@@ -2842,17 +2842,16 @@ This is formalised as follows.
 \begin_inset Formula $\Gamma'^{i}{}_{jk}(\vec{x}')=0$
 \end_inset
 
-.
- Now 
-\begin_inset Formula $\vec{x}_{0}$
+ and now consider two points 
+\begin_inset Formula $\vec{x'}_{0}$
 \end_inset
 
  and 
-\begin_inset Formula $\vec{x}_{0}+\delta\vec{x}_{0}$
+\begin_inset Formula $\vec{x'}_{0}+\delta\vec{x}'_{0}$
 \end_inset
 
 .
- We say that the tangents 
+ We say that the tangents at these points, 
 \begin_inset Formula $n^{l}$
 \end_inset
 
@@ -2860,11 +2859,11 @@ This is formalised as follows.
 \begin_inset Formula $m^{l}$
 \end_inset
 
- are parallel if 
-\begin_inset Formula $n^{l}=\lambda m^{l}$
+, are parallel if 
+\begin_inset Formula $n^{l}=\lambda m^{l}+\mathcal{O}(\delta x^{2})$
 \end_inset
 
- in a coordinate system 
+ 
 \end_layout
 
 \begin_layout Part
