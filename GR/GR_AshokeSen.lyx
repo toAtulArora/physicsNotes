@@ -2941,7 +2941,9 @@ s.
 So far our definition suffers from two issues.
  First, it is only defined for infinitesimally close points and second,
  it requires use to pick a specific coordinate system.
- We remedy this by determining the condition for parallel transport in 
+ We remedy this by determining the condition for parallel transport in an
+ arbitrary frame and use the differential equation so obtained to parallel
+ transport a given vector to finitely spaced points.
 \end_layout
 
 \begin_layout Part
