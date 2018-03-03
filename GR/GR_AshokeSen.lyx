@@ -2810,7 +2810,16 @@ We are now in a position to ask what it would mean for two tangent vectors
  to be parallel according to our naïve definition.
  This seems to suggest that there's no unambiguous way of determining if
  two tangents are parallel.
- We fix this by requiring that 
+ We fix this demanding the said condition in a coordinate system which is
+ 
+\begin_inset Quotes eld
+\end_inset
+
+flat
+\begin_inset Quotes erd
+\end_inset
+
+ to first order.
 \end_layout
 
 \begin_layout Part
