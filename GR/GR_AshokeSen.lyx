@@ -2675,10 +2675,14 @@ and note that these constitute
 \end_inset
 
  more conditions: 
-\begin_inset Formula $\left.dx^{l}/du\right|_{\vec{x}=\vec{x}_{0}}=n^{l}$
+\begin_inset Formula 
+\[
+\left.\frac{dx^{l}}{du}\right|_{\vec{x}=\vec{x}_{0}}=n^{l}
+\]
+
 \end_inset
 
- where we define 
+where we define 
 \begin_inset Formula $n^{l}$
 \end_inset
 
