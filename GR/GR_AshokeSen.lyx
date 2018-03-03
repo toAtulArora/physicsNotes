@@ -2882,7 +2882,7 @@ parallel transport
 
 
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 where we dropped the 
@@ -2903,6 +2903,7 @@ where we dropped the
 \end_inset
 
 .
+ 
 \end_layout
 
 \begin_layout Part
