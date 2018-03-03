@@ -3024,7 +3024,8 @@ So far our definition suffers from two issues.
 n^{i}(u+\delta u) & =\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x}'(u+\delta u)}n'^{k}(u+\delta u)\\
  & =\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x}'(u+\delta u)}\left(n'^{k}(u)+\mathcal{O}(\delta u^{2})\right) & \text{(using the transport equation)}\\
  & =\left(\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x}'(u)}+\frac{\partial^{2}x^{i}}{\partial x'^{l}\partial x'^{k}}\delta x'^{l}+\dots\right)\left(n'^{k}(u)+\mathcal{O}(\delta u^{2})\right)\\
- & =\left(\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x}'(u)}+\frac{\partial^{2}x^{i}}{\partial x'^{l}\partial x'^{k}}\frac{\partial x'^{l}}{\partial u}\delta u+\dots\right)\left(n'^{k}(u)+\mathcal{O}(\delta u^{2})\right)
+ & =\left(\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x}'(u)}+\frac{\partial^{2}x^{i}}{\partial x'^{l}\partial x'^{k}}\frac{\partial x'^{l}}{\partial u}\delta u+\dots\right)\left(n'^{k}(u)+\mathcal{O}(\delta u^{2})\right)\\
+ & =
 \end{align*}
 
 \end_inset
