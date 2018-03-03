@@ -3039,7 +3039,7 @@ which yields
 
 This is better but it still depends on the primed coordinates.
  To remove this dependence recall the transformation of the Christofel symbel
- was 
+ was given by 
 \begin_inset Formula 
 \[
 \Gamma'^{l}{}_{mn}=
