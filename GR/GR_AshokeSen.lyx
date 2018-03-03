@@ -2669,7 +2669,11 @@ and note that these constitute
 \begin_inset Formula $n$
 \end_inset
 
- conditions.
+ conditions, that is, the geodesic must pass through the said point.
+ Now we set the direction to completely specify the curve by requiring 
+\begin_inset Formula $\left.dx^{l}/du\right|_{\vec{x}=\vec{x}_{0}}$
+\end_inset
+
  
 \end_layout
 
