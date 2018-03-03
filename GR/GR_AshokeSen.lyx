@@ -2766,6 +2766,22 @@ Parallel Transport
 
 \begin_layout Standard
 We are now in a position to ask what it would mean for two tangent vectors
+ 
+\begin_inset Formula $n^{l}$
+\end_inset
+
+ at 
+\begin_inset Formula $\vec{x}_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $m^{l}$
+\end_inset
+
+ at 
+\begin_inset Formula $\vec{x}_{2}$
+\end_inset
+
  to be parallel? Let us try the usual notion of parallel vectors from flat
  space where 
 \begin_inset Formula $\vec{n}\parallel\vec{m}$
@@ -2780,6 +2796,11 @@ We are now in a position to ask what it would mean for two tangent vectors
 \end_inset
 
 .
+ Now 
+\begin_inset Formula $n'^{l}=\partial_{k}x'^{l}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
