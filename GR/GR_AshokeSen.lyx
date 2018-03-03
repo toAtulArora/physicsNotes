@@ -3038,7 +3038,8 @@ which yields
 \end_inset
 
 This is better but it still depends on the primed coordinates.
- To remove this dependence recall that 
+ To remove this dependence recall the transformation of the Christofel symbel
+ was 
 \begin_inset Formula 
 \[
 \Gamma'^{l}{}_{mn}=
