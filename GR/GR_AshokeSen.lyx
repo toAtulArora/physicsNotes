@@ -3081,12 +3081,18 @@ parallel transport equation
  given by
 \begin_inset Formula 
 \[
-\frac{dn^{i}}{du}+\Gamma^{i}{}_{jk}=0
+\frac{dn^{i}}{du}+\Gamma^{i}{}_{jk}n^{j}\frac{\partial x^{k}}{\partial u}=0
 \]
 
 \end_inset
 
-We would also need to use the fact that From the transport equation we know
+where changed dummy indices and used the fact that 
+\begin_inset Formula $\Gamma^{i}{}_{jk}=\Gamma^{i}{}_{kj}$
+\end_inset
+
+.
+ We would also need to use the fact that From the transport equation we
+ kno
 \end_layout
 
 \begin_layout Part
