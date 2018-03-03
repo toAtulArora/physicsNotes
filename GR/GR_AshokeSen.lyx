@@ -3162,7 +3162,11 @@ which we leave as an exercise.
 \end_inset
 
  which completes the proof.
- This is not surprising because we 
+ This is not surprising because we started with 
+\begin_inset Formula $n'(u+\delta u)=n(u)+\mathcal{O}(\delta u)$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
