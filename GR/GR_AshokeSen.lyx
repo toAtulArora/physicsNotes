@@ -2555,8 +2555,7 @@ geodesic equation
 \end_layout
 
 \begin_layout Standard
-Some consistency checks are in order.
- Note that (exercise) 
+Some consistency checks: Note that (exercise) 
 \begin_inset Formula $\frac{d}{du}\left(g_{mn}\frac{dx^{m}}{du}\frac{dx^{n}}{du}\right)=0$
 \end_inset
 
