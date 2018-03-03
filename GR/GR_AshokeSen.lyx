@@ -3129,7 +3129,15 @@ ation.
 \begin_inset Formula $dx^{i}/du=\partial''_{r}x^{i}dx''^{r}/du$
 \end_inset
 
-.
+ to get 
+\begin_inset Formula 
+\[
+\frac{\partial x^{i}}{\partial x''^{r}}\left(\frac{dn''^{r}}{du}+\Gamma''^{r}{}_{jk}n''^{j}\frac{dx''^{k}}{du}\right)=0
+\]
+
+\end_inset
+
+which we leave as an exercise.
 \end_layout
 
 \begin_layout Part
