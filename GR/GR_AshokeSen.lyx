@@ -3162,8 +3162,9 @@ which we leave as an exercise.
 \end_inset
 
  which completes the proof.
- This is not surprising because we started with 
-\begin_inset Formula $n'(u+\delta u)=n(u)+\mathcal{O}(\delta u^{2})$
+ This is not surprising because we derived all our results from the requirement
+ that 
+\begin_inset Formula $n'(u+\delta u)=n'(u)+\mathcal{O}(\delta u^{2})$
 \end_inset
 
  where the norm is explicitly preserved to first order.
