@@ -3014,7 +3014,11 @@ So far our definition suffers from two issues.
 \end_inset
 
  coordinate system.
- 
+ Recall 
+\begin_inset Formula $n^{i}(u)=\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x}'(u)}n'^{k}(u)$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
