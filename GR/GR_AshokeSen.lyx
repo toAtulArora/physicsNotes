@@ -2671,6 +2671,10 @@ and note that these constitute
 
  conditions, that is, the geodesic must pass through the said point.
  Now we set the direction to completely specify the curve by requiring 
+\begin_inset Formula $n$
+\end_inset
+
+ more conditions: 
 \begin_inset Formula $\left.dx^{l}/du\right|_{\vec{x}=\vec{x}_{0}}=n^{l}$
 \end_inset
 
@@ -2678,7 +2682,11 @@ and note that these constitute
 \begin_inset Formula $n^{l}$
 \end_inset
 
- to be the tangent vectors to the geodesic at 
+ to be the 
+\emph on
+tangent vectors
+\emph default
+ to the geodesic at 
 \begin_inset Formula $\vec{x}$
 \end_inset
 
