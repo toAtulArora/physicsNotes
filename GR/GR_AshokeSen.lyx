@@ -3064,7 +3064,7 @@ The term involving second derivatives is the one we would like to replace
  in our initial equation.
  This trading of second derivatives for a Christofel symbol and first derivative
 s is useful because the first derivatives become delta functions upon multiplica
-tion with tensor like transformation factors.
+tion with tensor like transformation factors as above.
  We would also need to use the fact that From the transport equation we
  know
 \end_layout
