@@ -2941,7 +2941,8 @@ s.
 \begin_layout Standard
 So far our definition suffers from two issues.
  First, it is defined for only infinitesimally close points and second it
- 
+ requires use to pick a specific coordinate system.
+ We remedy this by 
 \end_layout
 
 \begin_layout Part
