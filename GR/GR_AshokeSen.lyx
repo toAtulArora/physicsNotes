@@ -2641,14 +2641,10 @@ Consider a point
  To arrive at the notion of tangent vectors we ask the following: How many
  parameters are needed to describe all possible geodesics that pass through
  this point? To answer this recall the geodesic equation 
-\begin_inset Formula 
-\[
-\frac{d^{2}x^{l}}{du^{2}}+\Gamma^{l}{}_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}=0
-\]
-
+\begin_inset Formula $\frac{d^{2}x^{l}}{du^{2}}+\Gamma^{l}{}_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}=0$
 \end_inset
 
-and note that these constitute 
+ and note that these constitute 
 \begin_inset Formula $n$
 \end_inset
 
