@@ -2829,6 +2829,10 @@ flat
 \end_inset
 
  only locally let us start by considering two close by points.
+ First choose a coordinate system 
+\begin_inset Formula $x'$
+\end_inset
+
   
 \begin_inset Formula $\vec{x}_{0}$
 \end_inset
