@@ -3110,7 +3110,11 @@ Note that in our derivation we did not make any assumptions about the curve.
 
 This is unlike the geodesic equation which was derived for a specific parametris
 ation.
- Note also that this equation is coordinate invariant because the coordinate
+ 
+\end_layout
+
+\begin_layout Standard
+Note also that this equation is coordinate invariant because the coordinate
  system 
 \begin_inset Formula $x$
 \end_inset
@@ -3138,7 +3142,11 @@ ation.
 \end_inset
 
 which we leave as an exercise.
- It can also be shown that the norm of a tangent vector is preserved under
+ 
+\end_layout
+
+\begin_layout Standard
+It can also be shown that the norm of a tangent vector is preserved under
  parallel transport, viz.
  
 \begin_inset Formula $d\left(g_{ij}n^{i}n^{j}\right)/du=0$
@@ -3169,6 +3177,10 @@ which we leave as an exercise.
 
  where the norm is explicitly preserved to first order.
  
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Part
