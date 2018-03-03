@@ -2978,6 +2978,11 @@ So far our definition suffers from two issues.
 \end_inset
 
 .
+ Assume that 
+\begin_inset Formula $n^{i}(u)$
+\end_inset
+
+, implicitly defined, 
 \end_layout
 
 \begin_layout Part
