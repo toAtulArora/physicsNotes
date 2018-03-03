@@ -2834,9 +2834,10 @@ flat
 \end_inset
 
  so that 
-\begin_inset Formula $\Gamma'^{i}{}_{jk}=0$
+\begin_inset Formula $\Gamma'^{i}{}_{jk}(\vec{x}')=0$
 \end_inset
 
+.
  
 \begin_inset Formula $\vec{x}_{0}$
 \end_inset
