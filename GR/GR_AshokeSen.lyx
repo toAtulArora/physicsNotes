@@ -2841,7 +2841,11 @@ First choose a coordinate system
 \begin_inset Formula $\Gamma'^{i}{}_{jk}(\vec{x}')=0$
 \end_inset
 
- and now consider two points 
+ (or equivalently 
+\begin_inset Formula $\partial'_{i}g'_{jk}=0$
+\end_inset
+
+) and now consider two points 
 \begin_inset Formula $\vec{x'}_{0}$
 \end_inset
 
