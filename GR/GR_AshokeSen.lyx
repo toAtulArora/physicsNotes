@@ -3100,10 +3100,10 @@ Note that in our derivation we did not make any assumptions about the curve.
 \begin_inset Formula $u=f(v)$
 \end_inset
 
-, assume that  and note that 
+ and note that 
 \begin_inset Formula 
 \[
-\frac{dn^{i}}{du}=\frac{dv}{du}\frac{dn^{i}}{dv},\,\frac{dx^{k}}{du}=\frac{dv}{du}\frac{dx^{k}}{du}\implies\frac{dv}{du}\left[\frac{dn^{i}}{du}+\Gamma^{i}{}_{jk}n^{j}\frac{dx^{k}}{du}\right]=0
+\frac{dn^{i}}{du}=\frac{dv}{du}\frac{dn^{i}}{dv},\,\frac{dx^{k}}{du}=\frac{dv}{du}\frac{dx^{k}}{du}\implies\frac{dv}{du}\left[\frac{dn^{i}}{du}+\Gamma^{i}{}_{jk}n^{j}\frac{dx^{k}}{du}\right]=0.
 \]
 
 \end_inset
