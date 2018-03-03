@@ -3008,7 +3008,8 @@ So far our definition suffers from two issues.
 \begin_inset Formula $n'^{i}(u+\delta u)=n'^{i}(u)+\mathcal{O}(\delta u^{2})$
 \end_inset
 
-
+.
+ 
 \end_layout
 
 \begin_layout Part
