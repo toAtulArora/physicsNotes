@@ -3154,6 +3154,15 @@ which we leave as an exercise.
 \end_inset
 
 .
+ The neater method is to note that a scalar is invariant under coordinate
+ transformations and therefore use a coordinate frame where the first derivative
+ of the metric vanishes.
+ Further the transport equation yields 
+\begin_inset Formula $dn'/du=0$
+\end_inset
+
+ which completes the proof.
+ 
 \end_layout
 
 \begin_layout Part
