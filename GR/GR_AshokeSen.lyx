@@ -2945,11 +2945,11 @@ So far our definition suffers from two issues.
  arbitrary frame and use the differential equation so obtained to parallel
  transport a given vector to finitely spaced points.
  Consider a curve between two points 
-\begin_inset Formula $\vec{x}_{(1)}$
+\begin_inset Formula $\vec{x}_{(0)}$
 \end_inset
 
  and 
-\begin_inset Formula $\vec{x}_{(2)}$
+\begin_inset Formula $\vec{x}_{(1)}$
 \end_inset
 
  parametrised by 
@@ -2970,11 +2970,11 @@ So far our definition suffers from two issues.
 \end_inset
 
  at point 
-\begin_inset Formula $\vec{x}_{(1)}$
+\begin_inset Formula $\vec{x}_{(0)}$
 \end_inset
 
  and parallel transport it to 
-\begin_inset Formula $\vec{x}_{(2)}$
+\begin_inset Formula $\vec{x}_{(1)}$
 \end_inset
 
 .
@@ -2987,6 +2987,20 @@ So far our definition suffers from two issues.
 \end_inset
 
 .
+ According to our definition of parallel transport we must first choose
+ a coordinate system 
+\begin_inset Formula $x'$
+\end_inset
+
+ such that 
+\begin_inset Formula $\partial'_{i}g'_{jk}=0$
+\end_inset
+
+ at 
+\begin_inset Formula $\vec{x}'=\vec{x}'(u)$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
