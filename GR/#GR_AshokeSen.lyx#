@@ -2504,7 +2504,7 @@ note the affine parameter assumption allows us to neglect the effect of
 
 \begin_inset Formula 
 \[
-\delta L=\int_{0}^{1}du\frac{1}{2}\left(g_{mn}\frac{dx^{m}}{du}\frac{dx^{n}}{du}\right)^{-1/2}\delta x^{k}\left\{ \underbrace{\partial_{k}g_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}-2\frac{dg_{kj}}{du}\frac{dx^{j}}{du}-2g_{kj}\frac{d^{2}x^{j}}{du^{2}}}_{\text{must vanish}}\right\} .
+\delta L=\int_{0}^{1}du\frac{1}{2}\left(g_{mn}\frac{dx^{m}}{du}\frac{dx^{n}}{du}\right)^{-1/2}\delta x^{k}\underbrace{\left\{ \partial_{k}g_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}-2\frac{dg_{kj}}{du}\frac{dx^{j}}{du}-2g_{kj}\frac{d^{2}x^{j}}{du^{2}}\right\} }_{\text{must vanish}}.
 \]
 
 \end_inset
@@ -2641,14 +2641,10 @@ Consider a point
  To arrive at the notion of tangent vectors we ask the following: How many
  parameters are needed to describe all possible geodesics that pass through
  this point? To answer this recall the geodesic equation 
-\begin_inset Formula 
-\[
-\frac{d^{2}x^{l}}{du^{2}}+\Gamma^{l}{}_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}=0
-\]
-
+\begin_inset Formula $\frac{d^{2}x^{l}}{du^{2}}+\Gamma^{l}{}_{ij}\frac{dx^{i}}{du}\frac{dx^{j}}{du}=0$
 \end_inset
 
-and note that these constitute 
+ and note that these constitute 
 \begin_inset Formula $n$
 \end_inset
 
@@ -2750,10 +2746,124 @@ s might correspond to the same geodesic, e.g.
 \end_inset
 
  coordinate system it is given by 
-\begin_inset Formula $n'^{l}=\left.dx'^{l}/du\right|_{\vec{x}'_{0}}=\partial_{m}x'^{l}\left.\frac{dx^{m}}{du}\right|_{\vec{x}_{0}}=\partial_{m}x'^{l}$
+\begin_inset Formula 
+\[
+n'^{l}=\left.\frac{dx'^{l}}{du}\right|_{\vec{x}'_{0}}=\partial_{m}x'^{l}\left.\frac{dx^{m}}{du}\right|_{\vec{x}_{0}}=\partial_{m}x'^{l}n^{m},
+\]
+
 \end_inset
 
+that is, 
+\begin_inset Formula $n^{l}$
+\end_inset
 
+ transforms as a tensor.
+\end_layout
+
+\begin_layout Section
+Parallel Transport
+\end_layout
+
+\begin_layout Standard
+We are now in a position to ask what it would mean for two tangent vectors
+ 
+\begin_inset Formula $n^{l}$
+\end_inset
+
+ at 
+\begin_inset Formula $\vec{x}_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $m^{l}$
+\end_inset
+
+ at 
+\begin_inset Formula $\vec{x}_{2}$
+\end_inset
+
+ to be parallel? Let us try the usual notion of parallel vectors from flat
+ space where 
+\begin_inset Formula $\vec{n}\parallel\vec{m}$
+\end_inset
+
+ if 
+\begin_inset Formula $n^{l}=\lambda m^{l}$
+\end_inset
+
+ for some 
+\begin_inset Formula $\lambda$
+\end_inset
+
+.
+ Now if we look at their relation in a new coordinate system we would get
+ 
+\begin_inset Formula $n'^{l}=\left.\partial_{k}x'^{l}\right|_{\vec{x}'_{1}}n^{k}$
+\end_inset
+
+ while 
+\begin_inset Formula $m'^{l}=\left.\partial_{k}x'^{l}\right|_{\vec{x}'_{2}}m^{k}$
+\end_inset
+
+.
+ Manifestly then in the new coordinate system the tangent vectors may cease
+ to be parallel according to our naïve definition.
+ This seems to suggest that there's no unambiguous way of determining if
+ two tangents are parallel.
+ We fix this demanding the said condition in a coordinate system which is
+ 
+\begin_inset Quotes eld
+\end_inset
+
+flat
+\begin_inset Quotes erd
+\end_inset
+
+ to first order (where the first derivative of the metric disappears).
+ Since we can make the space 
+\begin_inset Quotes eld
+\end_inset
+
+flat
+\begin_inset Quotes erd
+\end_inset
+
+ only locally let us start by considering two close by points.
+ 
+\end_layout
+
+\begin_layout Standard
+This is formalised as follows.
+ First choose a coordinate system 
+\begin_inset Formula $x'$
+\end_inset
+
+ so that 
+\begin_inset Formula $\Gamma'^{i}{}_{jk}(\vec{x}')=0$
+\end_inset
+
+ and now consider two points 
+\begin_inset Formula $\vec{x'}_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $\vec{x'}_{0}+\delta\vec{x}'_{0}$
+\end_inset
+
+.
+ We say that the tangents at these points, 
+\begin_inset Formula $n^{l}$
+\end_inset
+
+ and 
+\begin_inset Formula $m^{l}$
+\end_inset
+
+, are parallel if 
+\begin_inset Formula $n^{l}=\lambda m^{l}$
+\end_inset
+
+ in a coordinate system 
 \end_layout
 
 \begin_layout Part
