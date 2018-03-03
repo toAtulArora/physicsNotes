@@ -3183,7 +3183,7 @@ It can also be shown that the norm of a tangent vector is preserved under
 Observe that we started with choosing any vector from the tangent space
  at a given point and parallel transported it along an arbitrary curve to
  another point.
- If instead we use 
+ 
 \end_layout
 
 \begin_layout Part
