@@ -3018,7 +3018,7 @@ So far our definition suffers from two issues.
 \begin_inset Formula $n^{i}(u)=\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x}'(u)}n'^{k}(u)$
 \end_inset
 
- 
+ and 
 \end_layout
 
 \begin_layout Part
