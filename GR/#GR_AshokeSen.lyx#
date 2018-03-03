@@ -2555,8 +2555,7 @@ geodesic equation
 \end_layout
 
 \begin_layout Standard
-Some consistency checks.
- Note that (exercise) 
+Some consistency checks: Note that (exercise) 
 \begin_inset Formula $\frac{d}{du}\left(g_{mn}\frac{dx^{m}}{du}\frac{dx^{n}}{du}\right)=0$
 \end_inset
 
@@ -3024,7 +3023,7 @@ So far our definition suffers from two issues.
 n^{i}(u+\delta u) & =\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x}'(u+\delta u)}n'^{k}(u+\delta u)\\
  & =\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x}'(u+\delta u)}\left(n'^{k}(u)+\mathcal{O}(\delta u^{2})\right) & \text{(using the transport equation)}\\
  & =\left(\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x}'(u)}+\frac{\partial^{2}x^{i}}{\partial x'^{l}\partial x'^{k}}\delta x'^{l}+\dots\right)\left(n'^{k}(u)+\mathcal{O}(\delta u^{2})\right)\\
- & =\left(\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x}'(u)}+\frac{\partial^{2}x^{i}}{\partial x'^{l}\partial x'^{k}}\frac{\partial x'^{l}}{\partial u}\delta u+\dots\right)\left(n'^{k}(u)+\mathcal{O}(\delta u^{2})\right)
+ & =\left(\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x}'(u)}+\frac{\partial^{2}x^{i}}{\partial x'^{l}\partial x'^{k}}\frac{dx'^{l}}{du}\delta u+\dots\right)\left(n'^{k}(u)+\mathcal{O}(\delta u^{2})\right)
 \end{align*}
 
 \end_inset
@@ -3032,17 +3031,30 @@ n^{i}(u+\delta u) & =\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x
 which yields 
 \begin_inset Formula 
 \[
-\frac{dn^{i}}{du}=\frac{\partial^{2}x^{i}}{\partial x'^{l}\partial x'^{k}}\frac{\partial x'^{l}}{\partial u}n'^{k}=\frac{\partial^{2}x^{i}}{\partial x'^{l}\partial x'^{k}}\frac{\partial x'^{l}}{\partial x^{}}\frac{\partial x'^{k}}{\partial x^{j}}n^{j}.
+\frac{dn^{i}}{du}=\frac{\partial^{2}x^{i}}{\partial x'^{l}\partial x'^{k}}\frac{dx'^{l}}{du}n'^{k}=\frac{\partial^{2}x^{i}}{\partial x'^{l}\partial x'^{k}}\frac{\partial x'^{l}}{\partial x^{m}}\frac{\partial x'^{k}}{\partial x^{j}}\frac{dx^{m}}{du}n^{j}
 \]
 
 \end_inset
 
-This is better but it still depends on the primed coordinates.
+where in the last step we used the chain rule twice.
+ This is better but it still depends on the primed coordinates.
  To remove this dependence recall the transformation of the Christofel symbol
  was given by 
 \begin_inset Formula 
 \[
-\Gamma'^{i}{}_{lk}=\frac{\partial x'^{i}}{\partial x^{\mu}}\frac{\partial x^{\nu}}{\partial x'^{l}}\frac{\partial x^{\rho}}{\partial x'^{k}}\Gamma^{\mu}{}_{\nu\rho}+\frac{\partial x'^{i}}{\partial x^{\mu}}\frac{\partial^{2}x^{\mu}}{\partial x'^{l}\partial x'^{k}}=0.
+\Gamma'^{j}{}_{lk}=\frac{\partial x'^{j}}{\partial x^{\mu}}\frac{\partial x^{\nu}}{\partial x'^{l}}\frac{\partial x^{\rho}}{\partial x'^{k}}\Gamma^{\mu}{}_{\nu\rho}+\frac{\partial x'^{j}}{\partial x^{\mu}}\frac{\partial^{2}x^{\mu}}{\partial x'^{l}\partial x'^{k}}=0
+\]
+
+\end_inset
+
+which upon multiplication with 
+\begin_inset Formula $\partial x^{i}/\partial x'^{j}$
+\end_inset
+
+ yields 
+\begin_inset Formula 
+\[
+\cancel{\delta_{\mu}^{i}}\frac{\partial^{2}x^{\cancelto{i}{\mu}}}{\partial x'^{l}\partial x'^{k}}=-\cancel{\delta_{\mu}^{i}}\frac{\partial x^{\nu}}{\partial x'^{l}}\frac{\partial x^{\rho}}{\partial x'^{k}}\Gamma^{\cancelto{i}{\mu}}{}_{\nu\rho}.
 \]
 
 \end_inset
@@ -3052,8 +3064,81 @@ The term involving second derivatives is the one we would like to replace
  This trading of second derivatives for a Christofel symbol and first derivative
 s is useful because the first derivatives become delta functions upon multiplica
 tion with tensor like transformation factors.
- We would also need to use the fact that From the transport equation we
- know
+ Using this we get 
+\begin_inset Formula 
+\begin{align*}
+\frac{dn^{i}}{du} & =-\frac{\partial x^{\nu}}{\partial x'^{l}}\frac{\partial x^{\rho}}{\partial x'^{k}}\Gamma^{i}{}_{\nu\rho}\frac{\partial x'^{l}}{\partial x^{m}}\frac{\partial x'^{k}}{\partial x^{j}}\frac{dx^{m}}{du}n^{j}\\
+ & =-\Gamma^{i}{}_{\nu\rho}\delta_{m}^{\nu}\delta_{j}^{\rho}\frac{dx^{m}}{du}n^{j}
+\end{align*}
+
+\end_inset
+
+which yields the final 
+\emph on
+parallel transport equation
+\emph default
+ given by
+\begin_inset Formula 
+\[
+\boxed{\frac{dn^{i}}{du}+\Gamma^{i}{}_{jk}n^{j}\frac{dx^{k}}{du}=0}
+\]
+
+\end_inset
+
+where we changed dummy indices and used the fact that 
+\begin_inset Formula $\Gamma^{i}{}_{jk}=\Gamma^{i}{}_{kj}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Note that in our derivation we did not make any assumptions about the curve.
+ In particular it needn't be a geodesic.
+ We can also show that the equation is parametrisation independent as follows.
+ Let 
+\begin_inset Formula $u=f(v)$
+\end_inset
+
+ and note that 
+\begin_inset Formula 
+\[
+\frac{dn^{i}}{du}=\frac{dv}{du}\frac{dn^{i}}{dv},\,\frac{dx^{k}}{du}=\frac{dv}{du}\frac{dx^{k}}{du}\implies\frac{dv}{du}\left[\frac{dn^{i}}{du}+\Gamma^{i}{}_{jk}n^{j}\frac{dx^{k}}{du}\right]=0.
+\]
+
+\end_inset
+
+This is unlike the geodesic equation which was derived for a specific parametris
+ation.
+ Note also that this equation is coordinate invariant because the coordinate
+ system 
+\begin_inset Formula $x$
+\end_inset
+
+ was chosen arbitrarily.
+ This can also be seen explicitly by choosing another coordinate system
+ 
+\begin_inset Formula $x''$
+\end_inset
+
+ and using 
+\begin_inset Formula $n^{i}=n''^{k}\partial''_{k}x^{i}$
+\end_inset
+
+, the transformation of the Christofel symbol and 
+\begin_inset Formula $dx^{i}/du=\partial''_{r}x^{i}dx''^{r}/du$
+\end_inset
+
+ to get 
+\begin_inset Formula 
+\[
+\frac{\partial x^{i}}{\partial x''^{r}}\left(\frac{dn''^{r}}{du}+\Gamma''^{r}{}_{jk}n''^{j}\frac{dx''^{k}}{du}\right)=0
+\]
+
+\end_inset
+
+which we leave as an exercise.
+ It can also be shown that the norm of a tangent vector is preserved
 \end_layout
 
 \begin_layout Part
