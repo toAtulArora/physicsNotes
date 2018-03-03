@@ -3085,7 +3085,7 @@ parallel transport equation
 
 \end_inset
 
-where changed dummy indices and used the fact that 
+where we changed dummy indices and used the fact that 
 \begin_inset Formula $\Gamma^{i}{}_{jk}=\Gamma^{i}{}_{kj}$
 \end_inset
 
