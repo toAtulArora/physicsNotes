@@ -3163,10 +3163,10 @@ which we leave as an exercise.
 
  which completes the proof.
  This is not surprising because we started with 
-\begin_inset Formula $n'(u+\delta u)=n(u)+\mathcal{O}(\delta u)$
+\begin_inset Formula $n'(u+\delta u)=n(u)+\mathcal{O}(\delta u^{2})$
 \end_inset
 
-
+  
 \end_layout
 
 \begin_layout Part
