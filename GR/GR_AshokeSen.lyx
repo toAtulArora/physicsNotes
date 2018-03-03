@@ -3145,6 +3145,15 @@ which we leave as an exercise.
 \end_inset
 
 .
+ One way to proceed is to evaluate this explicitly as 
+\begin_inset Formula $dn^{i}/du$
+\end_inset
+
+ is known and use the fact that 
+\begin_inset Formula $dg_{ij}/du=\partial_{k}g_{ij}dx^{k}/du$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
