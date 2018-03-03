@@ -3069,7 +3069,7 @@ tion with tensor like transformation factors.
 \begin_inset Formula 
 \begin{align*}
 \frac{dn^{i}}{du} & =\frac{\partial x^{\nu}}{\partial x'^{l}}\frac{\partial x^{\rho}}{\partial x'^{k}}\Gamma^{i}{}_{\nu\rho}\frac{\partial x'^{l}}{\partial x^{m}}\frac{\partial x'^{k}}{\partial x^{j}}\frac{\partial x^{m}}{\partial u}n^{j}\\
- & =\Gamma^{i}{}{}_{\nu\rho}\delta_{m}^{\nu}\delta_{j}^{\rho}
+ & =\Gamma^{i}{}_{\nu\rho}\delta_{m}^{\nu}\delta_{j}^{\rho}
 \end{align*}
 
 \end_inset
