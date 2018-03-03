@@ -3032,17 +3032,18 @@ n^{i}(u+\delta u) & =\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x
 which yields 
 \begin_inset Formula 
 \[
-\frac{dn^{i}}{du}=\frac{\partial^{2}x^{i}}{\partial x'^{l}\partial x'^{k}}\frac{\partial x'^{l}}{\partial u}n'^{k}.
+\frac{dn^{i}}{du}=\frac{\partial^{2}x^{i}}{\partial x'^{l}\partial x'^{k}}\frac{\partial x'^{l}}{\partial u}n'^{k}=\frac{\partial^{2}x^{i}}{\partial x'^{l}\partial x'^{k}}\frac{\partial x'^{l}}{\partial x^{m}}\frac{\partial x'^{k}}{\partial x^{j}}\frac{\partial x^{m}}{\partial u}n^{j}
 \]
 
 \end_inset
 
-This is better but it still depends on the primed coordinates.
+where in the last step we used the chain rule twice.
+ This is better but it still depends on the primed coordinates.
  To remove this dependence recall the transformation of the Christofel symbol
  was given by 
 \begin_inset Formula 
 \[
-\Gamma'^{l}{}_{mn}=\frac{\partial x'^{l}}{\partial x^{i}}\frac{\partial x^{j}}{\partial x'^{m}}\frac{\partial x^{k}}{\partial x'^{n}}\Gamma^{i}{}_{jk}+\frac{\partial x'^{l}}{\partial x^{k}}\frac{\partial^{2}x^{k}}{\partial x'^{m}\partial x'^{n}}=0.
+\Gamma'^{i}{}_{lk}=\frac{\partial x'^{i}}{\partial x^{\mu}}\frac{\partial x^{\nu}}{\partial x'^{l}}\frac{\partial x^{\rho}}{\partial x'^{k}}\Gamma^{\mu}{}_{\nu\rho}+\frac{\partial x'^{i}}{\partial x^{\mu}}\frac{\partial^{2}x^{\mu}}{\partial x'^{l}\partial x'^{k}}=0.
 \]
 
 \end_inset
