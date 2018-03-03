@@ -3139,8 +3139,12 @@ ation.
 
 which we leave as an exercise.
  It can also be shown that the norm of a tangent vector is preserved under
- parallel transport.
+ parallel transport, viz.
  
+\begin_inset Formula $d\left(g_{ij}n^{i}n^{j}\right)/du=0$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
