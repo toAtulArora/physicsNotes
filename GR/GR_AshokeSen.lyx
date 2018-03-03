@@ -2735,7 +2735,9 @@ tangent space
 s might correspond to the same geodesic, e.g.
  the great circle on a sphere is one curve globally but locally will correspond
  to two tangent vectors (TODO: add figure).
- We close this section by asking 
+ We close this section by relating tangent vectors for the same geodesic
+ written in different coordinate systems.
+ 
 \end_layout
 
 \begin_layout Part
