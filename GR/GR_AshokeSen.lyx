@@ -2691,7 +2691,20 @@ tangent vectors
 \end_inset
 
 .
- 
+ Note that we only need the direction to be specified by 
+\begin_inset Formula $n^{l}$
+\end_inset
+
+ as 
+\begin_inset Formula $u$
+\end_inset
+
+ can always be scaled.
+ If we enforce 
+\begin_inset Formula $n^{l}$
+\end_inset
+
+ exactly then the scaling (of the affine parameter) is also specified.
 \end_layout
 
 \begin_layout Part
