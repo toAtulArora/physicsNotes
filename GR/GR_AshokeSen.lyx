@@ -2965,7 +2965,19 @@ So far our definition suffers from two issues.
 \end_inset
 
 .
- 
+ We wish to start with a tangent vector 
+\begin_inset Formula $n^{i}(0)$
+\end_inset
+
+ at point 
+\begin_inset Formula $\vec{x}_{(1)}$
+\end_inset
+
+ and parallel transport it to 
+\begin_inset Formula $\vec{x}_{(2)}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
