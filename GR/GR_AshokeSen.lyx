@@ -2705,7 +2705,11 @@ tangent vectors
 \end_inset
 
  exactly then the scaling (of the affine parameter) is also specified.
- We can now define the tangent space at 
+ We can now define the 
+\emph on
+tangent space
+\emph default
+ at 
 \begin_inset Formula $\vec{x}_{0}$
 \end_inset
 
@@ -2718,6 +2722,7 @@ tangent vectors
 \end_inset
 
 .
+ 
 \end_layout
 
 \begin_layout Part
