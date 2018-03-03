@@ -3198,13 +3198,14 @@ and use the definition for a tangent to the curve
  to get 
 \begin_inset Formula 
 \[
-\frac{dn^{i}}{du}+\Gamma^{i}{}_{jk}n^{j}\frac{dx^{k}}{du}=0.
+\frac{dn^{i}}{du}+\Gamma^{i}{}_{jk}n^{j}\frac{dx^{k}}{du}=0
 \]
 
 \end_inset
 
-If we imagine a curve such that its tangent vectors are parallel transported
- from any given tangent on the curve then we would write 
+which is the parallel transport equation! This means that the geodesic is
+ a curve such that its tangent vectors are parallel transported from any
+ given tangent on the curve then we would write 
 \begin_inset Formula 
 \[
 \frac{dn^{i}}{du}+
