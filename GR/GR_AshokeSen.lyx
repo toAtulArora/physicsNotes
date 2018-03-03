@@ -3183,7 +3183,16 @@ It can also be shown that the norm of a tangent vector is preserved under
 Observe that we started with choosing any vector from the tangent space
  at a given point and parallel transported it along an arbitrary curve to
  another point.
- If we imagine a curve whose 
+ If we imagine a curve such that its tangent vectors are parallel transported
+ from any given tangent on the curve then we would write 
+\begin_inset Formula 
+\[
+\frac{dn^{i}}{du}+
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
