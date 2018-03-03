@@ -3032,13 +3032,21 @@ n^{i}(u+\delta u) & =\left.\frac{\partial x^{i}}{\partial x'^{k}}\right|_{\vec{x
 which yields 
 \begin_inset Formula 
 \[
-\frac{dn^{i}}{du}=\frac{\partial^{2}x^{i}}{\partial x'^{l}\partial x'^{k}}\frac{\partial x'^{l}}{\partial u}n'^{k}
+\frac{dn^{i}}{du}=\frac{\partial^{2}x^{i}}{\partial x'^{l}\partial x'^{k}}\frac{\partial x'^{l}}{\partial u}n'^{k}.
 \]
 
 \end_inset
 
-.
- From the transport equation we know
+This is better but it still depends on the primed coordinates.
+ To remove this dependence recall that 
+\begin_inset Formula 
+\[
+\Gamma'^{l}{}_{mn}=
+\]
+
+\end_inset
+
+From the transport equation we know
 \end_layout
 
 \begin_layout Part
