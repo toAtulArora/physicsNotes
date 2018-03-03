@@ -3183,7 +3183,7 @@ It can also be shown that the norm of a tangent vector is preserved under
 Observe that we started with choosing any vector from the tangent space
  at a given point and parallel transported it along an arbitrary curve to
  another point.
- Now consider the geodesic equation 
+ Now instead consider the geodesic equation 
 \begin_inset Formula 
 \[
 \frac{d^{2}x^{i}}{du^{2}}+\Gamma^{i}{}_{jk}\frac{dx^{k}}{du}\frac{dx^{j}}{du}=0
