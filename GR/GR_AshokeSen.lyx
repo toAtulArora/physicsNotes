@@ -3042,12 +3042,14 @@ This is better but it still depends on the primed coordinates.
  was given by 
 \begin_inset Formula 
 \[
-\Gamma'^{l}{}_{mn}=
+\Gamma'^{l}{}_{mn}=\frac{\partial x'^{l}}{\partial x^{i}}\frac{\partial x^{j}}{\partial x'^{m}}\frac{\partial x^{k}}{\partial x'^{n}}\Gamma^{i}{}_{jk}+\frac{\partial x'^{l}}{\partial x^{k}}\frac{\partial^{2}x^{k}}{\partial x'^{m}\partial x'^{n}}=0.
 \]
 
 \end_inset
 
-From the transport equation we know
+The term involving second derivatives is the one we would like to replace
+ in our initial equation.
+ From the transport equation we know
 \end_layout
 
 \begin_layout Part
