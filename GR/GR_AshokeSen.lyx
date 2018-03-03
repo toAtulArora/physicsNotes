@@ -2860,7 +2860,7 @@ This is formalised as follows.
 \end_inset
 
 , are parallel if 
-\begin_inset Formula $n^{l}=\lambda m^{l}+\mathcal{O}(\delta x^{2})$
+\begin_inset Formula $n^{l}=\lambda m^{l}+\mathcal{O}(\delta x'^{2})$
 \end_inset
 
 .
@@ -2877,7 +2877,7 @@ parallel transport
 \end_inset
 
  if 
-\begin_inset Formula $\vec{m}'=\vec{n}'+\mathcal{O}(\delta x^{2})$
+\begin_inset Formula $\vec{m}'=\vec{n}'+\mathcal{O}(\delta x'^{2})$
 \end_inset
 
 
@@ -2930,7 +2930,11 @@ s.
 \end_inset
 
  zero.
- Note that we can't demand an exact equality.
+ This is why our in definition of parallel vectors we had to add 
+\begin_inset Formula $\mathcal{O}(\delta x'^{2})$
+\end_inset
+
+ terms 
 \end_layout
 
 \begin_layout Part
