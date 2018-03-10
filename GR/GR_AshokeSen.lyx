@@ -3369,7 +3369,11 @@ Proof sketch
 \end_inset
 
  and 
-\begin_inset Formula $u=1\leftrightarrow v=1$
+\begin_inset Formula $u=0\leftrightarrow v=1$
+\end_inset
+
+ and 
+\begin_inset Formula $du\leftrightarrow-dv$
 \end_inset
 
 .
@@ -3379,7 +3383,15 @@ Proof sketch
 
  so we essentially solve the same equation with the boundary conditions
  reversed.
- 
+ (Aside: Note that even for Newton's law this holds; 
+\begin_inset Formula $d^{2}x/dt^{2}=F(x)$
+\end_inset
+
+; send 
+\begin_inset Formula $dt\to-dt$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
