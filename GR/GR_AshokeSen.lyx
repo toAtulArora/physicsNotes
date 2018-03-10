@@ -3374,14 +3374,11 @@ Proof sketch
 
 .
  This means 
-\begin_inset Formula 
-\[
-\frac{dn^{i}}{dv}+\Gamma^{i}{}_{jk}n^{j}\frac{dx^{k}}{dv}=0\leftrightarrow
-\]
-
+\begin_inset Formula $\frac{dn^{i}}{dv}+\Gamma^{i}{}_{jk}n^{j}\frac{dx^{k}}{dv}=0\leftrightarrow\frac{dn^{i}}{du}+\Gamma^{i}{}_{jk}n^{j}\frac{dx^{k}}{du}=0$
 \end_inset
 
-
+ so we essentially solve the same equation with the boundary conditions
+ reversed.
 \end_layout
 
 \begin_layout Part
