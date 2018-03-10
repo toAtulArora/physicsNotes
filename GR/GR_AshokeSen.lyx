@@ -3416,11 +3416,11 @@ Let the reversed solution be represented by
 \end_inset
 
 .
- Also by definition 
-\begin_inset Formula $-c$
+ Also by definition of 
+\begin_inset Formula $M$
 \end_inset
 
- 
+ we have 
 \begin_inset Formula $n_{(1)}^{i}=M(\vec{x}_{(2)},\vec{x}_{(1)},-c)^{i}{}_{j}n_{(2)}^{j}$
 \end_inset
 
