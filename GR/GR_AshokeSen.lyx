@@ -3254,8 +3254,16 @@ Imagine a curve
 \begin_inset Formula $M^{i}{}_{j}$
 \end_inset
 
- is independent of Recall that the parallel transport equation is linear
- in 
+ is independent of 
+\begin_inset Formula $\vec{n}_{(1)}$
+\end_inset
+
+ and 
+\begin_inset Formula $\vec{n}_{(2)}$
+\end_inset
+
+.
+ Recall that the parallel transport equation is linear in 
 \begin_inset Formula $\vec{n}$
 \end_inset
 
