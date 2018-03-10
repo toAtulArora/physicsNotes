@@ -3504,7 +3504,16 @@ M(\vec{x}_{(1)},\vec{x}_{(1)},c_{1}-c_{2}) & =M(\vec{x}_{(2)},\vec{x}_{(1)},-c_{
 
 \end_inset
 
-This object, the
+where 
+\begin_inset Formula $\mathbb{I}$
+\end_inset
+
+ is the identity matrix corresponding to 
+\begin_inset Formula $\delta_{j}^{i}$
+\end_inset
+
+.
+ This object, the
 \begin_inset Foot
 status collapsed
 
