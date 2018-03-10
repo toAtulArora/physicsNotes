@@ -3341,8 +3341,25 @@ The dependence therefore would be restricted to
 \begin_inset Formula $M^{i}{}_{j}(\vec{x}_{(1)},\vec{x}_{(2)},-c)$
 \end_inset
 
-? Note that the parallel transport equation is reversible which in turn
- follows from 
+? Note that 
+\end_layout
+
+\begin_layout Claim
+The parallel transport equation is reversible.
+ 
+\end_layout
+
+\begin_layout Proof
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Proof sketch
+\end_layout
+
+\end_inset
+
+ which in turn follows from independence of parametri
 \end_layout
 
 \begin_layout Part
