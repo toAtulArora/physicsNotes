@@ -3438,7 +3438,8 @@ If we had
 \begin_inset Formula $dn^{i}/du+\Gamma^{i}{}_{jk}n'\left|dx^{j}/du\right|=0$
 \end_inset
 
- then the equation would not be reversible.
+ then the equation would not be reversible and the aforesaid conclusion
+ wrong.
 \end_layout
 
 \begin_layout Part
