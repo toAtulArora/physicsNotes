@@ -3270,6 +3270,23 @@ Imagine a curve
 .
  For simplicity imagine that the tangent space is two dimensional (at both
  ends of the curve).
+ Let 
+\begin_inset Formula $\vec{n}_{(i)}$
+\end_inset
+
+ and 
+\begin_inset Formula $\vec{n}'_{(i)}$
+\end_inset
+
+ span the space at 
+\begin_inset Formula $\vec{x}_{(i)}$
+\end_inset
+
+ for 
+\begin_inset Formula $i\in\{1,2\}$
+\end_inset
+
+.
  
 \end_layout
 
