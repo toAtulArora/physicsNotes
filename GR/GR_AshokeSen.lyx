@@ -3443,7 +3443,23 @@ If we had
 \end_layout
 
 \begin_layout Standard
-Now consider two 
+Now consider two curves – 
+\begin_inset Formula $c_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $c_{2}$
+\end_inset
+
+ – joining the points 
+\begin_inset Formula $x_{(1)}$
+\end_inset
+
+ and 
+\begin_inset Formula $x_{(2)}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
