@@ -3460,6 +3460,11 @@ Now consider two curves –
 \end_inset
 
 .
+ In general 
+\begin_inset Formula $M(\vec{x}_{(1)},\vec{x}_{(2)},c_{1})\neq M(\vec{x}_{(1)},\vec{x}_{(2)},c_{2})$
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Part
