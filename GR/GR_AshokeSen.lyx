@@ -3304,7 +3304,7 @@ To see this, recall that the parallel transport equation is linear in
 
 .
  Any vector in the first tangent space can be written as 
-\begin_inset Formula $\vec{m}=\alpha\vec{n}_{(1)}+\beta\vec{n}_{(1)}^{\prime}$
+\begin_inset Formula $\vec{m}_{(1)}=\alpha\vec{n}_{(1)}+\beta\vec{n}_{(1)}^{\prime}$
 \end_inset
 
  which must transform under 
@@ -3316,7 +3316,11 @@ To see this, recall that the parallel transport equation is linear in
 \end_inset
 
  by linearity of the transformation.
- 
+ Finally we get 
+\begin_inset Formula $\vec{m}_{(2)}=\alpha\vec{n}{}_{(2)}+\beta\vec{n}'_{(2)}$
+\end_inset
+
+ which 
 \end_layout
 
 \begin_layout Part
