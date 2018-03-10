@@ -3299,7 +3299,7 @@ To see this, recall that the parallel transport equation is linear in
 \end_inset
 
  respectively and further satisfy 
-\begin_inset Formula $n'_{(2)}^{i}=M^{i}{}_{j}n'_{(1)}^{j}$
+\begin_inset Formula $n_{(2)}^{\prime i}=M^{i}{}_{j}n{}_{(1)}^{\prime j}$
 \end_inset
 
 .
