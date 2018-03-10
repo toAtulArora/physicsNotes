@@ -3409,10 +3409,10 @@ Let the reversed solution be represented by
 
 .
  Also by definition 
-\begin_inset Formula $n_{(2)}^{i}=M(\vec{x}_{(2)},$
+\begin_inset Formula $n_{(2)}^{i}=M(\vec{x}_{(2)},\vec{x}_{(1)},-c)^{i}{}_{j}n_{(2)}^{j}$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Part
