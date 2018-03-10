@@ -3468,7 +3468,7 @@ Now consider two curves
 \begin_inset Formula $c_{1}-c_{2}$
 \end_inset
 
-? 
+? We can write this transformation as first 
 \begin_inset Formula 
 \[
 M(\vec{x}_{(1)},\vec{x}_{(1)},c_{1}-c_{2})=M(\vec{x}_{(2)},\vec{x}_{(1)},-c_{2})M(\vec{x}_{(1)},\vec{x}_{(2)},c_{1})=M(\vec{x}_{(1)},\vec{x}_{(2)},c_{2})^{-1}M(\vec{x}_{(1)},\vec{x}_{(2)},c_{1})\neq\mathbb{I}
