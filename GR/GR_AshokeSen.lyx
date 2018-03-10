@@ -3468,7 +3468,33 @@ Now consider two curves
 \begin_inset Formula $c_{1}-c_{2}$
 \end_inset
 
-? We can write this transformation as first 
+? We can write this transformation as first going from 
+\begin_inset Formula $x_{1}$
+\end_inset
+
+ to 
+\begin_inset Formula $x_{2}$
+\end_inset
+
+ along 
+\begin_inset Formula $c_{1}$
+\end_inset
+
+ then returning from 
+\begin_inset Formula $x_{2}$
+\end_inset
+
+ to 
+\begin_inset Formula $x_{1}$
+\end_inset
+
+ along 
+\begin_inset Formula $-c_{2}$
+\end_inset
+
+.
+ We write this in the reversed order in the matrix because it operates on
+ objects on the right conventionally as below.
 \begin_inset Formula 
 \begin{align*}
 M(\vec{x}_{(1)},\vec{x}_{(1)},c_{1}-c_{2}) & =M(\vec{x}_{(2)},\vec{x}_{(1)},-c_{2})M(\vec{x}_{(1)},\vec{x}_{(2)},c_{1})\\
