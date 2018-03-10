@@ -3504,8 +3504,8 @@ M(\vec{x}_{(1)},\vec{x}_{(1)},c_{1}-c_{2}) & =M(\vec{x}_{(2)},\vec{x}_{(1)},-c_{
 
 \end_inset
 
-This object, the (matrix corresponding to the) parallel transport operation
- of a vector around a closed loop 
+This object, the parallel transport operation of a vector around a closed
+ loop 
 \begin_inset Formula $c$
 \end_inset
 
