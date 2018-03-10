@@ -3373,7 +3373,15 @@ Proof sketch
 \end_inset
 
 .
- 
+ This means 
+\begin_inset Formula 
+\[
+\frac{dn^{i}}{dv}+\Gamma^{i}{}_{jk}n^{j}\frac{dx^{k}}{dv}=0\leftrightarrow
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
