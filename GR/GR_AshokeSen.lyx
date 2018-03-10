@@ -3338,7 +3338,7 @@ The dependence therefore would be restricted to
 
 .
  What can be said about 
-\begin_inset Formula $M^{i}{}_{j}$
+\begin_inset Formula $M^{i}{}_{j}(\vec{x}_{(1)},\vec{x}_{(2)},-c)$
 \end_inset
 
 ? 
