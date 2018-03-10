@@ -3214,7 +3214,8 @@ The Monodromy Matrix
 
 \begin_layout Standard
 In this section we will try to understand what happens to a vector if it
- is parallel transported along a closed curve.
+ is parallel transported along a closed curve and how it might be an interesting
+ object that .
  Imagine a curve 
 \begin_inset Formula $c$
 \end_inset
