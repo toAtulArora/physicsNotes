@@ -3213,7 +3213,9 @@ The Monodromy Matrix
 \end_layout
 
 \begin_layout Standard
-Imagine a curve 
+In this section we will try to understand what happens to a vector if it
+ is parallel transported along a closed curve.
+ Imagine a curve 
 \begin_inset Formula $c$
 \end_inset
 
