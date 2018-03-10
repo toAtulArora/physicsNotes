@@ -3360,6 +3360,19 @@ Proof sketch
 \end_inset
 
  This follows from independence of parametrisation.
+ Use 
+\begin_inset Formula $v=1-u$
+\end_inset
+
+ so that 
+\begin_inset Formula $u=1\leftrightarrow v=0$
+\end_inset
+
+ and 
+\begin_inset Formula $u=1\leftrightarrow v=1$
+\end_inset
+
+.
  
 \end_layout
 
