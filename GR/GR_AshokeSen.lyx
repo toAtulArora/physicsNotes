@@ -3226,7 +3226,23 @@ Imagine a curve
 \end_inset
 
 .
- Also consider two vectors 
+ Also consider a vector 
+\begin_inset Formula $\vec{n}_{(1)}$
+\end_inset
+
+ in the tangent space at 
+\begin_inset Formula $\vec{x}_{(1)}$
+\end_inset
+
+ is transported to the end of the curve 
+\begin_inset Formula $C$
+\end_inset
+
+ and is denoted by 
+\begin_inset Formula $\vec{n}_{(2)}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
