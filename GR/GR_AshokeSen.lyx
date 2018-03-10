@@ -3427,10 +3427,14 @@ Let the reversed solution be represented by
 .
  Since the two equations hold for arbitrary tangent vectors we conclude
  
-\begin_inset Formula $M(\vec{x}_{(2)},\vec{x}_{(1)},-c)=M^{-1}(\vec{x}_{(1)},\vec{x}_{(2)},c)$
+\begin_inset Formula 
+\[
+M(\vec{x}_{(2)},\vec{x}_{(1)},-c)=M^{-1}(\vec{x}_{(1)},\vec{x}_{(2)},c).
+\]
+
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Part
