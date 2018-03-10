@@ -3315,12 +3315,12 @@ To see this, recall that the parallel transport equation is linear in
 \begin_inset Formula $M^{i}{}_{j}m^{j}=\alpha M^{i}{}_{j}n_{(1)}^{j}+\beta M^{i}{}_{j}n_{(1)}^{\prime j}$
 \end_inset
 
- by linearity of the transformation.
+ by linearity of the transport equation.
  Finally we get 
 \begin_inset Formula $\vec{m}_{(2)}=\alpha\vec{n}{}_{(2)}+\beta\vec{n}'_{(2)}$
 \end_inset
 
- which shows that 
+ which shows that the transformation of 
 \end_layout
 
 \begin_layout Part
