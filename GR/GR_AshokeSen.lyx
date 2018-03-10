@@ -3245,7 +3245,17 @@ Imagine a curve
 .
  We can find a relation between these by integrating the parallel transport
  equation along the curve.
- Recall that the parallel transport equation is linear in 
+ Let 
+\begin_inset Formula $n_{(2)}^{i}=M^{i}{}_{j}n_{(1)}^{j}$
+\end_inset
+
+.
+ We claim that 
+\begin_inset Formula $M^{i}{}_{j}$
+\end_inset
+
+ is independent of Recall that the parallel transport equation is linear
+ in 
 \begin_inset Formula $\vec{n}$
 \end_inset
 
