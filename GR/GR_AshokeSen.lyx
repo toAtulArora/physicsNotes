@@ -3403,7 +3403,11 @@ Let the reversed solution be represented by
 \begin_inset Formula $\left(M(\vec{x}_{(1)},\vec{x}_{(2)},c)^{-1}\right)^{i}{}_{j}$
 \end_inset
 
- because 
+ so that 
+\begin_inset Formula $n_{(1)}^{i}=\left(M(\vec{x}_{(1)},\vec{x}_{(2)},c)^{-1}\right)^{i}{}_{j}n_{(2)}^{j}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
