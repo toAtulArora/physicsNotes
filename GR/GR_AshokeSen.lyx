@@ -3341,7 +3341,11 @@ The dependence therefore would be restricted to
 \begin_inset Formula $M^{i}{}_{j}(\vec{x}_{(1)},\vec{x}_{(2)},-c)$
 \end_inset
 
-? First note the following.
+ where 
+\begin_inset Formula $-c$
+\end_inset
+
+ represents the same curve starting from the other end? First note the following.
 \end_layout
 
 \begin_layout Claim
@@ -3409,6 +3413,10 @@ Let the reversed solution be represented by
 
 .
  Also by definition 
+\begin_inset Formula $-c$
+\end_inset
+
+ 
 \begin_inset Formula $n_{(2)}^{i}=M(\vec{x}_{(2)},\vec{x}_{(1)},-c)^{i}{}_{j}n_{(2)}^{j}$
 \end_inset
 
