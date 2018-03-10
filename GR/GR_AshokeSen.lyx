@@ -3250,7 +3250,10 @@ Imagine a curve
 \end_inset
 
 .
- We claim that 
+ 
+\end_layout
+
+\begin_layout Claim
 \begin_inset Formula $M^{i}{}_{j}$
 \end_inset
 
@@ -3263,7 +3266,20 @@ Imagine a curve
 \end_inset
 
 .
- To see this, recall that the parallel transport equation is linear in 
+ 
+\end_layout
+
+\begin_layout Proof
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Proof sketch
+\end_layout
+
+\end_inset
+
+To see this, recall that the parallel transport equation is linear in 
 \begin_inset Formula $\vec{n}$
 \end_inset
 
