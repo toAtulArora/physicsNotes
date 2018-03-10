@@ -3322,6 +3322,11 @@ To see this, recall that the parallel transport equation is linear in
 
  which shows that once the transformation of the basis is known the transformati
 on of every other vector is fixed.
+ Thus 
+\begin_inset Formula $M^{i}{}_{j}$
+\end_inset
+
+ can't depend on the vector itself.
 \end_layout
 
 \begin_layout Part
