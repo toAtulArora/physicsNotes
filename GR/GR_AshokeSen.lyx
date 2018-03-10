@@ -3504,9 +3504,21 @@ M(\vec{x}_{(1)},\vec{x}_{(1)},c_{1}-c_{2}) & =M(\vec{x}_{(2)},\vec{x}_{(1)},-c_{
 
 \end_inset
 
-While it is not apparent yet, this object is quite interesting due to its
- coordinate invariant properties.
- 
+This object, the parallel transport operation of a vector around a closed
+ loop 
+\begin_inset Formula $c$
+\end_inset
+
+ given by 
+\begin_inset Formula $M(\vec{x},\vec{x},c)$
+\end_inset
+
+ is called the Monodromy matrix around 
+\begin_inset Formula $c$
+\end_inset
+
+.
+ quite interesting due to its coordinate invariant properties
 \end_layout
 
 \begin_layout Part
