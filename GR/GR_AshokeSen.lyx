@@ -3243,8 +3243,9 @@ Imagine a curve
 \end_inset
 
 .
- We claim that Recall that the parallel transport equation is linear in
- 
+ We can find a relation between these by integrating the parallel transport
+ equation along the curve.
+ Recall that the parallel transport equation is linear in 
 \begin_inset Formula $\vec{n}$
 \end_inset
 
