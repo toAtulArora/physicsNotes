@@ -3214,7 +3214,7 @@ The Monodromy Matrix
 
 \begin_layout Standard
 Imagine a curve 
-\begin_inset Formula $C$
+\begin_inset Formula $c$
 \end_inset
 
  starting at 
@@ -3235,7 +3235,7 @@ Imagine a curve
 \end_inset
 
  is transported to the end of the curve 
-\begin_inset Formula $C$
+\begin_inset Formula $c$
 \end_inset
 
  and is denoted by 
