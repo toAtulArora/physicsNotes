@@ -3216,11 +3216,7 @@ The Monodromy Matrix
 In this section we will try to understand what happens to a vector if it
  is parallel transported along a closed curve and how it might be an interesting
  object that captures curvature of the space.
- 
-\end_layout
-
-\begin_layout Standard
-Imagine a curve 
+ Imagine a curve 
 \begin_inset Formula $c$
 \end_inset
 
@@ -3337,10 +3333,11 @@ on of every other vector is fixed and thus
 
 \begin_layout Standard
 The dependence therefore would be restricted to 
-\begin_inset Formula $M^{i}{}_{j}=M^{i}{}(\vec{x}_{(1)},\vec{x}_{(2)},c)$
+\begin_inset Formula $M^{i}{}_{j}=M^{i}{}_{j}(\vec{x}_{(1)},\vec{x}_{(2)},c)$
 \end_inset
 
 .
+ 
 \end_layout
 
 \begin_layout Part
