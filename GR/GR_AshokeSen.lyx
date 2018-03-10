@@ -3263,7 +3263,7 @@ Imagine a curve
 \end_inset
 
 .
- Recall that the parallel transport equation is linear in 
+ To see this, recall that the parallel transport equation is linear in 
 \begin_inset Formula $\vec{n}$
 \end_inset
 
