@@ -3504,11 +3504,8 @@ M(\vec{x}_{(1)},\vec{x}_{(1)},c_{1}-c_{2}) & =M(\vec{x}_{(2)},\vec{x}_{(1)},-c_{
 
 \end_inset
 
-While this is not 
-\begin_inset Formula $\mathbb{I}$
-\end_inset
-
- this object is quite interesting due to its coordinate invariant properties.
+While it is not apparent yet, this object is quite interesting due to its
+ coordinate invariant properties.
  
 \end_layout
 
