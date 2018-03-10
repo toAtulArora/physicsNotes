@@ -3301,7 +3301,7 @@ To see this, recall that the parallel transport equation is linear in
 \begin_inset Formula $\vec{x}_{(1)},\vec{x}_{(2)}$
 \end_inset
 
- respectively and further satisfy 
+ respectively and further assume 
 \begin_inset Formula $n_{(2)}^{\prime i}=M^{i}{}_{j}n{}_{(1)}^{\prime j}$
 \end_inset
 
