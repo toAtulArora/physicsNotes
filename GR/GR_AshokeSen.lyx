@@ -3271,18 +3271,18 @@ Imagine a curve
  For simplicity imagine that the tangent space is two dimensional (at both
  ends of the curve).
  Let 
-\begin_inset Formula $\vec{n}_{(i)}$
+\begin_inset Formula $\vec{n}_{(1)},\vec{n}'_{(1)}$
 \end_inset
 
  and 
-\begin_inset Formula $\vec{n}'_{(i)}$
+\begin_inset Formula $\vec{n}_{(2)},\vec{n}'_{(2)}$
 \end_inset
 
  span the space at 
-\begin_inset Formula $\vec{x}_{(i)}$
+\begin_inset Formula $\vec{x}_{(1)},\vec{x}_{(2)}$
 \end_inset
 
- for 
+ respectively for 
 \begin_inset Formula $i\in\{1,2\}$
 \end_inset
 
