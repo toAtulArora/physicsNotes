@@ -3286,6 +3286,14 @@ Imagine a curve
 \begin_inset Formula $i\in\{1,2\}$
 \end_inset
 
+ such that 
+\begin_inset Formula $n_{(2)}^{i}=M^{i}{}_{j}n_{(1)}^{j}$
+\end_inset
+
+ and 
+\begin_inset Formula $n'_{(2)}^{i}=M^{i}{}_{j}n'_{(1)}^{j}$
+\end_inset
+
 .
  
 \end_layout
