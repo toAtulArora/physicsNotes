@@ -3329,7 +3329,7 @@ on of every other vector is fixed and thus
 \end_layout
 
 \begin_layout Standard
-The dependence therefore would be restricted as 
+The dependence therefore would be restricted to 
 \begin_inset Formula $M^{i}{}_{j}=M^{i}{}(\vec{x}_{(1)},\vec{x}_{(2)},c)$
 \end_inset
 
