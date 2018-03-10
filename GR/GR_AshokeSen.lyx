@@ -3213,7 +3213,20 @@ The Monodromy Matrix
 \end_layout
 
 \begin_layout Standard
-Imagine a curve starting at 
+Imagine a curve 
+\begin_inset Formula $C$
+\end_inset
+
+ starting at 
+\begin_inset Formula $\vec{x}_{(1)}$
+\end_inset
+
+ and ending at 
+\begin_inset Formula $\vec{x}_{(2)}$
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Part
