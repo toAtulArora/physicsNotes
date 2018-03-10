@@ -3522,7 +3522,11 @@ matrix corresponding to the
 \begin_inset Formula $M(\vec{x},\vec{x},c)$
 \end_inset
 
- is called the Monodromy matrix around 
+ is called the 
+\emph on
+Monodromy Matrix
+\emph default
+ around 
 \begin_inset Formula $c$
 \end_inset
 
