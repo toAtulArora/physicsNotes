@@ -3536,7 +3536,20 @@ Monodromy matrix
 \end_layout
 
 \begin_layout Claim
+Consider coordinate systems 
+\begin_inset Formula $x$
+\end_inset
 
+ and 
+\begin_inset Formula $x'$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $M=\mathbb{I}$
+\end_inset
+
+ then 
 \end_layout
 
 \begin_layout Part
