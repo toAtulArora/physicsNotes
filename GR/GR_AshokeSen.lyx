@@ -3337,15 +3337,19 @@ The dependence therefore would be restricted to
 \end_inset
 
 .
- What can be said about 
-\begin_inset Formula $M^{i}{}_{j}(\vec{x}_{(1)},\vec{x}_{(2)},-c)$
-\end_inset
-
- where 
+ If 
 \begin_inset Formula $-c$
 \end_inset
 
- represents the same curve starting from the other end? First note the following.
+ represents the curve 
+\begin_inset Formula $c$
+\end_inset
+
+ starting from the other end, what can be said about 
+\begin_inset Formula $M^{i}{}_{j}(\vec{x}_{(1)},\vec{x}_{(2)},-c)$
+\end_inset
+
+? First note the following.
 \end_layout
 
 \begin_layout Claim
