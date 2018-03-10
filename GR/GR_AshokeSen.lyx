@@ -3329,7 +3329,10 @@ on of every other vector is fixed and thus
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula $M^{i}{}_{j}$
+\end_inset
 
+ can depend on the initial and final points and on the curve.
 \end_layout
 
 \begin_layout Part
