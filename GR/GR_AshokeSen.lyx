@@ -3438,7 +3438,7 @@ If we had
 \begin_inset Formula $dn^{i}/du+\Gamma^{i}{}_{jk}n'\left|dx^{j}/du\right|=0$
 \end_inset
 
- then 
+ then the equation would not be reversible.
 \end_layout
 
 \begin_layout Part
