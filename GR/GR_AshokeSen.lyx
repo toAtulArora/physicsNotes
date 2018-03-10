@@ -3464,7 +3464,11 @@ Now consider two curves –
 \begin_inset Formula $M(\vec{x}_{(1)},\vec{x}_{(2)},c_{1})\neq M(\vec{x}_{(1)},\vec{x}_{(2)},c_{2})$
 \end_inset
 
- 
+ but what happens if we consider the closed curve 
+\begin_inset Formula $c_{1}-c_{2}$
+\end_inset
+
+? 
 \end_layout
 
 \begin_layout Part
