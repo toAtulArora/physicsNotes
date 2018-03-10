@@ -3434,7 +3434,11 @@ M(\vec{x}_{(2)},\vec{x}_{(1)},-c)=M^{-1}(\vec{x}_{(1)},\vec{x}_{(2)},c).
 
 \end_inset
 
+If we had 
+\begin_inset Formula $dn^{i}/du+\Gamma^{i}{}_{jk}n'\left|dx^{j}/du\right|=0$
+\end_inset
 
+ then 
 \end_layout
 
 \begin_layout Part
