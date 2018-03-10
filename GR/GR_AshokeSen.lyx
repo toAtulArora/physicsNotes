@@ -3321,8 +3321,7 @@ To see this, recall that the parallel transport equation is linear in
 \end_inset
 
  which shows that once the transformation of the basis is known the transformati
-on of every other vector is fixed.
- Thus 
+on of every other vector is fixed and thus 
 \begin_inset Formula $M^{i}{}_{j}$
 \end_inset
 
