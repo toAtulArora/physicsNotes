@@ -3307,7 +3307,15 @@ To see this, recall that the parallel transport equation is linear in
 \begin_inset Formula $\vec{m}=\alpha\vec{n}_{(1)}+\beta\vec{n}_{(2)}$
 \end_inset
 
- 
+ which must transform under 
+\begin_inset Formula $M^{i}{}_{j}$
+\end_inset
+
+ as 
+\begin_inset Formula $M^{i}{}_{j}m^{j}=\alpha M^{i}{}_{j}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
