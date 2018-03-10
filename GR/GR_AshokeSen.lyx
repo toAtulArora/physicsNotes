@@ -3421,7 +3421,13 @@ Let the reversed solution be represented by
 \end_inset
 
  
-\begin_inset Formula $n_{(2)}^{i}=M(\vec{x}_{(2)},\vec{x}_{(1)},-c)^{i}{}_{j}n_{(2)}^{j}$
+\begin_inset Formula $n_{(1)}^{i}=M(\vec{x}_{(2)},\vec{x}_{(1)},-c)^{i}{}_{j}n_{(2)}^{j}$
+\end_inset
+
+.
+ Since the two equations hold for arbitrary tangent vectors we conclude
+ 
+\begin_inset Formula $M(\vec{x}_{(2)},\vec{x}_{(1)},-c)=M^{-1}(\vec{x}_{(1)},\vec{x}_{(2)},c)$
 \end_inset
 
 .
