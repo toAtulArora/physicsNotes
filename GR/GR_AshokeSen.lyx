@@ -3243,6 +3243,11 @@ Imagine a curve
 \end_inset
 
 .
+ Recall that the parallel transport equation is linear in 
+\begin_inset Formula $\vec{n}$
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Part
