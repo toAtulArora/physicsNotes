@@ -3470,9 +3470,10 @@ Now consider two curves
 
 ? We can write this transformation as first 
 \begin_inset Formula 
-\[
-M(\vec{x}_{(1)},\vec{x}_{(1)},c_{1}-c_{2})=M(\vec{x}_{(2)},\vec{x}_{(1)},-c_{2})M(\vec{x}_{(1)},\vec{x}_{(2)},c_{1})=M(\vec{x}_{(1)},\vec{x}_{(2)},c_{2})^{-1}M(\vec{x}_{(1)},\vec{x}_{(2)},c_{1})\neq\mathbb{I}
-\]
+\begin{align*}
+M(\vec{x}_{(1)},\vec{x}_{(1)},c_{1}-c_{2}) & =M(\vec{x}_{(2)},\vec{x}_{(1)},-c_{2})M(\vec{x}_{(1)},\vec{x}_{(2)},c_{1})\\
+ & =M(\vec{x}_{(1)},\vec{x}_{(2)},c_{2})^{-1}M(\vec{x}_{(1)},\vec{x}_{(2)},c_{1})\neq\mathbb{I}
+\end{align*}
 
 \end_inset
 
