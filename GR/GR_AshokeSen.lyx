@@ -3571,10 +3571,10 @@ Let
 
 .
  Translate to another coordinate system to get 
-\begin_inset Formula $\tilde{n}'^{i}=\frac{\partial x'^{i}}{\partial x^{p}}$
+\begin_inset Formula $\tilde{n}'^{i}=\frac{\partial x'^{i}}{\partial x^{p}}\tilde{n}^{p}$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Part
