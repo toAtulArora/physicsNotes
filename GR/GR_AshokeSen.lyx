@@ -3570,7 +3570,11 @@ Let
 \end_inset
 
 .
- Translate to another coordinate system.
+ Translate to another coordinate system to get 
+\begin_inset Formula $\tilde{n}'^{i}=$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
