@@ -3566,6 +3566,10 @@ Consider coordinate systems
 
 \begin_layout Proof
 Let us start 
+\begin_inset Formula $\tilde{n}^{i}=M(\vec{x},\vec{x},c)^{i}{}_{j}n^{j}$
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Part
