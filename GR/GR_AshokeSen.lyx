@@ -3492,8 +3492,8 @@ Now consider two curves
 \end_inset
 
 .
- We write this in the reversed order in the matrix because it operates on
- objects on the right conventionally as below.
+ We write this in the reversed order in the matrix (because it operates
+ on objects on the right conventionally) as below.
 \begin_inset Formula 
 \begin{align*}
 M(\vec{x}_{(1)},\vec{x}_{(1)},c_{1}-c_{2}) & =M(\vec{x}_{(2)},\vec{x}_{(1)},-c_{2})M(\vec{x}_{(1)},\vec{x}_{(2)},c_{1})\\
@@ -3571,10 +3571,77 @@ Let
 
 .
  Translate to another coordinate system to get 
-\begin_inset Formula $\tilde{n}'^{i}=\frac{\partial x'^{i}}{\partial x^{p}}\tilde{n}^{p}$
+\begin_inset Formula 
+\begin{align*}
+\tilde{n}'^{i} & =\frac{\partial x'^{i}}{\partial x^{p}}\tilde{n}^{p}\\
+ & =\frac{\partial x^{\prime i}}{\partial x^{p}}M^{p}{}_{q}n^{q}\\
+ & =\underbrace{\frac{\partial x^{\prime i}}{\partial x^{p}}M^{p}{}_{q}\frac{\partial x^{q}}{\partial x'^{j}}}_{M^{\prime i}{}_{j}}n^{\prime j}
+\end{align*}
+
+\end_inset
+
+where if 
+\begin_inset Formula $M^{p}{}_{q}=\delta^{p}{}_{q}$
+\end_inset
+
+ then 
+\begin_inset Formula $M'^{p}{}_{q}$
+\end_inset
+
+ is also 
+\begin_inset Formula $\delta^{p}{}_{q}$
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+Note that this proof would fail for 
+\begin_inset Formula $M(\vec{x}_{1},\vec{x}_{2},c)$
+\end_inset
+
+ because the the two other factors in the bracketed expression would not
+ become a kronecker delta as they would have been evaluated at 
+\begin_inset Formula $\vec{x}_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\vec{x}_{2}$
+\end_inset
+
+.
+ We now wish to show that 
+\begin_inset Formula $R_{ijkl}=0$
+\end_inset
+
+ entails that 
+\begin_inset Formula $M=\mathbb{I}$
+\end_inset
+
+.
+ The reverse statement also holds under some assumptions about connectedness.
+ 
+\end_layout
+
+\begin_layout Claim
+The Reimann Tensor 
+\begin_inset Formula $R_{ijkl}=0$
+\end_inset
+
+ entails that 
+\begin_inset Formula $M=\mathbb{I}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+Consider a small curve of length 
+\begin_inset Formula $\mathcal{O}(\epsilon)$
+\end_inset
+
+.
+ (in progress)
 \end_layout
 
 \begin_layout Part
