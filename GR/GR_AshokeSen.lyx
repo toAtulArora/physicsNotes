@@ -3636,7 +3636,16 @@ The Reimann Tensor
 \end_layout
 
 \begin_layout Proof
-Consider a small curve of length 
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Proof Sketch.
+\end_layout
+
+\end_inset
+
+ Consider a small curve of length 
 \begin_inset Formula $\mathcal{O}(\epsilon)$
 \end_inset
 
