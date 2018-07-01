@@ -3768,6 +3768,7 @@ The strategy would be to keep terms of order
 \end_inset
 
 .
+ 
 \begin_inset Formula 
 \[
 \frac{dn^{i}}{du}=-\Gamma^{i}{}_{jk}(x_{(0)})n_{(0)}^{j}\frac{dx^{k}}{du}+\mathcal{O}(\epsilon)
