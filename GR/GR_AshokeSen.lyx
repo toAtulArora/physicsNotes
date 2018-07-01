@@ -3648,6 +3648,10 @@ Proof Sketch.
 \begin_inset Formula $\mathcal{O}(\epsilon)$
 \end_inset
 
+ starting and ending at 
+\begin_inset Formula $x_{0}$
+\end_inset
+
 .
  We use the convention that 
 \begin_inset Formula $u$
@@ -3748,6 +3752,14 @@ The strategy would be to keep terms of order
 \end_inset
 
 .
+\begin_inset Formula 
+\[
+\frac{dn^{i}}{du}=-\Gamma^{i}{}_{jk}(x_{(0)})
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Proof
