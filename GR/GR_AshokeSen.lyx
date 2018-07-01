@@ -3652,7 +3652,23 @@ Proof Sketch.
 \begin_inset Formula $x_{0}$
 \end_inset
 
-.
+ with 
+\begin_inset Formula $n_{1}$
+\end_inset
+
+ an initial tangent vector (a vector in the tangent space at 
+\begin_inset Formula $x_{0}$
+\end_inset
+
+) and 
+\begin_inset Formula $n_{2}$
+\end_inset
+
+ its parallel transport along the curve terminating at 
+\begin_inset Formula $x_{0}$
+\end_inset
+
+ again.
  We use the convention that 
 \begin_inset Formula $u$
 \end_inset
