@@ -3857,7 +3857,7 @@ as recall
 \end_inset
 
  not to 
-\begin_inset Formula $u=1$
+\begin_inset Formula $u=\epsilon$
 \end_inset
 
 .
@@ -3874,7 +3874,7 @@ as recall
 \end_inset
 
  but set 
-\begin_inset Formula $u=1$
+\begin_inset Formula $u=\epsilon$
 \end_inset
 
 .
@@ -3917,11 +3917,19 @@ where we suppressed the
 \end_inset
 
  at 
-\begin_inset Formula $u=1$
+\begin_inset Formula $u=\epsilon$
 \end_inset
 
 .
- 
+ We will replace 
+\begin_inset Formula $dx^{k}$
+\end_inset
+
+ with 
+\begin_inset Formula $d(x^{k}-x_{(0)}^{k})$
+\end_inset
+
+ and write the last term first to obtain the following
 \end_layout
 
 \begin_layout Part
