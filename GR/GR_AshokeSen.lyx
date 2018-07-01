@@ -3726,7 +3726,7 @@ The strategy would be to keep terms of order
 \end_inset
 
  and then integrate.
- The result would be to order 
+ The result would be correct to order 
 \begin_inset Formula $\epsilon$
 \end_inset
 
