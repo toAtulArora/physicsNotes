@@ -3839,7 +3839,7 @@ as recall
  Observe 
 \begin_inset Formula 
 \[
-\frac{dn^{i}}{du}=
+\frac{dn^{i}}{du}=-\left\{ \Gamma^{i}{}_{jk}(x_{(0)})+\partial_{l}\Gamma^{i}{}_{jk}(x_{(0)})\underbrace{(x^{l}-x_{(0)}^{l})}_{\mathcal{O}(\epsilon)}\right\} \left\{ n_{(0)}^{j}\right\} 
 \]
 
 \end_inset
