@@ -3800,7 +3800,7 @@ The strategy would be to keep terms of order
 to get 
 \begin_inset Formula 
 \[
-n^{i}=n_{(0)}^{i}-\Gamma^{i}{}_{jk}(x_{0})
+n^{i}(u)=n_{(0)}^{i}-\Gamma^{i}{}_{jk}(x_{0})n_{(0)}^{j}(x^{j}(u)-x_{(0)}^{j})+\mathcal{O}(\epsilon^{2}).
 \]
 
 \end_inset
