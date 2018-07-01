@@ -3731,7 +3731,7 @@ The strategy would be to keep terms of order
 
 .
  The result would be correct to order 
-\begin_inset Formula $\epsilon$
+\begin_inset Formula $\mathcal{O}(\epsilon)$
 \end_inset
 
 .
