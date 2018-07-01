@@ -3886,7 +3886,7 @@ as recall
 \begin_inset Formula 
 \begin{align*}
 \frac{dn^{i}}{du} & =-\left\{ \Gamma^{i}{}_{jk}(x_{(0)})+\partial_{l}\Gamma^{i}{}_{jk}(x_{(0)})\underbrace{(x^{l}-x_{(0)}^{l})}_{\mathcal{O}(\epsilon)}\right\} \left\{ n_{(0)}^{i}-\Gamma^{i}{}_{jk}(x_{0})n_{(0)}^{j}\underbrace{(x^{j}(u)-x_{(0)}^{j})}_{\mathcal{O}(\epsilon)}\right\} \frac{dx^{k}}{du}\\
- & =-\Gamma^{i}{}_{jk}n^{j}\frac{dx^{k}}{du}-\Gamma^{i}{}_{jk}\Gamma^{j}{}_{pq}n^{p}(x^{q}-x_{(0)}^{q})\frac{dx^{k}}{du}+\partial_{l}\Gamma^{i}{}_{jk}(x^{l}-x_{(0)}^{l})n_{(0)}^{j}\frac{dx^{k}}{du}+\mathcal{O}(\epsilon^{2})
+ & =-\Gamma^{i}{}_{jk}n_{(0)}^{j}\frac{dx^{k}}{du}-\Gamma^{i}{}_{jk}\Gamma^{j}{}_{pq}n_{(0)}^{p}(x^{q}-x_{(0)}^{q})\frac{dx^{k}}{du}+\partial_{l}\Gamma^{i}{}_{jk}(x^{l}-x_{(0)}^{l})n_{(0)}^{j}\frac{dx^{k}}{du}+\mathcal{O}(\epsilon^{2})
 \end{align*}
 
 \end_inset
@@ -3897,10 +3897,6 @@ where we suppressed the
 
  while writing 
 \begin_inset Formula $\Gamma$
-\end_inset
-
- and 
-\begin_inset Formula $n$
 \end_inset
 
  in the second line for brevity.
