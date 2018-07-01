@@ -3649,7 +3649,118 @@ Proof Sketch.
 \end_inset
 
 .
- (in progress)
+ We use the convention that 
+\begin_inset Formula $u$
+\end_inset
+
+ varies between 
+\begin_inset Formula $0$
+\end_inset
+
+ and 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+.
+ This is to ensure that 
+\begin_inset Formula $dx^{i}/du\sim1$
+\end_inset
+
+ that is we can't assume it to be arbitrarily small.
+ If we had taken 
+\begin_inset Formula $u$
+\end_inset
+
+ to range from 
+\begin_inset Formula $0$
+\end_inset
+
+ to 
+\begin_inset Formula $1$
+\end_inset
+
+ then 
+\begin_inset Formula $\delta x/\delta u\sim\mathcal{O}(\epsilon)$
+\end_inset
+
+ as illustrated in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Illustratively-justifying-why"
+
+\end_inset
+
+.
+ (Issue: I admit this is not as clear as I would have liked it to be but
+ if you imagine making equal slices on 
+\begin_inset Formula $u$
+\end_inset
+
+ and on 
+\begin_inset Formula $x$
+\end_inset
+
+ to define 
+\begin_inset Formula $\delta u$
+\end_inset
+
+ and 
+\begin_inset Formula $\delta x$
+\end_inset
+
+ respectively, and consider the limit of infinite slices then the aforesaid
+ result should follow neatly.
+ Whether there is another sequence which might yield a different limit I
+ will not consider here for things should be well behaved and the limit
+ should be unique).
+\end_layout
+
+\begin_layout Proof
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename illustrationJustifyingWhyUisεlike.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Illustratively justifying why 
+\begin_inset Formula $0\le u\le\epsilon$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Illustratively-justifying-why"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
