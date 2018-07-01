@@ -3649,7 +3649,7 @@ Proof Sketch.
 \end_inset
 
  starting and ending at 
-\begin_inset Formula $x_{0}$
+\begin_inset Formula $x_{(0)}$
 \end_inset
 
  with 
@@ -3657,7 +3657,7 @@ Proof Sketch.
 \end_inset
 
  an initial tangent vector (a vector in the tangent space at 
-\begin_inset Formula $x_{0}$
+\begin_inset Formula $x_{(0)}$
 \end_inset
 
 ) and 
@@ -3665,7 +3665,7 @@ Proof Sketch.
 \end_inset
 
  its parallel transport along the curve terminating at 
-\begin_inset Formula $x_{0}$
+\begin_inset Formula $x_{(0)}$
 \end_inset
 
  again.
@@ -3781,10 +3781,26 @@ The strategy would be to keep terms of order
 \end_inset
 
 .
- 
+ There's no reason to assume 
+\begin_inset Formula $\Gamma^{i}{}_{jk}$
+\end_inset
+
+ is small at 
+\begin_inset Formula $x_{0}$
+\end_inset
+
+ so we simply integrate the following expression
 \begin_inset Formula 
 \[
 \frac{dn^{i}}{du}=-\Gamma^{i}{}_{jk}(x_{(0)})n_{(0)}^{j}\frac{dx^{k}}{du}+\mathcal{O}(\epsilon)
+\]
+
+\end_inset
+
+to get 
+\begin_inset Formula 
+\[
+n^{i}=n_{(0)}^{i}-\Gamma^{i}{}_{jk}(x_{0})
 \]
 
 \end_inset
