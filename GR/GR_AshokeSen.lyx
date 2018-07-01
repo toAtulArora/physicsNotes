@@ -3900,6 +3900,28 @@ where we suppressed the
 \end_inset
 
  in the second line for brevity.
+ The first term would integrate to zero as 
+\begin_inset Formula $x^{k}$
+\end_inset
+
+ starts at 
+\begin_inset Formula $x_{0}$
+\end_inset
+
+ at 
+\begin_inset Formula $u=0$
+\end_inset
+
+ and ends at 
+\begin_inset Formula $x_{0}$
+\end_inset
+
+ at 
+\begin_inset Formula $u=1$
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Part
