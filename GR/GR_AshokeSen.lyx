@@ -3929,7 +3929,15 @@ where we suppressed the
 \begin_inset Formula $d(x^{k}-x_{(0)}^{k})$
 \end_inset
 
- and write the last term first to obtain the following
+ and write the last term first to obtain 
+\begin_inset Formula 
+\[
+n^{i}(\epsilon)=
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
