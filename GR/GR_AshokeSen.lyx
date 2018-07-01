@@ -3823,6 +3823,10 @@ as recall
 \begin_inset Formula $dn^{i}/du$
 \end_inset
 
+ to 
+\begin_inset Formula $\mathcal{O}(\epsilon^{2})$
+\end_inset
+
  but set 
 \begin_inset Formula $u=1$
 \end_inset
