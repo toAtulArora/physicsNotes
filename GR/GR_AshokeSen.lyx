@@ -3713,6 +3713,15 @@ reference "fig:Illustratively-justifying-why"
  Whether there is another sequence which might yield a different limit I
  will not consider here for things should be well behaved and the limit
  should be unique).
+ Recall that 
+\begin_inset Formula 
+\[
+\frac{dn^{i}}{du}=-\Gamma^{i}{}_{jk}n^{j}(u)\frac{dx^{j}}{du}.
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Proof
