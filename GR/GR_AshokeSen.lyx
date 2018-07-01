@@ -3932,7 +3932,7 @@ where we suppressed the
  and write the last term first to obtain 
 \begin_inset Formula 
 \begin{align*}
-n^{i}(\epsilon) & =n_{(0)}^{i}+\left(\partial_{q}\Gamma^{i}{}_{pk}-\Gamma^{i}{}_{jk}\Gamma^{j}{}_{pq}\right)n_{(0)}^{p}\oint_{0}^{\epsilon}(x^{q}-x_{(0)}^{q})d(x^{k}-x_{(0)}^{k}).
+n^{i}(\epsilon) & =n_{(0)}^{i}+\left(\partial_{q}\Gamma^{i}{}_{pk}-\Gamma^{i}{}_{jk}\Gamma^{j}{}_{pq}\right)n_{(0)}^{p}\oint_{0}^{\epsilon}(x^{q}-x_{(0)}^{q})d(x^{k}-x_{(0)}^{k})+\mathcal{O}(\epsilon^{3}).
 \end{align*}
 
 \end_inset
