@@ -3768,7 +3768,19 @@ The strategy would be to keep terms of order
 \end_inset
 
 .
- We will consider 
+ We already know that 
+\begin_inset Formula $n_{(0)}^{j}$
+\end_inset
+
+ is of 
+\begin_inset Formula $\mathcal{O}(1)$
+\end_inset
+
+ as 
+\begin_inset Formula $dx^{i}/du=\mathcal{O}(1)$
+\end_inset
+
+ 
 \begin_inset Formula 
 \[
 \frac{dn^{i}}{du}=-\Gamma^{i}{}_{jk}(x_{(0)})n_{(0)}^{j}\frac{dx^{k}}{du}+\mathcal{O}(\epsilon)
