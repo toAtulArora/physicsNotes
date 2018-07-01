@@ -3823,8 +3823,12 @@ as recall
 \begin_inset Formula $dn^{i}/du$
 \end_inset
 
- to 
-\begin_inset Formula $\mathcal{O}(\epsilon^{2})$
+ to obtain 
+\begin_inset Formula $n^{i}$
+\end_inset
+
+ correct to 
+\begin_inset Formula $\mathcal{O}(\epsilon^{3})$
 \end_inset
 
  but set 
