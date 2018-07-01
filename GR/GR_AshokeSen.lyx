@@ -3721,7 +3721,16 @@ reference "fig:Illustratively-justifying-why"
 
 \end_inset
 
+The strategy would be to keep terms of order 
+\begin_inset Formula $1$
+\end_inset
 
+ and then integrate.
+ The result would be to order 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Proof
