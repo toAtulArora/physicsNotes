@@ -3827,8 +3827,15 @@ as recall
 \begin_inset Formula $u=1$
 \end_inset
 
-.
- 
+ as 
+\begin_inset Formula 
+\[
+\frac{dn^{i}}{du}=
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Proof
