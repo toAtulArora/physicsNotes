@@ -3810,6 +3810,24 @@ as recall
 \end_inset
 
 .
+ Note also that we integrate to some arbitrary 
+\begin_inset Formula $u$
+\end_inset
+
+ not to 
+\begin_inset Formula $u=1$
+\end_inset
+
+.
+ We will now integrate the same expression for 
+\begin_inset Formula $dn^{i}/du$
+\end_inset
+
+ but set 
+\begin_inset Formula $u=1$
+\end_inset
+
+.
  
 \end_layout
 
