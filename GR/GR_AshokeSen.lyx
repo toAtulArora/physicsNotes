@@ -3780,6 +3780,7 @@ The strategy would be to keep terms of order
 \begin_inset Formula $dx^{i}/du=\mathcal{O}(1)$
 \end_inset
 
+.
  
 \begin_inset Formula 
 \[
