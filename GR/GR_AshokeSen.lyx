@@ -3725,9 +3725,26 @@ The strategy would be to keep terms of order
 \begin_inset Formula $1$
 \end_inset
 
- and then integrate.
+ and then integrate to find 
+\begin_inset Formula $n^{i}$
+\end_inset
+
+.
  The result would be correct to order 
 \begin_inset Formula $\epsilon$
+\end_inset
+
+.
+ Then we use this 
+\begin_inset Formula $n^{i}$
+\end_inset
+
+ and integrate to get 
+\begin_inset Formula $n^{i}$
+\end_inset
+
+ to 
+\begin_inset Formula $\mathcal{O}(\epsilon^{2})$
 \end_inset
 
 .
