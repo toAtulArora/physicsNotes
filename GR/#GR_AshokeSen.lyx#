@@ -3648,7 +3648,27 @@ Proof Sketch.
 \begin_inset Formula $\mathcal{O}(\epsilon)$
 \end_inset
 
-.
+ starting and ending at 
+\begin_inset Formula $x_{(0)}$
+\end_inset
+
+ with 
+\begin_inset Formula $n_{1}$
+\end_inset
+
+ an initial tangent vector (a vector in the tangent space at 
+\begin_inset Formula $x_{(0)}$
+\end_inset
+
+) and 
+\begin_inset Formula $n_{2}$
+\end_inset
+
+ its parallel transport along the curve terminating at 
+\begin_inset Formula $x_{(0)}$
+\end_inset
+
+ again.
  We use the convention that 
 \begin_inset Formula $u$
 \end_inset
@@ -3713,19 +3733,17 @@ reference "fig:Illustratively-justifying-why"
  Whether there is another sequence which might yield a different limit I
  will not consider here for things should be well behaved and the limit
  should be unique).
-\end_layout
-
-\begin_layout Proof
+ 
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename illustrationJustifyingWhyUisεlike.png
-	width 5cm
+	width 6cm
 
 \end_inset
 
@@ -3755,9 +3773,167 @@ name "fig:Illustratively-justifying-why"
 
 \end_layout
 
-\begin_layout Plain Layout
+\end_inset
 
-\end_layout
+ Recall that 
+\begin_inset Formula 
+\[
+\frac{dn^{i}}{du}=-\Gamma^{i}{}_{jk}n^{j}(u)\frac{dx^{j}}{du}.
+\]
+
+\end_inset
+
+The strategy would be to keep terms of order 
+\begin_inset Formula $1$
+\end_inset
+
+ and then integrate to find 
+\begin_inset Formula $n^{i}$
+\end_inset
+
+.
+ The result would be correct to order 
+\begin_inset Formula $\mathcal{O}(\epsilon)$
+\end_inset
+
+.
+ Then we use this 
+\begin_inset Formula $n^{i}$
+\end_inset
+
+ and integrate to get 
+\begin_inset Formula $n^{i}$
+\end_inset
+
+ to 
+\begin_inset Formula $\mathcal{O}(\epsilon^{2})$
+\end_inset
+
+.
+ We already know that 
+\begin_inset Formula $n_{(0)}^{j}$
+\end_inset
+
+ is of 
+\begin_inset Formula $\mathcal{O}(1)$
+\end_inset
+
+ as 
+\begin_inset Formula $dx^{i}/du=\mathcal{O}(1)$
+\end_inset
+
+.
+ There's no reason to assume 
+\begin_inset Formula $\Gamma^{i}{}_{jk}$
+\end_inset
+
+ is small at 
+\begin_inset Formula $x_{0}$
+\end_inset
+
+ so we simply integrate the following expression
+\begin_inset Formula 
+\[
+\frac{dn^{i}}{du}=-\Gamma^{i}{}_{jk}(x_{(0)})n_{(0)}^{j}\frac{dx^{k}}{du}+\mathcal{O}(\epsilon)
+\]
+
+\end_inset
+
+to get 
+\begin_inset Formula 
+\[
+n^{i}(u)=n_{(0)}^{i}-\Gamma^{i}{}_{jk}(x_{0})n_{(0)}^{j}(x^{j}(u)-x_{(0)}^{j})+\mathcal{O}(\epsilon^{2})
+\]
+
+\end_inset
+
+as recall 
+\begin_inset Formula $x^{j}=\mathcal{O}(\epsilon)$
+\end_inset
+
+.
+ Note also that we integrate to some arbitrary 
+\begin_inset Formula $u$
+\end_inset
+
+ not to 
+\begin_inset Formula $u=\epsilon$
+\end_inset
+
+.
+ We will now integrate the same expression for 
+\begin_inset Formula $dn^{i}/du$
+\end_inset
+
+ to obtain 
+\begin_inset Formula $n^{i}$
+\end_inset
+
+ correct to 
+\begin_inset Formula $\mathcal{O}(\epsilon^{3})$
+\end_inset
+
+ but set 
+\begin_inset Formula $u=\epsilon$
+\end_inset
+
+.
+ Plugging in and retaining first order in 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+ we have 
+\begin_inset Formula 
+\begin{align*}
+\frac{dn^{i}}{du} & =-\left\{ \Gamma^{i}{}_{jk}(x_{(0)})+\partial_{l}\Gamma^{i}{}_{jk}(x_{(0)})\underbrace{(x^{l}-x_{(0)}^{l})}_{\mathcal{O}(\epsilon)}\right\} \left\{ n_{(0)}^{i}-\Gamma^{i}{}_{jk}(x_{0})n_{(0)}^{j}\underbrace{(x^{j}(u)-x_{(0)}^{j})}_{\mathcal{O}(\epsilon)}\right\} \frac{dx^{k}}{du}\\
+ & =-\Gamma^{i}{}_{jk}n_{(0)}^{j}\frac{dx^{k}}{du}-\Gamma^{i}{}_{jk}\Gamma^{j}{}_{pq}n_{(0)}^{p}(x^{q}-x_{(0)}^{q})\frac{dx^{k}}{du}+\partial_{q}\Gamma^{i}{}_{pk}(x^{q}-x_{(0)}^{q})n_{(0)}^{p}\frac{dx^{k}}{du}+\mathcal{O}(\epsilon^{2})
+\end{align*}
+
+\end_inset
+
+where we suppressed the 
+\begin_inset Formula $x_{(0)}$
+\end_inset
+
+ while writing 
+\begin_inset Formula $\Gamma$
+\end_inset
+
+ in the second line for brevity and changed dummy indices for aesthetics.
+ The first term would integrate to zero as 
+\begin_inset Formula $x^{k}$
+\end_inset
+
+ starts at 
+\begin_inset Formula $x_{0}$
+\end_inset
+
+ at 
+\begin_inset Formula $u=0$
+\end_inset
+
+ and ends at 
+\begin_inset Formula $x_{0}$
+\end_inset
+
+ at 
+\begin_inset Formula $u=\epsilon$
+\end_inset
+
+.
+ We will replace 
+\begin_inset Formula $dx^{k}$
+\end_inset
+
+ with 
+\begin_inset Formula $d(x^{k}-x_{(0)}^{k})$
+\end_inset
+
+ and write the last term first to obtain 
+\begin_inset Formula 
+\begin{align*}
+n^{i}(\epsilon) & =n_{(0)}^{i}+\left(\partial_{q}\Gamma^{i}{}_{pk}-\Gamma^{i}{}_{jk}\Gamma^{j}{}_{pq}\right)n_{(0)}^{p}\oint_{0}^{\epsilon}(x^{q}-x_{(0)}^{q})\frac{d(x^{k}-x_{(0)}^{k})}{du}du+\mathcal{O}(\epsilon^{3}).
+\end{align*}
 
 \end_inset
 
