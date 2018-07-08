@@ -3617,12 +3617,11 @@ Note that this proof would fail for
 \begin_inset Formula $M=\mathbb{I}$
 \end_inset
 
-.
- The reverse statement also holds under some assumptions about connectedness.
- 
+ under some assumptions about connectedness of the underlying space.
+ The reverse statement also holds as we shall see soon.
 \end_layout
 
-\begin_layout Claim
+\begin_layout Proposition
 The Reimann Tensor 
 \begin_inset Formula $R_{ijkl}=0$
 \end_inset
@@ -3631,7 +3630,7 @@ The Reimann Tensor
 \begin_inset Formula $M=\mathbb{I}$
 \end_inset
 
-.
+ (if the space has no holes [TODO: make this precise]).
 \end_layout
 
 \begin_layout Proof
@@ -3639,7 +3638,11 @@ The Reimann Tensor
 status open
 
 \begin_layout Plain Layout
-Proof Sketch.
+Proof sketch for small curves to 
+\begin_inset Formula $\mathcal{O}(\epsilon^{3})$
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -3937,7 +3940,321 @@ n^{i}(\epsilon) & =n_{(0)}^{i}+\left(\partial_{q}\Gamma^{i}{}_{pk}-\Gamma^{i}{}_
 
 \end_inset
 
+Note that if the boundary term is zero we can shift the derivative with
+ a minus sign, viz.
+ for 
+\begin_inset Formula $y=x-x_{(0)}$
+\end_inset
 
+ 
+\begin_inset Formula $\int\left(y^{q}dy^{k}+dy^{q}y^{k}\right)=\int d(y^{q}y^{k})=0\implies\int y^{q}dy^{k}=-\int y^{k}dy^{q}$
+\end_inset
+
+.
+ This means the integral is anti-symmetric in the indices 
+\begin_inset Formula $q$
+\end_inset
+
+ and 
+\begin_inset Formula $k$
+\end_inset
+
+.
+ Thus the symmetric part of the multiplying tensor will not contribute to
+ the final expression.
+ We therefore keep only the anti-symmetric part (in 
+\begin_inset Formula $q$
+\end_inset
+
+ and 
+\begin_inset Formula $k$
+\end_inset
+
+) of it to obtain
+\begin_inset Formula 
+\begin{align*}
+n^{i}(\epsilon) & =n_{(0)}^{i}+\frac{1}{2}\left[\partial_{q}\Gamma^{i}{}_{pk}-\partial_{k}\Gamma^{i}{}_{pq}-\Gamma^{i}{}_{jk}\Gamma^{j}{}_{pq}+\Gamma^{i}{}_{jq}\Gamma^{j}{}_{pk}\right]n_{(0)}^{p}\oint_{0}^{\epsilon}(x^{q}-x_{(0)}^{q})\frac{d(x^{k}-x_{(0)}^{k})}{du}\\
+ & =n_{(0)}^{i}+\frac{1}{2}\left.R^{i}{}_{pkq}\right|_{\vec{x}_{(0)}}\oint(x^{q}-x_{(0)}^{q})\frac{d(x^{k}-x_{(0)}^{k})}{du}.
+\end{align*}
+
+\end_inset
+
+See what we did there? We got the Reimann Tensor into the equation.
+ Now since 
+\begin_inset Formula $R^{i}{}_{pqk}|_{\vec{x}_{(0)}}=0$
+\end_inset
+
+ we have 
+\begin_inset Formula 
+\[
+n^{i}(\epsilon)=n_{(0)}^{i}+\mathcal{O}(\epsilon^{3})
+\]
+
+\end_inset
+
+which means 
+\begin_inset Formula $M^{i}{}_{j}(\vec{x}_{0},\vec{x}_{0},c)=\delta^{i}{}_{j}+\mathcal{O}(\epsilon^{3})$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+That was already quite satisfying but of course valid only for small loops
+ and still not exact.
+ We will actually use that as a lemma in the full proof.
+ To be able to proceed we will need another small result.
+ With reference to 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:How-are-the"
+
+\end_inset
+
+ we want to know how the monodromy matrix evaluated at 
+\begin_inset Formula $\vec{x}_{1}$
+\end_inset
+
+ around a loop and that evaluated at 
+\begin_inset Formula $\vec{x}_{2}$
+\end_inset
+
+ around the same loop are related.
+ Note that because the parallel transport was an integral we can break it
+ as 
+\begin_inset Formula 
+\[
+M(\vec{x}_{1},\vec{x}_{1},c_{1}+c_{2})=M(x_{2},x_{1},c_{2})M(x_{1},x_{2},c_{1})
+\]
+
+\end_inset
+
+ where we need to use the reversed order as it is an operator.
+ Note that using 
+\begin_inset Formula $M(x_{2},x_{2},c_{2}+c_{1})=M(x_{1},x_{2},c_{1})M(x_{2},x_{1},c_{2})$
+\end_inset
+
+ and 
+\begin_inset Formula $M(x_{2},x_{1},c_{2})^{-1}=M(x_{1},x_{2},-c_{2})$
+\end_inset
+
+ we can write the second term of the aforesaid equation as 
+\begin_inset Formula 
+\[
+M(\vec{x}_{1},\vec{x}_{1},c_{1}+c_{2})=M(x_{2},x_{1},c_{2})M(x_{2},x_{2},c_{2}+c_{1})M(x_{1},x_{2},-c_{2})
+\]
+
+\end_inset
+
+which means that monodromy matrices evaluated at two different points in
+ a loop are related by conjugation (roughly speaking 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $B$
+\end_inset
+
+ are conjugates if 
+\begin_inset Formula $A=SBS^{-1}$
+\end_inset
+
+ for some 
+\begin_inset Formula $S$
+\end_inset
+
+).
+ This amounts to the following claim.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename relatingMonodromyAtTwoPoints.png
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+How are the monodromy matrices evaluated at 
+\begin_inset Formula $\vec{x}_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\vec{x}_{2}$
+\end_inset
+
+ related?
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:How-are-the"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Claim
+Consider two points 
+\begin_inset Formula $\vec{x}_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\vec{x}_{2}$
+\end_inset
+
+.
+ Consider two distinct paths, 
+\begin_inset Formula $c_{1}$
+\end_inset
+
+ from 
+\begin_inset Formula $\vec{x}_{1}$
+\end_inset
+
+ to 
+\begin_inset Formula $\vec{x}_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $c_{2}$
+\end_inset
+
+ that continues from 
+\begin_inset Formula $\vec{x}_{2}$
+\end_inset
+
+ and goes back to 
+\begin_inset Formula $\vec{x}_{1}$
+\end_inset
+
+.
+ The monodromy evaluated around this loop starting from 
+\begin_inset Formula $\vec{x}_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\vec{x}_{2}$
+\end_inset
+
+ are related as 
+\begin_inset Formula 
+\[
+M(x_{1},x_{1},c_{1}+c_{2})=M(x_{2},x_{1},c_{2})M(x_{2},x_{2},c_{2}+c_{1})M^{-1}(x_{2},x_{1},c_{2})
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $M(x_{i},x_{f},c)$
+\end_inset
+
+ is the parallel transport transformation matrix for a vector from 
+\begin_inset Formula $\vec{x}_{i}$
+\end_inset
+
+ to 
+\begin_inset Formula $\vec{x}_{f}$
+\end_inset
+
+ along the path 
+\begin_inset Formula $c$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In particular if 
+\begin_inset Formula $M(x_{2},x_{2},c_{2}+c_{1})=\mathbb{I}$
+\end_inset
+
+ then so is 
+\begin_inset Formula $M(x_{1},x_{1},c_{1}+c_{2})$
+\end_inset
+
+, viz.
+ if the monodrome is 
+\begin_inset Formula $\mathbb{I}$
+\end_inset
+
+ then the point from which you start doesn't matter.
+ We can generalise a little.
+ If 
+\begin_inset Formula $A=SBS^{-1}$
+\end_inset
+
+ and we know 
+\begin_inset Formula $B=\mathbb{I}+\mathcal{O}(\epsilon)$
+\end_inset
+
+ then we also know 
+\begin_inset Formula $A=\mathbb{I}+S\mathcal{O}(\epsilon)S^{-1}=\mathbb{I}+\mathcal{O}(\epsilon)$
+\end_inset
+
+, viz.
+ if 
+\begin_inset Formula $B$
+\end_inset
+
+ is close to 
+\begin_inset Formula $\mathbb{I}$
+\end_inset
+
+ then so is 
+\begin_inset Formula $A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Remark
+(Using the notation from the claim) If 
+\begin_inset Formula $M(x_{2},x_{2},c_{1}+c_{2})=\mathbb{I}+\mathcal{O}(\epsilon)$
+\end_inset
+
+ then 
+\begin_inset Formula $M(x_{1},x_{1},c_{1}+c_{2})=\mathbb{I}+\mathcal{O}(\epsilon)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+With these ingredients in place we are now ready to give the complete proof
+ of the proposition.
+ The basic 
+\end_layout
+
+\begin_layout Proof
+The basic idea 
 \end_layout
 
 \begin_layout Part
