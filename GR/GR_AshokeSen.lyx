@@ -4324,7 +4324,11 @@ In particular if
 \begin_layout Standard
 With these ingredients in place we are now ready to give the complete proof
  of the proposition.
- The basic 
+ The basic idea, as the astute reader would have already guessed, is to
+ break an arbitrary loop into smaller loops using the observation made above.
+ Then we apply the result which was valid for small loops and put the pieces
+ together with the hope of, and indeed we do, establishing the result in
+ general.
 \end_layout
 
 \begin_layout Proof
