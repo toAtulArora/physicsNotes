@@ -4128,6 +4128,20 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename breakingABiggerLoop.png
+	width 5cm
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename breakingAgain.png
+	width 3cm
+
+\end_inset
+
 
 \end_layout
 
@@ -4135,6 +4149,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+Systematically breaking a larger loop into smaller constituents.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Systematically-breaking-a"
+
+\end_inset
+
 
 \end_layout
 
@@ -4156,7 +4177,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
+Illustrations to facilitate the understanding of results about Monodromy
+ matrices.
 \end_layout
 
 \end_inset
@@ -4302,7 +4324,8 @@ In particular if
 \begin_layout Standard
 With these ingredients in place we are now ready to give the complete proof
  of the proposition.
- The basic 
+ The basic idea, as the astute reader would have already guessed, is to
+ break an arbitrary loop into smaller l
 \end_layout
 
 \begin_layout Proof
