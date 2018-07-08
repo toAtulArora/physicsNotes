@@ -4075,6 +4075,12 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename relatingMonodromyAtTwoPoints.png
@@ -4089,7 +4095,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-How are the monodromy matrices evaluated at 
+Visual aid to establishing a relation between monodromy matrices evaluated
+ at 
 \begin_inset Formula $\vec{x}_{1}$
 \end_inset
 
@@ -4097,7 +4104,7 @@ How are the monodromy matrices evaluated at
 \begin_inset Formula $\vec{x}_{2}$
 \end_inset
 
- related?
+.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:How-are-the"
@@ -4105,6 +4112,73 @@ name "fig:How-are-the"
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename breakingABiggerLoop.png
+	width 5cm
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename breakingAgain.png
+	width 3cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Systematically breaking a larger loop into smaller constituents.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Systematically-breaking-a"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Illustrations to facilitate the understanding of results about Monodromy
+ matrices.
 \end_layout
 
 \end_inset
