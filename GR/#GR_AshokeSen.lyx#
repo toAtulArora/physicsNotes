@@ -3621,7 +3621,7 @@ Note that this proof would fail for
  The reverse statement also holds as we shall see soon.
 \end_layout
 
-\begin_layout Claim
+\begin_layout Proposition
 The Reimann Tensor 
 \begin_inset Formula $R_{ijkl}=0$
 \end_inset
@@ -3630,7 +3630,7 @@ The Reimann Tensor
 \begin_inset Formula $M=\mathbb{I}$
 \end_inset
 
-.
+ (if the space has no holes [TODO: make this precise]).
 \end_layout
 
 \begin_layout Proof
@@ -4023,7 +4023,11 @@ reference "fig:How-are-the"
  around the same loop are related.
  Note that because the parallel transport was an integral we can break it
  as 
-\begin_inset Formula $M(\vec{x}_{1},\vec{x}_{1},c_{1}+c_{2})=M(x_{2},x_{1},c_{2})M(x_{1},x_{2},c_{1})$
+\begin_inset Formula 
+\[
+M(\vec{x}_{1},\vec{x}_{1},c_{1}+c_{2})=M(x_{2},x_{1},c_{2})M(x_{1},x_{2},c_{1})
+\]
+
 \end_inset
 
  where we need to use the reversed order as it is an operator.
@@ -4032,13 +4036,45 @@ reference "fig:How-are-the"
 \end_inset
 
  and 
-\begin_inset Formula $M(x_{2},x_{1},c_{2})^{-1}=M(x_{1},x_{2}$
+\begin_inset Formula $M(x_{2},x_{1},c_{2})^{-1}=M(x_{1},x_{2},-c_{2})$
 \end_inset
 
+ we can write the second term of the aforesaid equation as 
+\begin_inset Formula 
+\[
+M(\vec{x}_{1},\vec{x}_{1},c_{1}+c_{2})=M(x_{2},x_{1},c_{2})M(x_{2},x_{2},c_{2}+c_{1})M(x_{1},x_{2},-c_{2})
+\]
 
+\end_inset
+
+which means that monodromy matrices evaluated at two different points in
+ a loop are related by conjugation (roughly speaking 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $B$
+\end_inset
+
+ are conjugates if 
+\begin_inset Formula $A=SBS^{-1}$
+\end_inset
+
+ for some 
+\begin_inset Formula $S$
+\end_inset
+
+).
+ This amounts to the following claim.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset Float figure
 wide false
 sideways false
@@ -4059,7 +4095,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-How are the monodromy matrices evaluated at 
+Visual aid to establishing a relation between monodromy matrices evaluated
+ at 
 \begin_inset Formula $\vec{x}_{1}$
 \end_inset
 
@@ -4067,13 +4104,58 @@ How are the monodromy matrices evaluated at
 \begin_inset Formula $\vec{x}_{2}$
 \end_inset
 
- related?
+.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:How-are-the"
 
 \end_inset
 
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -4137,7 +4219,7 @@ Consider two points
  are related as 
 \begin_inset Formula 
 \[
-M(x_{1},x_{1},c_{1}+c_{2})=M(x_{2},x_{1},c_{2})M(x_{2},x_{2},c_{2}+c_{1})M(x_{1},x_{2},-c_{2})
+M(x_{1},x_{1},c_{1}+c_{2})=M(x_{2},x_{1},c_{2})M(x_{2},x_{2},c_{2}+c_{1})M^{-1}(x_{2},x_{1},c_{2})
 \]
 
 \end_inset
@@ -4159,6 +4241,72 @@ where
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+In particular if 
+\begin_inset Formula $M(x_{2},x_{2},c_{2}+c_{1})=\mathbb{I}$
+\end_inset
+
+ then so is 
+\begin_inset Formula $M(x_{1},x_{1},c_{1}+c_{2})$
+\end_inset
+
+, viz.
+ if the monodrome is 
+\begin_inset Formula $\mathbb{I}$
+\end_inset
+
+ then the point from which you start doesn't matter.
+ We can generalise a little.
+ If 
+\begin_inset Formula $A=SBS^{-1}$
+\end_inset
+
+ and we know 
+\begin_inset Formula $B=\mathbb{I}+\mathcal{O}(\epsilon)$
+\end_inset
+
+ then we also know 
+\begin_inset Formula $A=\mathbb{I}+S\mathcal{O}(\epsilon)S^{-1}=\mathbb{I}+\mathcal{O}(\epsilon)$
+\end_inset
+
+, viz.
+ if 
+\begin_inset Formula $B$
+\end_inset
+
+ is close to 
+\begin_inset Formula $\mathbb{I}$
+\end_inset
+
+ then so is 
+\begin_inset Formula $A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Remark
+(Using the notation from the claim) If 
+\begin_inset Formula $M(x_{2},x_{2},c_{1}+c_{2})=\mathbb{I}+\mathcal{O}(\epsilon)$
+\end_inset
+
+ then 
+\begin_inset Formula $M(x_{1},x_{1},c_{1}+c_{2})=\mathbb{I}+\mathcal{O}(\epsilon)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+With these ingredients in place we are now ready to give the complete proof
+ of the proposition.
+ The basic 
+\end_layout
+
+\begin_layout Proof
+The basic idea 
 \end_layout
 
 \begin_layout Part
