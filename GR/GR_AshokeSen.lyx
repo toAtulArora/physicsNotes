@@ -4328,8 +4328,8 @@ With these ingredients in place we are now ready to give the complete proof
  break a finite loop into arbitrarily small loops using the observation
  made above.
  Then we apply the result which was valid for small loops and put the pieces
- together with the hope of, and indeed we do, establishing the result in
- general.
+ together with the hope of being able to, and indeed we do, establish the
+ result in general.
 \end_layout
 
 \begin_layout Proof
@@ -4342,7 +4342,18 @@ Proof Sketch
 
 \end_inset
 
- Consider 
+ Consider, with reference to 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Systematically-breaking-a"
+
+\end_inset
+
+ 
+\begin_inset Formula $M(x_{1},x_{1},c_{1}+c_{2})$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
