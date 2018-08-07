@@ -253,7 +253,11 @@ bfseries Sen Lectures}
 \backslash
 baselineskip] 
 \backslash
-HUGE General Relativity}
+resizebox{
+\backslash
+linewidth}{!}{
+\backslash
+itshape Foo!} General Relativity
 \backslash
 
 \backslash
