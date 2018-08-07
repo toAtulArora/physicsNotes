@@ -253,17 +253,17 @@ bfseries Sen Lectures}
 \backslash
 baselineskip] 
 \backslash
-resizebox{0.4
+resizebox{0.6
 \backslash
-linewidth}{!}{
-\backslash
-itshape General Relativity} }
+linewidth}{!}{ General Relativity} }
 \backslash
 
 \backslash
 [2
 \backslash
-baselineskip] % Title
+baselineskip] % Title 
+\backslash
+itshape
 \end_layout
 
 \begin_layout Plain Layout
