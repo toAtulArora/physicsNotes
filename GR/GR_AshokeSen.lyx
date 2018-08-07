@@ -231,21 +231,15 @@ textwidth}{ % Paragraph box for holding the title page text, adjust the
 
 \begin_layout Plain Layout
 
-		{
+		{ {
 \backslash
-large
-\backslash
-bfseries Donkey
-\backslash
-
-\backslash
-[0.25
-\backslash
-baselineskip]
+large Donkey in} 
 \backslash
 huge
 \backslash
-bfseries in Sen Lectures on
+bfseries Sen Lectures {
+\backslash
+large on}
 \backslash
 
 \backslash
