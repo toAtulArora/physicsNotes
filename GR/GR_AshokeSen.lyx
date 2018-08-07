@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -94,6 +94,8 @@ logicalmkup
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -123,6 +125,7 @@ logicalmkup
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_minted 0
 \branch TDPG to Protocol
 \selected 1
 \filename_suffix 0
@@ -148,7 +151,10 @@ logicalmkup
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -227,9 +233,17 @@ textwidth}{ % Paragraph box for holding the title page text, adjust the
 
 		{
 \backslash
+large
+\backslash
+bfseries Donkey
+\backslash
+
+\backslash
+ 
+\backslash
 huge
 \backslash
-bfseries Sen's Lectures 
+bfseries in-Sen Lectures on
 \backslash
 
 \backslash
