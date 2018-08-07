@@ -34,6 +34,8 @@
 
 \usepackage{psvectorian}
 
+\usepackage{textcomp}
+
 \newcommand{\ornamentleft}{%
     \psvectorian[width=2em]{2}%
 }
@@ -308,7 +310,9 @@ textheight} % Whitespace between the title block and the publisher
 
 		{
 \backslash
-noindent Copyleft~~)c(}
+noindent Copyleft~~
+\backslash
+textcopyleft}
 \backslash
 
 \backslash
