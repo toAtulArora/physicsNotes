@@ -239,13 +239,13 @@ large Donkey Documents}
 \backslash
 
 \backslash
-[0.5
+[1.5
 \backslash
-baselineskip] 
+baselineskip] {
 \backslash
 huge
 \backslash
-bfseries Sen Lectures
+bfseries Sen Lectures}
 \backslash
 
 \backslash
