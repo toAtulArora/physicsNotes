@@ -243,7 +243,9 @@ large Donkey Documents}
 \backslash
 baselineskip] 
 \backslash
-huge Sen Lectures
+huge
+\backslash
+bfseries Sen Lectures
 \backslash
 
 \backslash
