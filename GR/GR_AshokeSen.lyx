@@ -233,7 +233,9 @@ textwidth}{ % Paragraph box for holding the title page text, adjust the
 
 		{ {
 \backslash
-large Donkey in} 
+large
+\backslash
+bfseries Donkey in} 
 \backslash
 huge
 \backslash
