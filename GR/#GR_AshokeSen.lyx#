@@ -69,18 +69,6 @@
 %\usepackage[T1]{fontenc} % Output font encoding for international characters
 %\usepackage{stix} % Use the STIX fonts
 
-% This is for the license
-\usepackage[
-    type={CC},
-    modifier={by-nc-sa},
-    version={4.0},
-]{doclicense}
-
-%This is for quotations
-\usepackage{epigraph}
-\setlength\epigraphrule{0pt} %to remove the silly line
-\setlength\epigraphwidth{.65\textwidth}
-
 \title{Sen's Lectures | General Relativity}
 \author{Atul Singh Arora}
 
@@ -372,34 +360,7 @@ clearpage
 \backslash
 thispagestyle{empty}
 \backslash
-addtocounter{page}{-1}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-epigraph{
-\backslash
-large{
-\backslash
-itshape ``What one fool can understand, another can.''}}{---Richard P.
- Feynman}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-vfill 
-\backslash
-small{
-\backslash
-doclicenseThis} 
+addtocounter{page}{-1}  
 \backslash
 clearpage
 \end_layout
