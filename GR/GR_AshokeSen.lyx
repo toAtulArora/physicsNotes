@@ -170,7 +170,7 @@ logicalmkup
 \quotes_style english
 \dynamic_quotes 0
 \papercolumns 1
-\papersides 1
+\papersides 2
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
@@ -401,7 +401,7 @@ small{
 \backslash
 doclicenseThis} 
 \backslash
-clearpage
+cleardoublepage
 \end_layout
 
 \end_inset
@@ -419,7 +419,7 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Chapter*
-Foreword 
+Preface 
 \end_layout
 
 \begin_layout Standard
@@ -451,6 +451,28 @@ The content is due to Prof.
  Prof.
  Sen has also delivered more lectures on many other topics, both advanced
  and basic, which I might try to cover in my subsequent efforts.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+— Dk Atul Singh Arora
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Dk stands for Donkey, in case you were wondering.
+ They hand out all kinds of degrees these days.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -497,7 +519,7 @@ gnetic waves and one of the main goals in generalising Newtonian gravity
 
 \begin_layout Standard
 Just as vector calculus is the underlying mathematics of Maxwell's electromagnet
-ism, Reimannian Geometry – a generalisation of Euclidean Geometry – is that
+ism, Reimannian Geometry — a generalisation of Euclidean Geometry — is that
  of GR.
  Thus one must familiarise oneself with at least the basic concepts of Reimannia
 n Geometry as a prerequisite to learning GR.
@@ -2353,8 +2375,8 @@ Motivation
 \end_layout
 
 \begin_layout Standard
-Einstein's general theory of relativity uses the notion of geodesic – the
- shortest length path between two points – in its description.
+Einstein's general theory of relativity uses the notion of geodesic — the
+ shortest length path between two points — in its description.
  It reduces to the special theory of relativity in the special case of flat
  space(time).
  In addition to studying geodesics we will generalise the notion of parallel
@@ -2393,7 +2415,7 @@ We could define
 \begin_layout Standard
 This is how we usually describe a line for instance.
  The difficulty with this method is that it doesn't preserve the symmetry
- of the coordinates – one of the coordinates is given a special treatment.
+ of the coordinates — one of the coordinates is given a special treatment.
 \end_layout
 
 \begin_layout Enumerate
@@ -2536,7 +2558,7 @@ Atul: admittedly we only extremised the length and therefore it might even
 \emph on
 affine parameter
 \emph default
- – the parameter 
+ — the parameter 
 \begin_inset Formula $u$
 \end_inset
 
