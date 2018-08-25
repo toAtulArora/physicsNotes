@@ -3769,11 +3769,7 @@ name "lem:RzeroMalmostZero"
 status open
 
 \begin_layout Plain Layout
-Proof sketch for small curves to 
-\begin_inset Formula $\mathcal{O}(\epsilon^{3})$
-\end_inset
-
-.
+Proof sketch.
 \end_layout
 
 \end_inset
