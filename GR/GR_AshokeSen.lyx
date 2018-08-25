@@ -3725,7 +3725,7 @@ Note that this proof would fail for
 \end_layout
 
 \begin_layout Proposition
-The Reimann Tensor 
+The Riemann Tensor 
 \begin_inset Formula $R_{ijkl}=0$
 \end_inset
 
@@ -3737,7 +3737,19 @@ The Reimann Tensor
 \end_layout
 
 \begin_layout Lemma
+If the Riemann Tensor 
+\begin_inset Formula $R_{ijkl}=0$
+\end_inset
 
+ then 
+\begin_inset Formula $M=\mathbb{I}+\mathcal{O}(\epsilon^{3})$
+\end_inset
+
+ around a small loop of length 
+\begin_inset Formula $\mathcal{O}(\epsilon)$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Proof
