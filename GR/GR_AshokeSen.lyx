@@ -3736,6 +3736,10 @@ The Reimann Tensor
  (if the space has no holes [TODO: make this precise]).
 \end_layout
 
+\begin_layout Lemma
+
+\end_layout
+
 \begin_layout Proof
 \begin_inset Argument 1
 status open
