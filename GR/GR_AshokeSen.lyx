@@ -85,7 +85,7 @@
 \author{Atul Singh Arora}
 
 \newref{exer}{name=exercise~,Name=Exercise~,names=exercises~,Names=Exercises~}
-\newref{claim}{name=exercise~,Name=Exercise~,names=exercises~,Names=Exercises~}
+\newref{claim}{name=claim~,Name=Claim~,names=claims~,Names=Claims~}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -4542,7 +4542,7 @@ noprefix "false"
 LatexCommand formatted
 reference "claim:MonodromySimilarity"
 plural "false"
-caps "false"
+caps "true"
 noprefix "false"
 
 \end_inset
