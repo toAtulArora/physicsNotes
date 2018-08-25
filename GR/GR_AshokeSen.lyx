@@ -4683,7 +4683,11 @@ It is worth stressing that if for the small loop the monodromy had the form
 \begin_inset Formula $\mathbb{I}$
 \end_inset
 
- in general.
+ in general regardless of how large 
+\begin_inset Formula $n$
+\end_inset
+
+ is.
 \end_layout
 
 \begin_layout Standard
