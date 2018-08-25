@@ -4760,7 +4760,16 @@ name "fig:manifoldWithAHole"
 \end_layout
 
 \begin_layout Standard
-It turns out that the 
+We now turn our attention to the converse.
+ Suppose we are given that the monodromy matrix for all curves is 
+\begin_inset Formula $\mathbb{I}$
+\end_inset
+
+ does it follow that 
+\begin_inset Formula $R^{i}{}_{jkl}=0$
+\end_inset
+
+?
 \end_layout
 
 \begin_layout Standard
