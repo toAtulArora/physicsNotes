@@ -4048,7 +4048,7 @@ Note that if the boundary term is zero we can shift the derivative with
 \begin_inset Formula $y=x-x_{(0)}$
 \end_inset
 
- 
+,  
 \begin_inset Formula $\int\left(y^{q}dy^{k}+dy^{q}y^{k}\right)=\int d(y^{q}y^{k})=0\implies\int y^{q}dy^{k}=-\int y^{k}dy^{q}$
 \end_inset
 
