@@ -4465,6 +4465,9 @@ Proof Sketch
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Systematically-breaking-a"
+plural "false"
+caps "true"
+noprefix "false"
 
 \end_inset
 
@@ -4473,6 +4476,11 @@ reference "fig:Systematically-breaking-a"
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+(Self NB: Prof Sen had mixed the order of things; I have therefore skipped
+ the first page of lecture 7 which should constitute )
 \end_layout
 
 \begin_layout Part
