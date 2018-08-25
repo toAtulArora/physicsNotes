@@ -4042,7 +4042,7 @@ n^{i}(\epsilon) & =n_{(0)}^{i}+\left(\partial_{q}\Gamma^{i}{}_{pk}-\Gamma^{i}{}_
 
 \end_inset
 
-Note that if the boundary term is zero we can shift the derivative with
+Note that the boundary term is zero and so we can shift the derivative with
  a minus sign, viz.
  for 
 \begin_inset Formula $y=x-x_{(0)}$
@@ -4053,8 +4053,7 @@ Note that if the boundary term is zero we can shift the derivative with
 \end_inset
 
 .
- We used the fact that the boundary term is indeed zero here because for
- 
+ We used the fact that for 
 \begin_inset Formula $u=0$
 \end_inset
 
