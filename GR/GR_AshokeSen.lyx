@@ -4597,6 +4597,16 @@ noprefix "false"
 
  (think of a rectangle or a circle for concreteness).
  From 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "lem:RzeroMalmostZero"
+plural "false"
+caps "true"
+noprefix "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
