@@ -4690,6 +4690,56 @@ It is worth stressing that if for the small loop the monodromy had the form
  is.
 \end_layout
 
+\begin_layout Proof
+Note also that if the manifold had a hole of some sort which prevented us
+ from shrinking the loops (see 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename holeInManifold.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+For a manifold with a hole we can not conclude that 
+\begin_inset Formula $R^{i}{}_{jkl}=0$
+\end_inset
+
+ would entail 
+\begin_inset Formula $M=\mathbb{I}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 (Self NB: Prof Sen had mixed the order of things; I have therefore skipped
  the first page of lecture 7 which should constitute a proof of 
