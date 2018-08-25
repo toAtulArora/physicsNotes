@@ -4646,12 +4646,22 @@ noprefix "false"
 \begin_inset Formula $\mathcal{O}(x)=\mathcal{O}(1/n^{3/2})$
 \end_inset
 
- we obtain the expression for the monodromy matrix of the finite loop as
- 
+ we conclude that the expression for the monodromy matrix of the finite
+ loop would be 
 \begin_inset Formula $\mathbb{I}+n\mathcal{O}(1/n^{3/2})=\mathbb{I}+\mathcal{O}(1/\sqrt{n})$
 \end_inset
 
 .
+ Since the number of divisions we did was arbitrary we can take 
+\begin_inset Formula $n$
+\end_inset
+
+ to be arbitrarily large and conclude that indeed the monodromy matrix for
+ a finite loop would be 
+\begin_inset Formula $\mathbb{I}$
+\end_inset
+
+ if 
 \end_layout
 
 \begin_layout Standard
