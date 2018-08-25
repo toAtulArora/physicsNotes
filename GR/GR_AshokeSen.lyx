@@ -3402,6 +3402,10 @@ To see this, recall that the parallel transport equation is linear in
 \begin_inset Formula $n_{(2)}^{\prime i}=M^{i}{}_{j}n{}_{(1)}^{\prime j}$
 \end_inset
 
+, 
+\begin_inset Formula $n_{(2)}^{i}=M^{i}{}_{j}n_{(1)}^{j}$
+\end_inset
+
 .
  Any vector in the first tangent space can be written as 
 \begin_inset Formula $\vec{m}_{(1)}=\alpha\vec{n}_{(1)}+\beta\vec{n}_{(1)}^{\prime}$
