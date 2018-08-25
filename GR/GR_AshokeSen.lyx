@@ -4617,6 +4617,12 @@ noprefix "false"
 
 .
  Now we look at the overall structure.
+ The monodromy matrix for the finite loop is just a product of several matrices,
+ each of the form 
+\begin_inset Formula $S\left(\mathbb{I}+\mathcal{O}(1/n^{3/2})\right)S^{-1}$
+\end_inset
+
+.
  
 \end_layout
 
