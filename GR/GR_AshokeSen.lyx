@@ -4520,7 +4520,11 @@ noprefix "false"
 \end_inset
 
 ).
- 
+ To be able to divide further, say at the point 
+\begin_inset Formula $x_{3}$
+\end_inset
+
+ with reference to the first image again, 
 \end_layout
 
 \begin_layout Standard
