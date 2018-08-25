@@ -4558,6 +4558,20 @@ noprefix "false"
 
 .
  Now we can repeat the aforesaid procedure to divide further repeatedly.
+ Assume that we have divided the original loop into 
+\begin_inset Formula $n$
+\end_inset
+
+ parts of roughly the same size.
+ This would mean that each part has an area 
+\begin_inset Formula $\sim1/n$
+\end_inset
+
+ which entails the circumference would by 
+\begin_inset Formula $\sim1/\sqrt{n}$
+\end_inset
+
+.
  
 \end_layout
 
