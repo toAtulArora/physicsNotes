@@ -4670,7 +4670,20 @@ noprefix "false"
 \end_layout
 
 \begin_layout Proof
+It is worth stressing that if for the small loop the monodromy had the form
+ 
+\begin_inset Formula $\mathbb{I+\mathcal{O}}(\epsilon^{2})$
+\end_inset
 
+ it would have yielded, for the finite loop, 
+\begin_inset Formula $\mathbb{I}+n\mathcal{O}(1/n)$
+\end_inset
+
+ which doesn't converge to 
+\begin_inset Formula $\mathbb{I}$
+\end_inset
+
+ in general.
 \end_layout
 
 \begin_layout Standard
