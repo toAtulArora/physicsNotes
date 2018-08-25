@@ -4524,7 +4524,8 @@ noprefix "false"
 \begin_inset Formula $x_{3}$
 \end_inset
 
- with reference to the first image again, 
+ with reference to the first image again, we need to re-express our monodromy
+ matrix using 
 \end_layout
 
 \begin_layout Standard
