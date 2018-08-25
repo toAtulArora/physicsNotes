@@ -3737,6 +3737,10 @@ The Riemann Tensor
  (if the space has no holes [TODO: make this precise]).
 \end_layout
 
+\begin_layout Standard
+To prove this statement let us start with a weaker variant thereof.
+\end_layout
+
 \begin_layout Lemma
 If the Riemann Tensor 
 \begin_inset Formula $R_{ijkl}=0$
@@ -4757,10 +4761,6 @@ name "fig:manifoldWithAHole"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
