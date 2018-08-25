@@ -4053,7 +4053,8 @@ Note that if the boundary term is zero we can shift the derivative with
 \end_inset
 
 .
- The boundary term is indeed zero here because for 
+ We used the fact that the boundary term is indeed zero here because for
+ 
 \begin_inset Formula $u=0$
 \end_inset
 
@@ -4065,8 +4066,7 @@ Note that if the boundary term is zero we can shift the derivative with
 \begin_inset Formula $x=x_{(0)}$
 \end_inset
 
- as the curve is closed.
- This means that 
+ as the curve is closed which means that 
 \begin_inset Formula $y=0$
 \end_inset
 
