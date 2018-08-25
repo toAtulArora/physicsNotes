@@ -4475,6 +4475,7 @@ noprefix "false"
 \begin_inset Formula 
 \begin{align*}
 M(x_{1},x_{1},c_{1}+c_{2}) & =M(x_{2},x_{1},c_{2})M(x_{1},x_{2},c_{1})\\
+ & =M(x_{2},x_{1},c_{2})M(x_{1},x_{2},-c_{3})M(x_{2},x_{1},c_{3})M(x_{1},x_{2},c_{1})\\
  & =
 \end{align*}
 
