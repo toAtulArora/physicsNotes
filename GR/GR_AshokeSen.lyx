@@ -4693,6 +4693,16 @@ It is worth stressing that if for the small loop the monodromy had the form
 \begin_layout Proof
 Note also that if the manifold had a hole of some sort which prevented us
  from shrinking the loops (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:manifoldWithAHole"
+plural "false"
+caps "true"
+noprefix "false"
+
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Standard
@@ -4724,6 +4734,14 @@ For a manifold with a hole we can not conclude that
 \end_inset
 
 , at least not with our proof technique.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:manifoldWithAHole"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
