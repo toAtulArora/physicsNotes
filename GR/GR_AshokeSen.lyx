@@ -4638,7 +4638,20 @@ noprefix "false"
 \end_inset
 
 .
+ Using 
+\begin_inset Formula $(1+x_{1})(1+x_{2})\dots(1+x_{n})=1+n.\mathcal{O}(x)+\dots$
+\end_inset
+
+ and substituting 
+\begin_inset Formula $\mathcal{O}(x)=\mathcal{O}(1/n^{3/2})$
+\end_inset
+
+ we obtain the expression for the monodromy matrix of the finite loop as
  
+\begin_inset Formula $\mathbb{I}+n\mathcal{O}(1/n^{3/2})=\mathbb{I}+\mathcal{O}(1/\sqrt{n})$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
