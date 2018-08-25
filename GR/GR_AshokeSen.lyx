@@ -463,7 +463,7 @@ The content is due to Prof.
 \begin_layout Standard
 — Dk Atul Singh Arora
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Dk stands for Donkey, in case you were wondering.
@@ -2907,8 +2907,8 @@ We are now in a position to ask what it would mean for two tangent vectors
  the new coordinate system the tangent vectors according to our naïve definition.
  This seems to suggest that there's no unambiguous way of determining if
  two tangents are parallel.
- We fix this demanding the said condition in a coordinate system which is
- 
+ We fix this by demanding the said condition in a coordinate system which
+ is 
 \begin_inset Quotes eld
 \end_inset
 
