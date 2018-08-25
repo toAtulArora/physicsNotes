@@ -4048,11 +4048,29 @@ Note that if the boundary term is zero we can shift the derivative with
 \begin_inset Formula $y=x-x_{(0)}$
 \end_inset
 
-,  
+, 
 \begin_inset Formula $\int\left(y^{q}dy^{k}+dy^{q}y^{k}\right)=\int d(y^{q}y^{k})=0\implies\int y^{q}dy^{k}=-\int y^{k}dy^{q}$
 \end_inset
 
 .
+ The boundary term is indeed zero here because for 
+\begin_inset Formula $u=0$
+\end_inset
+
+ and 
+\begin_inset Formula $u=1$
+\end_inset
+
+ we have 
+\begin_inset Formula $x=x_{(0)}$
+\end_inset
+
+ as the curve is closed.
+ This means that 
+\begin_inset Formula $y=0$
+\end_inset
+
+ at the boundaries.
  This means the integral is anti-symmetric in the indices 
 \begin_inset Formula $q$
 \end_inset
