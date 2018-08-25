@@ -4382,6 +4382,13 @@ where
 \end_inset
 
 .
+\begin_inset CommandInset label
+LatexCommand label
+name "claim:MonodromySimilarity"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4525,7 +4532,22 @@ noprefix "false"
 \end_inset
 
  with reference to the first image again, we need to re-express our monodromy
- matrix using 
+ matrix in terms of the 
+\begin_inset Formula $x_{3}$
+\end_inset
+
+ coordinate which we do using 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "claim:MonodromySimilarity"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Standard
