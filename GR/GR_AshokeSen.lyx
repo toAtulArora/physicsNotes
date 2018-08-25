@@ -4148,7 +4148,7 @@ which means
 \begin_layout Standard
 That was already quite satisfying but of course valid only for small loops
  and still not exact.
- To be able to proceed we will need another small result.
+ To be able to generalise we will need another small result.
  With reference to 
 \begin_inset CommandInset ref
 LatexCommand formatted
