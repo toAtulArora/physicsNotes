@@ -4461,7 +4461,7 @@ Proof Sketch
 
 \end_inset
 
- Consider, with reference to 
+ Consider, with reference to the first image of 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Systematically-breaking-a"
@@ -4508,7 +4508,7 @@ s.
 
 ; also recall that the composition is from right to left should you find
  yourself confused.
- 
+ Look at the 
 \end_layout
 
 \begin_layout Standard
