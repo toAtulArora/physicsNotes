@@ -4662,6 +4662,11 @@ noprefix "false"
 \end_inset
 
  if 
+\begin_inset Formula $R^{i}{}_{jkl}=0$
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Standard
