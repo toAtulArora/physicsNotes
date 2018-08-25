@@ -4472,11 +4472,15 @@ noprefix "false"
 \end_inset
 
  
-\begin_inset Formula $M(x_{1},x_{1},c_{1}+c_{2})$
+\begin_inset Formula 
+\begin{align*}
+M(x_{1},x_{1},c_{1}+c_{2}) & =M(x_{2},x_{1},c_{2})M(x_{1},x_{2},c_{1})\\
+ & =
+\end{align*}
+
 \end_inset
 
-.
- We can 
+
 \end_layout
 
 \begin_layout Standard
