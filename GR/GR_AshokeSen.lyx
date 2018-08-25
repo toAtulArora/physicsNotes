@@ -3749,7 +3749,7 @@ If the Riemann Tensor
 \begin_inset Formula $\mathcal{O}(\epsilon)$
 \end_inset
 
-.
+ (granted the space has no holes [TODO: make this precise]).
 \end_layout
 
 \begin_layout Proof
