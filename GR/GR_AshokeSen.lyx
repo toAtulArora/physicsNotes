@@ -4610,8 +4610,8 @@ noprefix "false"
 
 \end_inset
 
- we conclude that the monodromy matrix associated with each loop would be
- of the form 
+ we conclude that the monodromy matrix associated with each small loop would
+ be of the form 
 \begin_inset Formula $\mathbb{I}+\mathcal{O}(1/n^{3/2})$
 \end_inset
 
