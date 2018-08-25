@@ -4623,6 +4623,21 @@ noprefix "false"
 \end_inset
 
 .
+ We already noted that conjugation doesn't change the order and therefore
+ we can remove all the 
+\begin_inset Formula $S$
+\end_inset
+
+ matrices.
+ We are left with a product of 
+\begin_inset Formula $n$
+\end_inset
+
+ matrices each of the form 
+\begin_inset Formula $\mathbb{I}+\mathcal{O}(1/n^{3/2})$
+\end_inset
+
+.
  
 \end_layout
 
