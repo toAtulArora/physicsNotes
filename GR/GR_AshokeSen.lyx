@@ -4479,7 +4479,16 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-(Self NB: Prof Sen had skipped a few )
+(Self NB: Prof Sen had mixed the order of things; I have therefore skipped
+ the first page of lecture 7 which should constitute a proof of 
+\begin_inset Formula $M=\mathbb{I}$
+\end_inset
+
+ implying 
+\begin_inset Formula $R$
+\end_inset
+
+ must be zero.)
 \end_layout
 
 \begin_layout Part
