@@ -4497,8 +4497,12 @@ where in the second equality we used
 \begin_inset Formula $M$
 \end_inset
 
-s.
- It might be helpful to recall that 
+s
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+It might be helpful to recall that 
 \begin_inset Formula $M(x_{1},x_{2},c_{1})$
 \end_inset
 
@@ -4516,6 +4520,11 @@ s.
 
 ; also recall that the composition is from right to left should you find
  yourself confused.
+\end_layout
+
+\end_inset
+
+.
  The last equality gives two terms corresponding to two smaller loops (see
  the second image of 
 \begin_inset CommandInset ref
