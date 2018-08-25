@@ -4480,11 +4480,11 @@ M(x_{1},x_{1},c_{1}+c_{2}) & =M(x_{2},x_{1},c_{2})M(x_{1},x_{2},c_{1})\\
 
 \end_inset
 
-using the fact that 
+where in the second equality we used 
 \begin_inset Formula $M(x_{1},x_{2},-c_{3})=M(x_{2},x_{1},c_{3})^{-1}$
 \end_inset
 
-.
+ and in the third we used .
  
 \end_layout
 
