@@ -4510,6 +4510,17 @@ s.
  yourself confused.
  The last equality gives two terms corresponding to two smaller loops (see
  the second image of 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Systematically-breaking-a"
+plural "false"
+caps "true"
+noprefix "false"
+
+\end_inset
+
+).
+ 
 \end_layout
 
 \begin_layout Standard
