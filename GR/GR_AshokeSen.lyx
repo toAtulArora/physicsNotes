@@ -4125,6 +4125,9 @@ That was already quite satisfying but of course valid only for small loops
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:How-are-the"
+plural "false"
+caps "true"
+noprefix "false"
 
 \end_inset
 
@@ -4462,6 +4465,9 @@ Proof Sketch
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "fig:Systematically-breaking-a"
+plural "false"
+caps "true"
+noprefix "false"
 
 \end_inset
 
