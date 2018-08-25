@@ -4042,18 +4042,15 @@ n^{i}(\epsilon) & =n_{(0)}^{i}+\left(\partial_{q}\Gamma^{i}{}_{pk}-\Gamma^{i}{}_
 
 \end_inset
 
-Note that the boundary term is zero and so we can shift the derivative with
- a minus sign, viz.
- for 
+Consider the variable 
 \begin_inset Formula $y=x-x_{(0)}$
 \end_inset
 
-, 
+ and rewrite the integral as 
 \begin_inset Formula $\int\left(y^{q}dy^{k}+dy^{q}y^{k}\right)=\int d(y^{q}y^{k})=0\implies\int y^{q}dy^{k}=-\int y^{k}dy^{q}$
 \end_inset
 
-.
- We used the fact that for 
+ where we used the fact that for 
 \begin_inset Formula $u=0$
 \end_inset
 
