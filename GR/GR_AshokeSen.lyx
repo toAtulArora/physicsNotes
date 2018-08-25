@@ -86,6 +86,7 @@
 
 \newref{exer}{name=exercise~,Name=Exercise~,names=exercises~,Names=Exercises~}
 \newref{claim}{name=claim~,Name=Claim~,names=claims~,Names=Claims~}
+\newref{lem}{name=lemma~,Name=Lemma~,names=lemmas~,Names=Lemmas~}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -3750,6 +3751,13 @@ If the Riemann Tensor
 \end_inset
 
  (granted the space has no holes [TODO: make this precise]).
+\begin_inset CommandInset label
+LatexCommand label
+name "lem:RzeroMalmostZero"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Proof
