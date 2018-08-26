@@ -3764,6 +3764,17 @@ name "lem:RzeroMalmostZero"
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Lemma
+If the 
+\end_layout
+
 \begin_layout Proof
 \begin_inset Argument 1
 status open
