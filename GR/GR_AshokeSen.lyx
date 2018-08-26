@@ -3777,7 +3777,7 @@ Consider a small closed curve of length
 \end_inset
 
  with points 
-\begin_inset Formula $x(u)$
+\begin_inset Formula $\vec{x}(u)$
 \end_inset
 
  on it parametrised by 
@@ -3785,7 +3785,7 @@ Consider a small closed curve of length
 \end_inset
 
  such that 
-\begin_inset Formula $x(0)=x(\epsilon)$
+\begin_inset Formula $\vec{x}(0)=\vec{x}(\epsilon)$
 \end_inset
 
 .
@@ -3793,7 +3793,15 @@ Consider a small closed curve of length
 \begin_inset Formula $n_{(0)}$
 \end_inset
 
- around the closed curve 
+ around the closed curve yields 
+\begin_inset Formula 
+\[
+n(\epsilon)=n_{(0)}^{i}+\frac{1}{2}\left.R^{i}{}_{pkq}\right|_{\vec{x}_{(0)}}\oint(x^{q}-x_{(0)}^{q})\frac{d(x^{k}-x_{(0)}^{k})}{du}.
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Proof
