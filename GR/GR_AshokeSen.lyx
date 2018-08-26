@@ -3738,9 +3738,8 @@ The Riemann Tensor
 \end_layout
 
 \begin_layout Standard
-This will take some work.
- Let us start with considering a small loop and see how a tangent vector
- changes along it.
+To prove this statement let us start with considering a small loop and see
+ how a tangent vector changes along it.
  We will obtain the following relation.
 \end_layout
 
