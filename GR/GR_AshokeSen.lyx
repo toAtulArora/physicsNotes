@@ -3772,7 +3772,16 @@ name "lem:RzeroMalmostZero"
 \end_layout
 
 \begin_layout Lemma
-If the 
+Consider a small curve of length 
+\begin_inset Formula $\mathcal{O}(\epsilon)$
+\end_inset
+
+ which starts at ends at 
+\begin_inset Formula $x_{(0)}$
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Proof
