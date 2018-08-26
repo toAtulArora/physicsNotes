@@ -3819,7 +3819,7 @@ name "lem:RzeroMalmostZero"
 \end_layout
 
 \begin_layout Standard
-We now prove both these statements.
+Let us see how we can prove both.
 \end_layout
 
 \begin_layout Proof
