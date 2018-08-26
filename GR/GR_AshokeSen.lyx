@@ -3776,8 +3776,16 @@ Consider a small curve of length
 \begin_inset Formula $\mathcal{O}(\epsilon)$
 \end_inset
 
- which starts at ends at 
-\begin_inset Formula $x_{(0)}$
+ with points 
+\begin_inset Formula $x(u)$
+\end_inset
+
+ on it parametrised by 
+\begin_inset Formula $u\in[0,\epsilon]$
+\end_inset
+
+ such that 
+\begin_inset Formula $x(0)=x(\epsilon)$
 \end_inset
 
 .
@@ -3803,7 +3811,7 @@ Proof sketch.
 \end_inset
 
  with 
-\begin_inset Formula $n_{1}$
+\begin_inset Formula $n_{0}$
 \end_inset
 
  an initial tangent vector (a vector in the tangent space at 
@@ -3811,7 +3819,7 @@ Proof sketch.
 \end_inset
 
 ) and 
-\begin_inset Formula $n_{2}$
+\begin_inset Formula $n_{1}$
 \end_inset
 
  its parallel transport along the curve terminating at 
