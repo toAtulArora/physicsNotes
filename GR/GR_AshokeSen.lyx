@@ -3768,7 +3768,7 @@ Consider a small closed curve of length
  around the closed curve yields 
 \begin_inset Formula 
 \[
-n^{i}(\epsilon)=n_{(0)}^{i}+\frac{1}{2}\left.R^{i}{}_{pkq}\right|_{\vec{x}_{(0)}}\oint(x^{q}-x_{(0)}^{q})\frac{d(x^{k}-x_{(0)}^{k})}{du}.
+n^{i}(\epsilon)=n_{(0)}^{i}+\frac{1}{2}\left.R^{i}{}_{pkq}\right|_{\vec{x}_{(0)}}\oint(x^{q}-x_{(0)}^{q})\frac{d(x^{k}-x_{(0)}^{k})}{du}+\mathcal{O}(\epsilon^{3}).
 \]
 
 \end_inset
@@ -4172,8 +4172,8 @@ Consider the variable
 ) of it to obtain
 \begin_inset Formula 
 \begin{align*}
-n^{i}(\epsilon) & =n_{(0)}^{i}+\frac{1}{2}\left[\partial_{q}\Gamma^{i}{}_{pk}-\partial_{k}\Gamma^{i}{}_{pq}-\Gamma^{i}{}_{jk}\Gamma^{j}{}_{pq}+\Gamma^{i}{}_{jq}\Gamma^{j}{}_{pk}\right]n_{(0)}^{p}\oint_{0}^{\epsilon}(x^{q}-x_{(0)}^{q})\frac{d(x^{k}-x_{(0)}^{k})}{du}\\
- & =n_{(0)}^{i}+\frac{1}{2}\left.R^{i}{}_{pkq}\right|_{\vec{x}_{(0)}}\oint(x^{q}-x_{(0)}^{q})\frac{d(x^{k}-x_{(0)}^{k})}{du}.
+n^{i}(\epsilon) & =n_{(0)}^{i}+\frac{1}{2}\left[\partial_{q}\Gamma^{i}{}_{pk}-\partial_{k}\Gamma^{i}{}_{pq}-\Gamma^{i}{}_{jk}\Gamma^{j}{}_{pq}+\Gamma^{i}{}_{jq}\Gamma^{j}{}_{pk}\right]n_{(0)}^{p}\oint_{0}^{\epsilon}(x^{q}-x_{(0)}^{q})\frac{d(x^{k}-x_{(0)}^{k})}{du}+\mathcal{O}(\epsilon^{3})\\
+ & =n_{(0)}^{i}+\frac{1}{2}\left.R^{i}{}_{pkq}\right|_{\vec{x}_{(0)}}\oint(x^{q}-x_{(0)}^{q})\frac{d(x^{k}-x_{(0)}^{k})}{du}+\mathcal{O}(\epsilon^{3}).
 \end{align*}
 
 \end_inset
@@ -4827,8 +4827,7 @@ We now turn our attention to the converse.
 \begin_inset Formula $R^{i}{}_{jkl}=0$
 \end_inset
 
-? The answer, as we already mentioned, is yes and interestingly we will
- use 
+? The answer is yes and interestingly we will use 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "lem:tangentAroundSmallLoop"
@@ -4838,20 +4837,379 @@ noprefix "false"
 
 \end_inset
 
- again.
+ again, however, this time we will not have to worry about finite loops.
 \end_layout
 
-\begin_layout Standard
-(Self NB: Prof Sen had mixed the order of things; I have therefore skipped
- the first page of lecture 7 which should constitute a proof of 
-\begin_inset Formula $M=\mathbb{I}$
+\begin_layout Proposition
+If for all closed curves the monodromy matrix is 
+\begin_inset Formula $\mathbb{I}$
 \end_inset
 
- implying 
+ then 
+\begin_inset Formula $R^{i}{}_{jkl}=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Proof
+We will calculate the integral far a special small curve parametrised by
+ 
+\begin_inset Formula $u\in[0,\epsilon]$
+\end_inset
+
+ and deduce the required properties from there.
+ Consider a rectangle of length 
+\begin_inset Formula $a$
+\end_inset
+
+ and breadth 
+\begin_inset Formula $b$
+\end_inset
+
+ in the 
+\begin_inset Formula $x_{1}-x_{2}$
+\end_inset
+
+ plane as shown in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:rectangleRisZero"
+plural "false"
+caps "true"
+noprefix "false"
+
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename rectangleRisZero.png
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+A rectangular curve along which the Monodromy is evaluated to isolate 
+\begin_inset Formula $R^{i}{}_{j12}$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:rectangleRisZero"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+We assume that 
+\begin_inset Formula $a,b\sim\mathcal{O}(\epsilon)$
+\end_inset
+
+ which means that the corresponding coordinates of the curve are small.
+ Note that we are not considering the length of the curve as would be computed
+ using the metric.
+ We have assumed that 
+\begin_inset Formula $u$
+\end_inset
+
+ is divided equally across the edges of the rectangle so that 
+\begin_inset Formula $u=0$
+\end_inset
+
+ is the bottom left vertex, 
+\begin_inset Formula $u=\epsilon/4$
+\end_inset
+
+ is at the bottom right vertex, 
+\begin_inset Formula $u=2\epsilon/4=\epsilon/2$
+\end_inset
+
+ is the top right vertex, 
+\begin_inset Formula $u=3\epsilon/4$
+\end_inset
+
+ is the top left vertex and 
+\begin_inset Formula $u=\epsilon$
+\end_inset
+
+ brings us back to the bottom left vertex.
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "lem:tangentAroundSmallLoop"
+plural "false"
+caps "true"
+noprefix "false"
+
+\end_inset
+
+ tells us that 
+\begin_inset Formula 
+\[
+n^{i}(\epsilon)=n_{(0)}^{i}-\frac{1}{2}R^{i}{}_{jkl}n_{(0)}^{j}\oint du\left(x^{l}(u)-x_{(0)}^{l}\right)\frac{d}{du}\left(x^{k}(u)-x_{(0)}^{k}\right)+\mathcal{O}(\epsilon^{3}).
+\]
+
+\end_inset
+
+For our curve, 
+\begin_inset Formula $x^{i}-x_{(0)}^{i}=0$
+\end_inset
+
+ unless 
+\begin_inset Formula $i=1$
+\end_inset
+
+ or 
+\begin_inset Formula $2$
+\end_inset
+
+.
+ This means that the integral will vanish unless 
+\begin_inset Formula $l$
+\end_inset
+
+ and 
+\begin_inset Formula $k$
+\end_inset
+
+ are 
+\begin_inset Formula $1$
+\end_inset
+
+ or 
+\begin_inset Formula $2$
+\end_inset
+
+.
+ Also the tensor (corresponding to the integral) is anti-symmetric.
+ Hence we need only evaluate one term, say 
+\begin_inset Formula $l=1$
+\end_inset
+
+ and 
+\begin_inset Formula $k=2$
+\end_inset
+
+.
+ We write the 
+\begin_inset Formula $x^{1},x^{2}$
+\end_inset
+
+ coordinates for each segment of the curve.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Segment 1: 
+\begin_inset Formula 
+\begin{align*}
+x^{1}(u) & =x_{(0)}^{1}+au\frac{4}{\epsilon}\\
+x^{2}(u) & =x_{(0)}^{2}.
+\end{align*}
+
+\end_inset
+
+The integral over this segment would yield 
+\begin_inset Formula $0$
+\end_inset
+
+ because it is of the form 
+\begin_inset Formula $\int x^{1}dx^{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $dx^{2}=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Segment 2: 
+\begin_inset Formula 
+\begin{align*}
+x^{1}(u) & =x_{(0)}^{1}+a\\
+x^{2}(u) & =x_{(0)}^{2}+b\left(u-\frac{\epsilon}{4}\right)\left(\frac{4}{\epsilon}\right).
+\end{align*}
+
+\end_inset
+
+The integral will be 
+\begin_inset Formula $\int du\left(x^{1}-x_{(0)}^{1}\right)\frac{d}{du}\left(x^{2}-x_{(0)}^{2}\right)=\int dua\frac{d}{du}\left(b\left(u-\frac{\epsilon}{4}\right)\frac{4}{\epsilon}\right)=ab\frac{4}{\epsilon}\frac{\epsilon}{4}=ab.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Segment 3: 
+\begin_inset Formula 
+\begin{align*}
+x^{2} & =x_{(0)}^{2}+b\\
+x^{1} & =\dots
+\end{align*}
+
+\end_inset
+
+where again the integral disappears because 
+\begin_inset Formula $dx^{2}=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Segment 4: 
+\begin_inset Formula 
+\begin{align*}
+x^{1} & =x_{(0)}^{1}\\
+x^{2} & =\dots
+\end{align*}
+
+\end_inset
+
+and this also the integral is zero because it is of the form 
+\begin_inset Formula $\int(x^{1}-x_{(0)}^{1})d(x^{2}-x_{(0)}^{2})$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Proof
+Consequently the complete integral along the curve yields 
+\begin_inset Formula $ab$
+\end_inset
+
+.
+ Now we get back to the monodromy matrix.
+ Since the tangent vectors in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "lem:tangentAroundSmallLoop"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ were arbitrary we conclude that 
+\begin_inset Formula 
+\[
+M^{i}{}_{j}(\vec{x}_{(0)},\vec{x}_{(0)},c)=\delta^{i}{}_{j}-\frac{1}{2}R^{i}{}_{jkl}(\vec{x}_{(0)})\oint du\left(x^{l}(u)-x_{(0)}^{l}\right)\frac{d}{du}\left(x^{k}(u)-x_{(0)}^{k}\right).
+\]
+
+\end_inset
+
+We just showed that the integral equals 0 unless 
+\begin_inset Formula $(k,l)=(1,2)$
+\end_inset
+
+ or 
+\begin_inset Formula $(2,1)$
+\end_inset
+
+.
+ For 
+\begin_inset Formula $(k,l)=(1,2)$
+\end_inset
+
+ we get 
+\begin_inset Formula $ab$
+\end_inset
+
+ and by ant-symmetry for 
+\begin_inset Formula $(2,1)$
+\end_inset
+
+ we get 
+\begin_inset Formula $-ab$
+\end_inset
+
+.
+ The monodromy is thus 
+\begin_inset Formula 
+\[
+M^{i}{}_{j}=\delta^{i}{}_{j}-\cancel{\frac{1}{2}}R^{i}{}_{j12}\cancel{2}ab.
+\]
+
+\end_inset
+
+Since the monodromy must be 
+\begin_inset Formula $\delta^{i}{}_{j}$
+\end_inset
+
+ we conclude that 
+\begin_inset Formula $R^{i}{}_{j12}$
+\end_inset
+
+ must be zero.
+ Note that if we chose an arbitrary curve then the argument would fail as
+ one could claim that perhaps the sum of different components of 
 \begin_inset Formula $R$
 \end_inset
 
- must be zero.)
+s get cancelled.
+ Here this is not possible as we have isolated a particular component 
+\begin_inset Formula $R^{i}{}_{j12}$
+\end_inset
+
+.
+ One can repeat the argument for all other components by choosing a similar
+ curve along the corresponding direction.
+\end_layout
+
+\begin_layout Standard
+With this we conclude this section
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+I must admit that Prof Sen had also discussed the intuition for parallel
+ transport by embedding a given manifold into a larger space.
+ I wasn't able to completely follow it and therefore I haven't included
+ it here.
+ Consider watching Lecture 7 of his; my handwritten notes are also available.
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section
+Useful Identities
+\end_layout
+
+\begin_layout Standard
+This concludes our final section of the chapter and this part.
+ We have now gathered the tools necessary for studying general relativity
+ which we start in the next part.
 \end_layout
 
 \begin_layout Part
@@ -4860,6 +5218,30 @@ General Relativity
 
 \begin_layout Chapter
 Conventions, Axioms and the Weak Field Limit
+\end_layout
+
+\begin_layout Standard
+Let us establish some physically motivated conventions.
+\end_layout
+
+\begin_layout Itemize
+Signature: We focus on manifolds with the signature 
+\begin_inset Formula $(3,1)$
+\end_inset
+
+ which recall corresponds to 
+\begin_inset Formula $(-+++)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Indices: 
+\begin_inset Formula $x^{\mu}$
+\end_inset
+
+
 \end_layout
 
 \end_body
