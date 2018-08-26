@@ -3784,8 +3784,8 @@ name "lem:tangentAroundSmallLoop"
 \end_layout
 
 \begin_layout Standard
-Given this relation we can set easily obtain the following weaker variant
- of the statement we wanted to prove.
+Given this relation we can easily obtain the following weaker variant of
+ the proposition we wanted to prove.
 \end_layout
 
 \begin_layout Lemma
