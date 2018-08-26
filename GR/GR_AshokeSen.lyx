@@ -3771,6 +3771,10 @@ name "lem:RzeroMalmostZero"
 
 \end_layout
 
+\begin_layout Standard
+We can prove 
+\end_layout
+
 \begin_layout Lemma
 Consider a small closed curve of length 
 \begin_inset Formula $\mathcal{O}(\epsilon)$
@@ -3790,13 +3794,13 @@ Consider a small closed curve of length
 
 .
  The parallel transport of a tangent vector 
-\begin_inset Formula $n_{(0)}$
+\begin_inset Formula $\vec{n}_{(0)}$
 \end_inset
 
  around the closed curve yields 
 \begin_inset Formula 
 \[
-n(\epsilon)=n_{(0)}^{i}+\frac{1}{2}\left.R^{i}{}_{pkq}\right|_{\vec{x}_{(0)}}\oint(x^{q}-x_{(0)}^{q})\frac{d(x^{k}-x_{(0)}^{k})}{du}.
+n^{i}(\epsilon)=n_{(0)}^{i}+\frac{1}{2}\left.R^{i}{}_{pkq}\right|_{\vec{x}_{(0)}}\oint(x^{q}-x_{(0)}^{q})\frac{d(x^{k}-x_{(0)}^{k})}{du}.
 \]
 
 \end_inset
