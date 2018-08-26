@@ -3738,7 +3738,8 @@ The Riemann Tensor
 \end_layout
 
 \begin_layout Standard
-Let us start with considering a small loop and see how a tangent vector
+This will take some work.
+ Let us start with considering a small loop and see how a tangent vector
  changes along it.
  We will obtain the following relation.
 \end_layout
@@ -3770,6 +3771,13 @@ Consider a small closed curve of length
 \[
 n^{i}(\epsilon)=n_{(0)}^{i}+\frac{1}{2}\left.R^{i}{}_{pkq}\right|_{\vec{x}_{(0)}}\oint(x^{q}-x_{(0)}^{q})\frac{d(x^{k}-x_{(0)}^{k})}{du}.
 \]
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "lem:tangentAroundSmallLoop"
 
 \end_inset
 
