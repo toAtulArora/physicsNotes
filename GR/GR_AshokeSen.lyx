@@ -3738,41 +3738,9 @@ The Riemann Tensor
 \end_layout
 
 \begin_layout Standard
-To prove this proposition let us start with a weaker variant thereof.
-\end_layout
-
-\begin_layout Lemma
-If the Riemann Tensor 
-\begin_inset Formula $R_{ijkl}=0$
-\end_inset
-
- then 
-\begin_inset Formula $M=\mathbb{I}+\mathcal{O}(\epsilon^{3})$
-\end_inset
-
- around a small loop of length 
-\begin_inset Formula $\mathcal{O}(\epsilon)$
-\end_inset
-
- (granted the space has no holes [TODO: make this precise]).
-\begin_inset CommandInset label
-LatexCommand label
-name "lem:RzeroMalmostZero"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-We can prove 
+Let us start with considering a small loop and see how a tangent vector
+ changes along it.
+ We will obtain the following relation.
 \end_layout
 
 \begin_layout Lemma
@@ -3806,6 +3774,45 @@ n^{i}(\epsilon)=n_{(0)}^{i}+\frac{1}{2}\left.R^{i}{}_{pkq}\right|_{\vec{x}_{(0)}
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Given this relation we can set easily obtain the following weaker variant
+ of the statement we wanted to prove.
+\end_layout
+
+\begin_layout Lemma
+If the Riemann Tensor 
+\begin_inset Formula $R_{ijkl}=0$
+\end_inset
+
+ then 
+\begin_inset Formula $M=\mathbb{I}+\mathcal{O}(\epsilon^{3})$
+\end_inset
+
+ around a small loop of length 
+\begin_inset Formula $\mathcal{O}(\epsilon)$
+\end_inset
+
+ (granted the space has no holes [TODO: make this precise]).
+\begin_inset CommandInset label
+LatexCommand label
+name "lem:RzeroMalmostZero"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We now prove both these statements.
 \end_layout
 
 \begin_layout Proof
