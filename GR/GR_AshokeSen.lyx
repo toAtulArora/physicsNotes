@@ -3772,7 +3772,7 @@ name "lem:RzeroMalmostZero"
 \end_layout
 
 \begin_layout Lemma
-Consider a small curve of length 
+Consider a small closed curve of length 
 \begin_inset Formula $\mathcal{O}(\epsilon)$
 \end_inset
 
@@ -3789,7 +3789,11 @@ Consider a small curve of length
 \end_inset
 
 .
- 
+ The parallel transport of a tangent vector 
+\begin_inset Formula $n_{(0)}$
+\end_inset
+
+ around the closed curve 
 \end_layout
 
 \begin_layout Proof
