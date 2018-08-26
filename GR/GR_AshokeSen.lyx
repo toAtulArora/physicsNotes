@@ -4827,7 +4827,18 @@ We now turn our attention to the converse.
 \begin_inset Formula $R^{i}{}_{jkl}=0$
 \end_inset
 
-?
+? The answer, as we already mentioned, is yes and interestingly we will
+ use 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "lem:tangentAroundSmallLoop"
+plural "false"
+caps "true"
+noprefix "false"
+
+\end_inset
+
+ again.
 \end_layout
 
 \begin_layout Standard
